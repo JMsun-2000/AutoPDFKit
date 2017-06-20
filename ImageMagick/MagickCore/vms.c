@@ -42,10 +42,10 @@
 /*
   Include declarations.
 */
-#include "MagickCore/studio.h"
-#include "MagickCore/string_.h"
-#include "MagickCore/memory_.h"
-#include "MagickCore/vms.h"
+#include "studio.h"
+#include "string_.h"
+#include "memory_.h"
+#include "vms.h"
 
 #if !defined(_AXP_) && (!defined(__VMS_VER) || (__VMS_VER < 70000000))
 /*

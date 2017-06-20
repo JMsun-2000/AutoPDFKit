@@ -1176,10 +1176,10 @@
 #define MAGICKCORE_LT_OBJDIR ".libs/"
 #endif
 
-/* Define if you have LZMA library */
-#ifndef MAGICKCORE_LZMA_DELEGATE
-#define MAGICKCORE_LZMA_DELEGATE 1
-#endif
+///* Define if you have LZMA library */
+//#ifndef MAGICKCORE_LZMA_DELEGATE
+//#define MAGICKCORE_LZMA_DELEGATE 1
+//#endif
 
 /* Define to prepend to default font search path. */
 /* #undef MAGICK_FONT_PATH */
@@ -1213,10 +1213,10 @@
 /* Define to 1 if assertions should be disabled. */
 /* #undef NDEBUG */
 
-/* Define if you have OPENEXR library */
-#ifndef MAGICKCORE_OPENEXR_DELEGATE
-#define MAGICKCORE_OPENEXR_DELEGATE 1
-#endif
+///* Define if you have OPENEXR library */
+//#ifndef MAGICKCORE_OPENEXR_DELEGATE
+//#define MAGICKCORE_OPENEXR_DELEGATE 1
+//#endif
 
 /* Name of package */
 #ifndef MAGICKCORE_PACKAGE
@@ -1254,9 +1254,9 @@
 #endif
 
 /* Define if you have PANGOCAIRO library */
-#ifndef MAGICKCORE_PANGOCAIRO_DELEGATE
-#define MAGICKCORE_PANGOCAIRO_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_PANGOCAIRO_DELEGATE
+//#define MAGICKCORE_PANGOCAIRO_DELEGATE 1
+//#endif
 
 /* Define if you have PANGO library */
 #ifndef MAGICKCORE_PANGO_DELEGATE

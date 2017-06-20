@@ -8,6 +8,165 @@
 
 /* Begin PBXBuildFile section */
 		7B896C021EF9121500887498 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B896BFE1EF9106100887498 /* libz.tbd */; };
+		7B896C871EF91D1900887498 /* aai.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C041EF91D1800887498 /* aai.c */; };
+		7B896C881EF91D1900887498 /* art.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C051EF91D1800887498 /* art.c */; };
+		7B896C891EF91D1900887498 /* avs.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C061EF91D1800887498 /* avs.c */; };
+		7B896C8A1EF91D1900887498 /* bgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C071EF91D1800887498 /* bgr.c */; };
+		7B896C8B1EF91D1900887498 /* bmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C081EF91D1800887498 /* bmp.c */; };
+		7B896C8C1EF91D1900887498 /* braille.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C091EF91D1800887498 /* braille.c */; };
+		7B896C8D1EF91D1900887498 /* cals.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C0A1EF91D1800887498 /* cals.c */; };
+		7B896C8E1EF91D1900887498 /* caption.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C0B1EF91D1800887498 /* caption.c */; };
+		7B896C8F1EF91D1900887498 /* cin.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C0C1EF91D1800887498 /* cin.c */; };
+		7B896C901EF91D1900887498 /* cip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C0D1EF91D1800887498 /* cip.c */; };
+		7B896C911EF91D1900887498 /* clip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C0E1EF91D1800887498 /* clip.c */; };
+		7B896C921EF91D1900887498 /* clipboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C0F1EF91D1800887498 /* clipboard.c */; };
+		7B896C931EF91D1900887498 /* cmyk.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C101EF91D1800887498 /* cmyk.c */; };
+		7B896C941EF91D1900887498 /* cut.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C111EF91D1800887498 /* cut.c */; };
+		7B896C951EF91D1900887498 /* dcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C121EF91D1800887498 /* dcm.c */; };
+		7B896C961EF91D1900887498 /* dds.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C131EF91D1800887498 /* dds.c */; };
+		7B896C971EF91D1900887498 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C141EF91D1800887498 /* debug.c */; };
+		7B896C981EF91D1900887498 /* dib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C151EF91D1800887498 /* dib.c */; };
+		7B896C991EF91D1900887498 /* djvu.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C161EF91D1800887498 /* djvu.c */; };
+		7B896C9A1EF91D1900887498 /* dng.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C171EF91D1800887498 /* dng.c */; };
+		7B896C9B1EF91D1900887498 /* dot.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C181EF91D1800887498 /* dot.c */; };
+		7B896C9C1EF91D1900887498 /* dps.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C191EF91D1800887498 /* dps.c */; };
+		7B896C9D1EF91D1900887498 /* dpx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C1A1EF91D1800887498 /* dpx.c */; };
+		7B896C9E1EF91D1900887498 /* emf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C1B1EF91D1800887498 /* emf.c */; };
+		7B896C9F1EF91D1900887498 /* ept.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C1C1EF91D1800887498 /* ept.c */; };
+		7B896CA01EF91D1900887498 /* exr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C1D1EF91D1800887498 /* exr.c */; };
+		7B896CA11EF91D1900887498 /* fax.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C1E1EF91D1800887498 /* fax.c */; };
+		7B896CA21EF91D1900887498 /* fd.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C1F1EF91D1800887498 /* fd.c */; };
+		7B896CA31EF91D1900887498 /* fits.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C201EF91D1800887498 /* fits.c */; };
+		7B896CA41EF91D1900887498 /* flif.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C211EF91D1800887498 /* flif.c */; };
+		7B896CA51EF91D1900887498 /* fpx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C221EF91D1800887498 /* fpx.c */; };
+		7B896CA61EF91D1900887498 /* gif.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C231EF91D1800887498 /* gif.c */; };
+		7B896CA71EF91D1900887498 /* gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C241EF91D1800887498 /* gradient.c */; };
+		7B896CA81EF91D1900887498 /* gray.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C251EF91D1800887498 /* gray.c */; };
+		7B896CA91EF91D1900887498 /* hald.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C261EF91D1800887498 /* hald.c */; };
+		7B896CAA1EF91D1900887498 /* hdr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C271EF91D1800887498 /* hdr.c */; };
+		7B896CAB1EF91D1900887498 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C281EF91D1800887498 /* histogram.c */; };
+		7B896CAC1EF91D1900887498 /* hrz.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C291EF91D1800887498 /* hrz.c */; };
+		7B896CAD1EF91D1900887498 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2A1EF91D1800887498 /* html.c */; };
+		7B896CAE1EF91D1900887498 /* icon.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2B1EF91D1800887498 /* icon.c */; };
+		7B896CAF1EF91D1900887498 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2C1EF91D1800887498 /* info.c */; };
+		7B896CB01EF91D1900887498 /* inline.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2D1EF91D1800887498 /* inline.c */; };
+		7B896CB11EF91D1900887498 /* ipl.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2E1EF91D1800887498 /* ipl.c */; };
+		7B896CB21EF91D1900887498 /* jbig.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2F1EF91D1800887498 /* jbig.c */; };
+		7B896CB31EF91D1900887498 /* jnx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C301EF91D1800887498 /* jnx.c */; };
+		7B896CB41EF91D1900887498 /* jp2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C311EF91D1800887498 /* jp2.c */; };
+		7B896CB51EF91D1900887498 /* jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C321EF91D1800887498 /* jpeg.c */; };
+		7B896CB61EF91D1900887498 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C331EF91D1800887498 /* json.c */; };
+		7B896CB71EF91D1900887498 /* label.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C341EF91D1800887498 /* label.c */; };
+		7B896CB81EF91D1900887498 /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C351EF91D1800887498 /* mac.c */; };
+		7B896CB91EF91D1900887498 /* magick.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C361EF91D1800887498 /* magick.c */; };
+		7B896CBA1EF91D1900887498 /* Make.com in Resources */ = {isa = PBXBuildFile; fileRef = 7B896C371EF91D1800887498 /* Make.com */; };
+		7B896CBB1EF91D1900887498 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B896C381EF91D1800887498 /* Makefile.am */; };
+		7B896CBC1EF91D1900887498 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C391EF91D1800887498 /* map.c */; };
+		7B896CBD1EF91D1900887498 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3A1EF91D1800887498 /* mask.c */; };
+		7B896CBE1EF91D1900887498 /* mat.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3B1EF91D1800887498 /* mat.c */; };
+		7B896CBF1EF91D1900887498 /* matte.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3C1EF91D1800887498 /* matte.c */; };
+		7B896CC01EF91D1900887498 /* meta.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3D1EF91D1800887498 /* meta.c */; };
+		7B896CC11EF91D1900887498 /* miff.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3E1EF91D1800887498 /* miff.c */; };
+		7B896CC21EF91D1900887498 /* mono.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3F1EF91D1800887498 /* mono.c */; };
+		7B896CC31EF91D1900887498 /* mpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C401EF91D1800887498 /* mpc.c */; };
+		7B896CC41EF91D1900887498 /* mpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C411EF91D1800887498 /* mpeg.c */; };
+		7B896CC51EF91D1900887498 /* mpr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C421EF91D1800887498 /* mpr.c */; };
+		7B896CC61EF91D1900887498 /* msl.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C431EF91D1800887498 /* msl.c */; };
+		7B896CC71EF91D1900887498 /* mtv.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C441EF91D1800887498 /* mtv.c */; };
+		7B896CC81EF91D1900887498 /* mvg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C451EF91D1800887498 /* mvg.c */; };
+		7B896CC91EF91D1900887498 /* null.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C461EF91D1800887498 /* null.c */; };
+		7B896CCA1EF91D1900887498 /* otb.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C471EF91D1800887498 /* otb.c */; };
+		7B896CCB1EF91D1900887498 /* palm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C481EF91D1800887498 /* palm.c */; };
+		7B896CCC1EF91D1900887498 /* pango.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C491EF91D1800887498 /* pango.c */; };
+		7B896CCD1EF91D1900887498 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C4A1EF91D1800887498 /* pattern.c */; };
+		7B896CCE1EF91D1900887498 /* pcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C4B1EF91D1800887498 /* pcd.c */; };
+		7B896CCF1EF91D1900887498 /* pcl.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C4C1EF91D1800887498 /* pcl.c */; };
+		7B896CD01EF91D1900887498 /* pcx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C4D1EF91D1800887498 /* pcx.c */; };
+		7B896CD11EF91D1900887498 /* pdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C4E1EF91D1800887498 /* pdb.c */; };
+		7B896CD21EF91D1900887498 /* pdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C4F1EF91D1800887498 /* pdf.c */; };
+		7B896CD31EF91D1900887498 /* pes.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C501EF91D1800887498 /* pes.c */; };
+		7B896CD41EF91D1900887498 /* pgx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C511EF91D1800887498 /* pgx.c */; };
+		7B896CD51EF91D1900887498 /* pict.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C521EF91D1800887498 /* pict.c */; };
+		7B896CD61EF91D1900887498 /* pix.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C531EF91D1800887498 /* pix.c */; };
+		7B896CD71EF91D1900887498 /* plasma.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C541EF91D1800887498 /* plasma.c */; };
+		7B896CD81EF91D1900887498 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C551EF91D1800887498 /* png.c */; };
+		7B896CD91EF91D1900887498 /* pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C561EF91D1800887498 /* pnm.c */; };
+		7B896CDA1EF91D1900887498 /* ps.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C571EF91D1800887498 /* ps.c */; };
+		7B896CDB1EF91D1900887498 /* ps2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C581EF91D1800887498 /* ps2.c */; };
+		7B896CDC1EF91D1900887498 /* ps3.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C591EF91D1800887498 /* ps3.c */; };
+		7B896CDD1EF91D1900887498 /* psd.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C5B1EF91D1800887498 /* psd.c */; };
+		7B896CDE1EF91D1900887498 /* pwp.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C5C1EF91D1800887498 /* pwp.c */; };
+		7B896CDF1EF91D1900887498 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C5D1EF91D1800887498 /* raw.c */; };
+		7B896CE01EF91D1900887498 /* rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C5E1EF91D1800887498 /* rgb.c */; };
+		7B896CE11EF91D1900887498 /* rgf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C5F1EF91D1800887498 /* rgf.c */; };
+		7B896CE21EF91D1900887498 /* rla.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C601EF91D1800887498 /* rla.c */; };
+		7B896CE31EF91D1900887498 /* rle.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C611EF91D1800887498 /* rle.c */; };
+		7B896CE41EF91D1900887498 /* scr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C621EF91D1800887498 /* scr.c */; };
+		7B896CE51EF91D1900887498 /* screenshot.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C631EF91D1800887498 /* screenshot.c */; };
+		7B896CE61EF91D1900887498 /* sct.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C641EF91D1800887498 /* sct.c */; };
+		7B896CE71EF91D1900887498 /* sfw.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C651EF91D1800887498 /* sfw.c */; };
+		7B896CE81EF91D1900887498 /* sgi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C661EF91D1800887498 /* sgi.c */; };
+		7B896CE91EF91D1900887498 /* sixel.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C671EF91D1800887498 /* sixel.c */; };
+		7B896CEA1EF91D1900887498 /* stegano.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C681EF91D1800887498 /* stegano.c */; };
+		7B896CEB1EF91D1900887498 /* sun.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C691EF91D1800887498 /* sun.c */; };
+		7B896CEC1EF91D1900887498 /* svg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6A1EF91D1800887498 /* svg.c */; };
+		7B896CED1EF91D1900887498 /* tga.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6B1EF91D1800887498 /* tga.c */; };
+		7B896CEE1EF91D1900887498 /* thumbnail.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6C1EF91D1800887498 /* thumbnail.c */; };
+		7B896CEF1EF91D1900887498 /* tiff.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6D1EF91D1800887498 /* tiff.c */; };
+		7B896CF01EF91D1900887498 /* tile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6E1EF91D1800887498 /* tile.c */; };
+		7B896CF11EF91D1900887498 /* tim.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6F1EF91D1900887498 /* tim.c */; };
+		7B896CF21EF91D1900887498 /* ttf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C701EF91D1900887498 /* ttf.c */; };
+		7B896CF31EF91D1900887498 /* txt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C711EF91D1900887498 /* txt.c */; };
+		7B896CF41EF91D1900887498 /* uil.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C721EF91D1900887498 /* uil.c */; };
+		7B896CF51EF91D1900887498 /* url.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C731EF91D1900887498 /* url.c */; };
+		7B896CF61EF91D1900887498 /* uyvy.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C741EF91D1900887498 /* uyvy.c */; };
+		7B896CF71EF91D1900887498 /* vicar.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C751EF91D1900887498 /* vicar.c */; };
+		7B896CF81EF91D1900887498 /* vid.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C761EF91D1900887498 /* vid.c */; };
+		7B896CF91EF91D1900887498 /* viff.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C771EF91D1900887498 /* viff.c */; };
+		7B896CFA1EF91D1900887498 /* vips.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C781EF91D1900887498 /* vips.c */; };
+		7B896CFB1EF91D1900887498 /* wbmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C791EF91D1900887498 /* wbmp.c */; };
+		7B896CFC1EF91D1900887498 /* webp.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7A1EF91D1900887498 /* webp.c */; };
+		7B896CFD1EF91D1900887498 /* wmf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7B1EF91D1900887498 /* wmf.c */; };
+		7B896CFE1EF91D1900887498 /* wpg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7C1EF91D1900887498 /* wpg.c */; };
+		7B896CFF1EF91D1900887498 /* x.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7D1EF91D1900887498 /* x.c */; };
+		7B896D001EF91D1900887498 /* xbm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7E1EF91D1900887498 /* xbm.c */; };
+		7B896D011EF91D1900887498 /* xc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7F1EF91D1900887498 /* xc.c */; };
+		7B896D021EF91D1900887498 /* xcf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C801EF91D1900887498 /* xcf.c */; };
+		7B896D031EF91D1900887498 /* xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C811EF91D1900887498 /* xpm.c */; };
+		7B896D041EF91D1900887498 /* xps.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C821EF91D1900887498 /* xps.c */; };
+		7B896D051EF91D1900887498 /* xtrn.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C831EF91D1900887498 /* xtrn.c */; };
+		7B896D061EF91D1900887498 /* xwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C841EF91D1900887498 /* xwd.c */; };
+		7B896D071EF91D1900887498 /* ycbcr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C851EF91D1900887498 /* ycbcr.c */; };
+		7B896D081EF91D1900887498 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C861EF91D1900887498 /* yuv.c */; };
+		7B896D471EF920D200887498 /* animate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D0A1EF920D200887498 /* animate.c */; };
+		7B896D481EF920D200887498 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 7B896D0C1EF920D200887498 /* ChangeLog */; };
+		7B896D491EF920D200887498 /* compare.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D0D1EF920D200887498 /* compare.c */; };
+		7B896D4A1EF920D200887498 /* composite.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D0F1EF920D200887498 /* composite.c */; };
+		7B896D4B1EF920D200887498 /* conjure.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D111EF920D200887498 /* conjure.c */; };
+		7B896D4C1EF920D200887498 /* convert.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D131EF920D200887498 /* convert.c */; };
+		7B896D4D1EF920D200887498 /* deprecate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D151EF920D200887498 /* deprecate.c */; };
+		7B896D4E1EF920D200887498 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D171EF920D200887498 /* display.c */; };
+		7B896D4F1EF920D200887498 /* drawing-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D191EF920D200887498 /* drawing-wand.c */; };
+		7B896D501EF920D200887498 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D1B1EF920D200887498 /* identify.c */; };
+		7B896D511EF920D300887498 /* import.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D1D1EF920D200887498 /* import.c */; };
+		7B896D521EF920D300887498 /* magick-cli.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D201EF920D200887498 /* magick-cli.c */; };
+		7B896D531EF920D300887498 /* magick-image.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D221EF920D200887498 /* magick-image.c */; };
+		7B896D541EF920D300887498 /* magick-property.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D241EF920D200887498 /* magick-property.c */; };
+		7B896D551EF920D300887498 /* magick-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D271EF920D200887498 /* magick-wand.c */; };
+		7B896D561EF920D300887498 /* MagickWand-config.1 in Resources */ = {isa = PBXBuildFile; fileRef = 7B896D281EF920D200887498 /* MagickWand-config.1 */; };
+		7B896D571EF920D300887498 /* MagickWand-config.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B896D291EF920D200887498 /* MagickWand-config.in */; };
+		7B896D581EF920D300887498 /* MagickWand.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B896D2B1EF920D200887498 /* MagickWand.pc.in */; };
+		7B896D591EF920D300887498 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B896D2C1EF920D200887498 /* Makefile.am */; };
+		7B896D5A1EF920D300887498 /* mogrify.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D2F1EF920D200887498 /* mogrify.c */; };
+		7B896D5B1EF920D300887498 /* montage.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D311EF920D200887498 /* montage.c */; };
+		7B896D5C1EF920D300887498 /* operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D341EF920D200887498 /* operation.c */; };
+		7B896D5D1EF920D300887498 /* pixel-iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D361EF920D200887498 /* pixel-iterator.c */; };
+		7B896D5E1EF920D300887498 /* pixel-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D391EF920D200887498 /* pixel-wand.c */; };
+		7B896D5F1EF920D300887498 /* script-token.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D3B1EF920D200887498 /* script-token.c */; };
+		7B896D601EF920D300887498 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D3D1EF920D200887498 /* stream.c */; };
+		7B896D611EF920D300887498 /* wand-view.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D401EF920D200887498 /* wand-view.c */; };
+		7B896D621EF920D300887498 /* wand.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D421EF920D200887498 /* wand.c */; };
+		7B896D631EF920D300887498 /* wandcli.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D451EF920D200887498 /* wandcli.c */; };
 		7BAA85A81EF906F800D51A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85A71EF906F800D51A94 /* main.m */; };
 		7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */; };
 		7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AD1EF906F800D51A94 /* ViewController.mm */; };
@@ -122,6 +281,198 @@
 /* Begin PBXFileReference section */
 		7B896BFE1EF9106100887498 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		7B896C001EF910F800887498 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		7B896C041EF91D1800887498 /* aai.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aai.c; path = ImageMagick/coders/aai.c; sourceTree = "<group>"; };
+		7B896C051EF91D1800887498 /* art.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = art.c; path = ImageMagick/coders/art.c; sourceTree = "<group>"; };
+		7B896C061EF91D1800887498 /* avs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = avs.c; path = ImageMagick/coders/avs.c; sourceTree = "<group>"; };
+		7B896C071EF91D1800887498 /* bgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bgr.c; path = ImageMagick/coders/bgr.c; sourceTree = "<group>"; };
+		7B896C081EF91D1800887498 /* bmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bmp.c; path = ImageMagick/coders/bmp.c; sourceTree = "<group>"; };
+		7B896C091EF91D1800887498 /* braille.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = braille.c; path = ImageMagick/coders/braille.c; sourceTree = "<group>"; };
+		7B896C0A1EF91D1800887498 /* cals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cals.c; path = ImageMagick/coders/cals.c; sourceTree = "<group>"; };
+		7B896C0B1EF91D1800887498 /* caption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = caption.c; path = ImageMagick/coders/caption.c; sourceTree = "<group>"; };
+		7B896C0C1EF91D1800887498 /* cin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cin.c; path = ImageMagick/coders/cin.c; sourceTree = "<group>"; };
+		7B896C0D1EF91D1800887498 /* cip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cip.c; path = ImageMagick/coders/cip.c; sourceTree = "<group>"; };
+		7B896C0E1EF91D1800887498 /* clip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = clip.c; path = ImageMagick/coders/clip.c; sourceTree = "<group>"; };
+		7B896C0F1EF91D1800887498 /* clipboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = clipboard.c; path = ImageMagick/coders/clipboard.c; sourceTree = "<group>"; };
+		7B896C101EF91D1800887498 /* cmyk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmyk.c; path = ImageMagick/coders/cmyk.c; sourceTree = "<group>"; };
+		7B896C111EF91D1800887498 /* cut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cut.c; path = ImageMagick/coders/cut.c; sourceTree = "<group>"; };
+		7B896C121EF91D1800887498 /* dcm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dcm.c; path = ImageMagick/coders/dcm.c; sourceTree = "<group>"; };
+		7B896C131EF91D1800887498 /* dds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dds.c; path = ImageMagick/coders/dds.c; sourceTree = "<group>"; };
+		7B896C141EF91D1800887498 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debug.c; path = ImageMagick/coders/debug.c; sourceTree = "<group>"; };
+		7B896C151EF91D1800887498 /* dib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dib.c; path = ImageMagick/coders/dib.c; sourceTree = "<group>"; };
+		7B896C161EF91D1800887498 /* djvu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = djvu.c; path = ImageMagick/coders/djvu.c; sourceTree = "<group>"; };
+		7B896C171EF91D1800887498 /* dng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dng.c; path = ImageMagick/coders/dng.c; sourceTree = "<group>"; };
+		7B896C181EF91D1800887498 /* dot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dot.c; path = ImageMagick/coders/dot.c; sourceTree = "<group>"; };
+		7B896C191EF91D1800887498 /* dps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dps.c; path = ImageMagick/coders/dps.c; sourceTree = "<group>"; };
+		7B896C1A1EF91D1800887498 /* dpx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dpx.c; path = ImageMagick/coders/dpx.c; sourceTree = "<group>"; };
+		7B896C1B1EF91D1800887498 /* emf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emf.c; path = ImageMagick/coders/emf.c; sourceTree = "<group>"; };
+		7B896C1C1EF91D1800887498 /* ept.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ept.c; path = ImageMagick/coders/ept.c; sourceTree = "<group>"; };
+		7B896C1D1EF91D1800887498 /* exr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exr.c; path = ImageMagick/coders/exr.c; sourceTree = "<group>"; };
+		7B896C1E1EF91D1800887498 /* fax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fax.c; path = ImageMagick/coders/fax.c; sourceTree = "<group>"; };
+		7B896C1F1EF91D1800887498 /* fd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fd.c; path = ImageMagick/coders/fd.c; sourceTree = "<group>"; };
+		7B896C201EF91D1800887498 /* fits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fits.c; path = ImageMagick/coders/fits.c; sourceTree = "<group>"; };
+		7B896C211EF91D1800887498 /* flif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = flif.c; path = ImageMagick/coders/flif.c; sourceTree = "<group>"; };
+		7B896C221EF91D1800887498 /* fpx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fpx.c; path = ImageMagick/coders/fpx.c; sourceTree = "<group>"; };
+		7B896C231EF91D1800887498 /* gif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gif.c; path = ImageMagick/coders/gif.c; sourceTree = "<group>"; };
+		7B896C241EF91D1800887498 /* gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gradient.c; path = ImageMagick/coders/gradient.c; sourceTree = "<group>"; };
+		7B896C251EF91D1800887498 /* gray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gray.c; path = ImageMagick/coders/gray.c; sourceTree = "<group>"; };
+		7B896C261EF91D1800887498 /* hald.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hald.c; path = ImageMagick/coders/hald.c; sourceTree = "<group>"; };
+		7B896C271EF91D1800887498 /* hdr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hdr.c; path = ImageMagick/coders/hdr.c; sourceTree = "<group>"; };
+		7B896C281EF91D1800887498 /* histogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = histogram.c; path = ImageMagick/coders/histogram.c; sourceTree = "<group>"; };
+		7B896C291EF91D1800887498 /* hrz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hrz.c; path = ImageMagick/coders/hrz.c; sourceTree = "<group>"; };
+		7B896C2A1EF91D1800887498 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html.c; path = ImageMagick/coders/html.c; sourceTree = "<group>"; };
+		7B896C2B1EF91D1800887498 /* icon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = icon.c; path = ImageMagick/coders/icon.c; sourceTree = "<group>"; };
+		7B896C2C1EF91D1800887498 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = info.c; path = ImageMagick/coders/info.c; sourceTree = "<group>"; };
+		7B896C2D1EF91D1800887498 /* inline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inline.c; path = ImageMagick/coders/inline.c; sourceTree = "<group>"; };
+		7B896C2E1EF91D1800887498 /* ipl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ipl.c; path = ImageMagick/coders/ipl.c; sourceTree = "<group>"; };
+		7B896C2F1EF91D1800887498 /* jbig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbig.c; path = ImageMagick/coders/jbig.c; sourceTree = "<group>"; };
+		7B896C301EF91D1800887498 /* jnx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jnx.c; path = ImageMagick/coders/jnx.c; sourceTree = "<group>"; };
+		7B896C311EF91D1800887498 /* jp2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jp2.c; path = ImageMagick/coders/jp2.c; sourceTree = "<group>"; };
+		7B896C321EF91D1800887498 /* jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jpeg.c; path = ImageMagick/coders/jpeg.c; sourceTree = "<group>"; };
+		7B896C331EF91D1800887498 /* json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json.c; path = ImageMagick/coders/json.c; sourceTree = "<group>"; };
+		7B896C341EF91D1800887498 /* label.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = label.c; path = ImageMagick/coders/label.c; sourceTree = "<group>"; };
+		7B896C351EF91D1800887498 /* mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mac.c; path = ImageMagick/coders/mac.c; sourceTree = "<group>"; };
+		7B896C361EF91D1800887498 /* magick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = magick.c; path = ImageMagick/coders/magick.c; sourceTree = "<group>"; };
+		7B896C371EF91D1800887498 /* Make.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Make.com; path = ImageMagick/coders/Make.com; sourceTree = "<group>"; };
+		7B896C381EF91D1800887498 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.am; path = ImageMagick/coders/Makefile.am; sourceTree = "<group>"; };
+		7B896C391EF91D1800887498 /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = map.c; path = ImageMagick/coders/map.c; sourceTree = "<group>"; };
+		7B896C3A1EF91D1800887498 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mask.c; path = ImageMagick/coders/mask.c; sourceTree = "<group>"; };
+		7B896C3B1EF91D1800887498 /* mat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mat.c; path = ImageMagick/coders/mat.c; sourceTree = "<group>"; };
+		7B896C3C1EF91D1800887498 /* matte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = matte.c; path = ImageMagick/coders/matte.c; sourceTree = "<group>"; };
+		7B896C3D1EF91D1800887498 /* meta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = meta.c; path = ImageMagick/coders/meta.c; sourceTree = "<group>"; };
+		7B896C3E1EF91D1800887498 /* miff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = miff.c; path = ImageMagick/coders/miff.c; sourceTree = "<group>"; };
+		7B896C3F1EF91D1800887498 /* mono.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mono.c; path = ImageMagick/coders/mono.c; sourceTree = "<group>"; };
+		7B896C401EF91D1800887498 /* mpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mpc.c; path = ImageMagick/coders/mpc.c; sourceTree = "<group>"; };
+		7B896C411EF91D1800887498 /* mpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mpeg.c; path = ImageMagick/coders/mpeg.c; sourceTree = "<group>"; };
+		7B896C421EF91D1800887498 /* mpr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mpr.c; path = ImageMagick/coders/mpr.c; sourceTree = "<group>"; };
+		7B896C431EF91D1800887498 /* msl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msl.c; path = ImageMagick/coders/msl.c; sourceTree = "<group>"; };
+		7B896C441EF91D1800887498 /* mtv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mtv.c; path = ImageMagick/coders/mtv.c; sourceTree = "<group>"; };
+		7B896C451EF91D1800887498 /* mvg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mvg.c; path = ImageMagick/coders/mvg.c; sourceTree = "<group>"; };
+		7B896C461EF91D1800887498 /* null.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = null.c; path = ImageMagick/coders/null.c; sourceTree = "<group>"; };
+		7B896C471EF91D1800887498 /* otb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = otb.c; path = ImageMagick/coders/otb.c; sourceTree = "<group>"; };
+		7B896C481EF91D1800887498 /* palm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = palm.c; path = ImageMagick/coders/palm.c; sourceTree = "<group>"; };
+		7B896C491EF91D1800887498 /* pango.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pango.c; path = ImageMagick/coders/pango.c; sourceTree = "<group>"; };
+		7B896C4A1EF91D1800887498 /* pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pattern.c; path = ImageMagick/coders/pattern.c; sourceTree = "<group>"; };
+		7B896C4B1EF91D1800887498 /* pcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcd.c; path = ImageMagick/coders/pcd.c; sourceTree = "<group>"; };
+		7B896C4C1EF91D1800887498 /* pcl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcl.c; path = ImageMagick/coders/pcl.c; sourceTree = "<group>"; };
+		7B896C4D1EF91D1800887498 /* pcx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pcx.c; path = ImageMagick/coders/pcx.c; sourceTree = "<group>"; };
+		7B896C4E1EF91D1800887498 /* pdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pdb.c; path = ImageMagick/coders/pdb.c; sourceTree = "<group>"; };
+		7B896C4F1EF91D1800887498 /* pdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pdf.c; path = ImageMagick/coders/pdf.c; sourceTree = "<group>"; };
+		7B896C501EF91D1800887498 /* pes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pes.c; path = ImageMagick/coders/pes.c; sourceTree = "<group>"; };
+		7B896C511EF91D1800887498 /* pgx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pgx.c; path = ImageMagick/coders/pgx.c; sourceTree = "<group>"; };
+		7B896C521EF91D1800887498 /* pict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pict.c; path = ImageMagick/coders/pict.c; sourceTree = "<group>"; };
+		7B896C531EF91D1800887498 /* pix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pix.c; path = ImageMagick/coders/pix.c; sourceTree = "<group>"; };
+		7B896C541EF91D1800887498 /* plasma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = plasma.c; path = ImageMagick/coders/plasma.c; sourceTree = "<group>"; };
+		7B896C551EF91D1800887498 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = ImageMagick/coders/png.c; sourceTree = "<group>"; };
+		7B896C561EF91D1800887498 /* pnm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pnm.c; path = ImageMagick/coders/pnm.c; sourceTree = "<group>"; };
+		7B896C571EF91D1800887498 /* ps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ps.c; path = ImageMagick/coders/ps.c; sourceTree = "<group>"; };
+		7B896C581EF91D1800887498 /* ps2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ps2.c; path = ImageMagick/coders/ps2.c; sourceTree = "<group>"; };
+		7B896C591EF91D1800887498 /* ps3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ps3.c; path = ImageMagick/coders/ps3.c; sourceTree = "<group>"; };
+		7B896C5A1EF91D1800887498 /* psd-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "psd-private.h"; path = "ImageMagick/coders/psd-private.h"; sourceTree = "<group>"; };
+		7B896C5B1EF91D1800887498 /* psd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = psd.c; path = ImageMagick/coders/psd.c; sourceTree = "<group>"; };
+		7B896C5C1EF91D1800887498 /* pwp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pwp.c; path = ImageMagick/coders/pwp.c; sourceTree = "<group>"; };
+		7B896C5D1EF91D1800887498 /* raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = raw.c; path = ImageMagick/coders/raw.c; sourceTree = "<group>"; };
+		7B896C5E1EF91D1800887498 /* rgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rgb.c; path = ImageMagick/coders/rgb.c; sourceTree = "<group>"; };
+		7B896C5F1EF91D1800887498 /* rgf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rgf.c; path = ImageMagick/coders/rgf.c; sourceTree = "<group>"; };
+		7B896C601EF91D1800887498 /* rla.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rla.c; path = ImageMagick/coders/rla.c; sourceTree = "<group>"; };
+		7B896C611EF91D1800887498 /* rle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rle.c; path = ImageMagick/coders/rle.c; sourceTree = "<group>"; };
+		7B896C621EF91D1800887498 /* scr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scr.c; path = ImageMagick/coders/scr.c; sourceTree = "<group>"; };
+		7B896C631EF91D1800887498 /* screenshot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = screenshot.c; path = ImageMagick/coders/screenshot.c; sourceTree = "<group>"; };
+		7B896C641EF91D1800887498 /* sct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sct.c; path = ImageMagick/coders/sct.c; sourceTree = "<group>"; };
+		7B896C651EF91D1800887498 /* sfw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sfw.c; path = ImageMagick/coders/sfw.c; sourceTree = "<group>"; };
+		7B896C661EF91D1800887498 /* sgi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgi.c; path = ImageMagick/coders/sgi.c; sourceTree = "<group>"; };
+		7B896C671EF91D1800887498 /* sixel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sixel.c; path = ImageMagick/coders/sixel.c; sourceTree = "<group>"; };
+		7B896C681EF91D1800887498 /* stegano.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stegano.c; path = ImageMagick/coders/stegano.c; sourceTree = "<group>"; };
+		7B896C691EF91D1800887498 /* sun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sun.c; path = ImageMagick/coders/sun.c; sourceTree = "<group>"; };
+		7B896C6A1EF91D1800887498 /* svg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = svg.c; path = ImageMagick/coders/svg.c; sourceTree = "<group>"; };
+		7B896C6B1EF91D1800887498 /* tga.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tga.c; path = ImageMagick/coders/tga.c; sourceTree = "<group>"; };
+		7B896C6C1EF91D1800887498 /* thumbnail.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thumbnail.c; path = ImageMagick/coders/thumbnail.c; sourceTree = "<group>"; };
+		7B896C6D1EF91D1800887498 /* tiff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tiff.c; path = ImageMagick/coders/tiff.c; sourceTree = "<group>"; };
+		7B896C6E1EF91D1800887498 /* tile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tile.c; path = ImageMagick/coders/tile.c; sourceTree = "<group>"; };
+		7B896C6F1EF91D1900887498 /* tim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tim.c; path = ImageMagick/coders/tim.c; sourceTree = "<group>"; };
+		7B896C701EF91D1900887498 /* ttf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ttf.c; path = ImageMagick/coders/ttf.c; sourceTree = "<group>"; };
+		7B896C711EF91D1900887498 /* txt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = txt.c; path = ImageMagick/coders/txt.c; sourceTree = "<group>"; };
+		7B896C721EF91D1900887498 /* uil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uil.c; path = ImageMagick/coders/uil.c; sourceTree = "<group>"; };
+		7B896C731EF91D1900887498 /* url.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = url.c; path = ImageMagick/coders/url.c; sourceTree = "<group>"; };
+		7B896C741EF91D1900887498 /* uyvy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uyvy.c; path = ImageMagick/coders/uyvy.c; sourceTree = "<group>"; };
+		7B896C751EF91D1900887498 /* vicar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vicar.c; path = ImageMagick/coders/vicar.c; sourceTree = "<group>"; };
+		7B896C761EF91D1900887498 /* vid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vid.c; path = ImageMagick/coders/vid.c; sourceTree = "<group>"; };
+		7B896C771EF91D1900887498 /* viff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = viff.c; path = ImageMagick/coders/viff.c; sourceTree = "<group>"; };
+		7B896C781EF91D1900887498 /* vips.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vips.c; path = ImageMagick/coders/vips.c; sourceTree = "<group>"; };
+		7B896C791EF91D1900887498 /* wbmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wbmp.c; path = ImageMagick/coders/wbmp.c; sourceTree = "<group>"; };
+		7B896C7A1EF91D1900887498 /* webp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = webp.c; path = ImageMagick/coders/webp.c; sourceTree = "<group>"; };
+		7B896C7B1EF91D1900887498 /* wmf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmf.c; path = ImageMagick/coders/wmf.c; sourceTree = "<group>"; };
+		7B896C7C1EF91D1900887498 /* wpg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wpg.c; path = ImageMagick/coders/wpg.c; sourceTree = "<group>"; };
+		7B896C7D1EF91D1900887498 /* x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = x.c; path = ImageMagick/coders/x.c; sourceTree = "<group>"; };
+		7B896C7E1EF91D1900887498 /* xbm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xbm.c; path = ImageMagick/coders/xbm.c; sourceTree = "<group>"; };
+		7B896C7F1EF91D1900887498 /* xc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xc.c; path = ImageMagick/coders/xc.c; sourceTree = "<group>"; };
+		7B896C801EF91D1900887498 /* xcf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xcf.c; path = ImageMagick/coders/xcf.c; sourceTree = "<group>"; };
+		7B896C811EF91D1900887498 /* xpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xpm.c; path = ImageMagick/coders/xpm.c; sourceTree = "<group>"; };
+		7B896C821EF91D1900887498 /* xps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xps.c; path = ImageMagick/coders/xps.c; sourceTree = "<group>"; };
+		7B896C831EF91D1900887498 /* xtrn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xtrn.c; path = ImageMagick/coders/xtrn.c; sourceTree = "<group>"; };
+		7B896C841EF91D1900887498 /* xwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xwd.c; path = ImageMagick/coders/xwd.c; sourceTree = "<group>"; };
+		7B896C851EF91D1900887498 /* ycbcr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ycbcr.c; path = ImageMagick/coders/ycbcr.c; sourceTree = "<group>"; };
+		7B896C861EF91D1900887498 /* yuv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yuv.c; path = ImageMagick/coders/yuv.c; sourceTree = "<group>"; };
+		7B896D0A1EF920D200887498 /* animate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = animate.c; path = ImageMagick/MagickWand/animate.c; sourceTree = "<group>"; };
+		7B896D0B1EF920D200887498 /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animate.h; path = ImageMagick/MagickWand/animate.h; sourceTree = "<group>"; };
+		7B896D0C1EF920D200887498 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ChangeLog; path = ImageMagick/MagickWand/ChangeLog; sourceTree = "<group>"; };
+		7B896D0D1EF920D200887498 /* compare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compare.c; path = ImageMagick/MagickWand/compare.c; sourceTree = "<group>"; };
+		7B896D0E1EF920D200887498 /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compare.h; path = ImageMagick/MagickWand/compare.h; sourceTree = "<group>"; };
+		7B896D0F1EF920D200887498 /* composite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = composite.c; path = ImageMagick/MagickWand/composite.c; sourceTree = "<group>"; };
+		7B896D101EF920D200887498 /* composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = composite.h; path = ImageMagick/MagickWand/composite.h; sourceTree = "<group>"; };
+		7B896D111EF920D200887498 /* conjure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conjure.c; path = ImageMagick/MagickWand/conjure.c; sourceTree = "<group>"; };
+		7B896D121EF920D200887498 /* conjure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conjure.h; path = ImageMagick/MagickWand/conjure.h; sourceTree = "<group>"; };
+		7B896D131EF920D200887498 /* convert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = convert.c; path = ImageMagick/MagickWand/convert.c; sourceTree = "<group>"; };
+		7B896D141EF920D200887498 /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = convert.h; path = ImageMagick/MagickWand/convert.h; sourceTree = "<group>"; };
+		7B896D151EF920D200887498 /* deprecate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deprecate.c; path = ImageMagick/MagickWand/deprecate.c; sourceTree = "<group>"; };
+		7B896D161EF920D200887498 /* deprecate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deprecate.h; path = ImageMagick/MagickWand/deprecate.h; sourceTree = "<group>"; };
+		7B896D171EF920D200887498 /* display.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = display.c; path = ImageMagick/MagickWand/display.c; sourceTree = "<group>"; };
+		7B896D181EF920D200887498 /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = display.h; path = ImageMagick/MagickWand/display.h; sourceTree = "<group>"; };
+		7B896D191EF920D200887498 /* drawing-wand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "drawing-wand.c"; path = "ImageMagick/MagickWand/drawing-wand.c"; sourceTree = "<group>"; };
+		7B896D1A1EF920D200887498 /* drawing-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "drawing-wand.h"; path = "ImageMagick/MagickWand/drawing-wand.h"; sourceTree = "<group>"; };
+		7B896D1B1EF920D200887498 /* identify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = identify.c; path = ImageMagick/MagickWand/identify.c; sourceTree = "<group>"; };
+		7B896D1C1EF920D200887498 /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = identify.h; path = ImageMagick/MagickWand/identify.h; sourceTree = "<group>"; };
+		7B896D1D1EF920D200887498 /* import.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = import.c; path = ImageMagick/MagickWand/import.c; sourceTree = "<group>"; };
+		7B896D1E1EF920D200887498 /* import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = import.h; path = ImageMagick/MagickWand/import.h; sourceTree = "<group>"; };
+		7B896D1F1EF920D200887498 /* libMagickWand.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = libMagickWand.map; path = ImageMagick/MagickWand/libMagickWand.map; sourceTree = "<group>"; };
+		7B896D201EF920D200887498 /* magick-cli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "magick-cli.c"; path = "ImageMagick/MagickWand/magick-cli.c"; sourceTree = "<group>"; };
+		7B896D211EF920D200887498 /* magick-cli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-cli.h"; path = "ImageMagick/MagickWand/magick-cli.h"; sourceTree = "<group>"; };
+		7B896D221EF920D200887498 /* magick-image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "magick-image.c"; path = "ImageMagick/MagickWand/magick-image.c"; sourceTree = "<group>"; };
+		7B896D231EF920D200887498 /* magick-image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-image.h"; path = "ImageMagick/MagickWand/magick-image.h"; sourceTree = "<group>"; };
+		7B896D241EF920D200887498 /* magick-property.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "magick-property.c"; path = "ImageMagick/MagickWand/magick-property.c"; sourceTree = "<group>"; };
+		7B896D251EF920D200887498 /* magick-property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-property.h"; path = "ImageMagick/MagickWand/magick-property.h"; sourceTree = "<group>"; };
+		7B896D261EF920D200887498 /* magick-wand-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-wand-private.h"; path = "ImageMagick/MagickWand/magick-wand-private.h"; sourceTree = "<group>"; };
+		7B896D271EF920D200887498 /* magick-wand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "magick-wand.c"; path = "ImageMagick/MagickWand/magick-wand.c"; sourceTree = "<group>"; };
+		7B896D281EF920D200887498 /* MagickWand-config.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = "MagickWand-config.1"; path = "ImageMagick/MagickWand/MagickWand-config.1"; sourceTree = "<group>"; };
+		7B896D291EF920D200887498 /* MagickWand-config.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "MagickWand-config.in"; path = "ImageMagick/MagickWand/MagickWand-config.in"; sourceTree = "<group>"; };
+		7B896D2A1EF920D200887498 /* MagickWand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagickWand.h; path = ImageMagick/MagickWand/MagickWand.h; sourceTree = "<group>"; };
+		7B896D2B1EF920D200887498 /* MagickWand.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MagickWand.pc.in; path = ImageMagick/MagickWand/MagickWand.pc.in; sourceTree = "<group>"; };
+		7B896D2C1EF920D200887498 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.am; path = ImageMagick/MagickWand/Makefile.am; sourceTree = "<group>"; };
+		7B896D2D1EF920D200887498 /* method-attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "method-attribute.h"; path = "ImageMagick/MagickWand/method-attribute.h"; sourceTree = "<group>"; };
+		7B896D2E1EF920D200887498 /* mogrify-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "mogrify-private.h"; path = "ImageMagick/MagickWand/mogrify-private.h"; sourceTree = "<group>"; };
+		7B896D2F1EF920D200887498 /* mogrify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mogrify.c; path = ImageMagick/MagickWand/mogrify.c; sourceTree = "<group>"; };
+		7B896D301EF920D200887498 /* mogrify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mogrify.h; path = ImageMagick/MagickWand/mogrify.h; sourceTree = "<group>"; };
+		7B896D311EF920D200887498 /* montage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = montage.c; path = ImageMagick/MagickWand/montage.c; sourceTree = "<group>"; };
+		7B896D321EF920D200887498 /* montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = montage.h; path = ImageMagick/MagickWand/montage.h; sourceTree = "<group>"; };
+		7B896D331EF920D200887498 /* operation-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "operation-private.h"; path = "ImageMagick/MagickWand/operation-private.h"; sourceTree = "<group>"; };
+		7B896D341EF920D200887498 /* operation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = operation.c; path = ImageMagick/MagickWand/operation.c; sourceTree = "<group>"; };
+		7B896D351EF920D200887498 /* operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = operation.h; path = ImageMagick/MagickWand/operation.h; sourceTree = "<group>"; };
+		7B896D361EF920D200887498 /* pixel-iterator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "pixel-iterator.c"; path = "ImageMagick/MagickWand/pixel-iterator.c"; sourceTree = "<group>"; };
+		7B896D371EF920D200887498 /* pixel-iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pixel-iterator.h"; path = "ImageMagick/MagickWand/pixel-iterator.h"; sourceTree = "<group>"; };
+		7B896D381EF920D200887498 /* pixel-wand-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pixel-wand-private.h"; path = "ImageMagick/MagickWand/pixel-wand-private.h"; sourceTree = "<group>"; };
+		7B896D391EF920D200887498 /* pixel-wand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "pixel-wand.c"; path = "ImageMagick/MagickWand/pixel-wand.c"; sourceTree = "<group>"; };
+		7B896D3A1EF920D200887498 /* pixel-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pixel-wand.h"; path = "ImageMagick/MagickWand/pixel-wand.h"; sourceTree = "<group>"; };
+		7B896D3B1EF920D200887498 /* script-token.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "script-token.c"; path = "ImageMagick/MagickWand/script-token.c"; sourceTree = "<group>"; };
+		7B896D3C1EF920D200887498 /* script-token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "script-token.h"; path = "ImageMagick/MagickWand/script-token.h"; sourceTree = "<group>"; };
+		7B896D3D1EF920D200887498 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stream.c; path = ImageMagick/MagickWand/stream.c; sourceTree = "<group>"; };
+		7B896D3E1EF920D200887498 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stream.h; path = ImageMagick/MagickWand/stream.h; sourceTree = "<group>"; };
+		7B896D3F1EF920D200887498 /* studio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = studio.h; path = ImageMagick/MagickWand/studio.h; sourceTree = "<group>"; };
+		7B896D401EF920D200887498 /* wand-view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "wand-view.c"; path = "ImageMagick/MagickWand/wand-view.c"; sourceTree = "<group>"; };
+		7B896D411EF920D200887498 /* wand-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "wand-view.h"; path = "ImageMagick/MagickWand/wand-view.h"; sourceTree = "<group>"; };
+		7B896D421EF920D200887498 /* wand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wand.c; path = ImageMagick/MagickWand/wand.c; sourceTree = "<group>"; };
+		7B896D431EF920D200887498 /* wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wand.h; path = ImageMagick/MagickWand/wand.h; sourceTree = "<group>"; };
+		7B896D441EF920D200887498 /* wandcli-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "wandcli-private.h"; path = "ImageMagick/MagickWand/wandcli-private.h"; sourceTree = "<group>"; };
+		7B896D451EF920D200887498 /* wandcli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wandcli.c; path = ImageMagick/MagickWand/wandcli.c; sourceTree = "<group>"; };
+		7B896D461EF920D200887498 /* wandcli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wandcli.h; path = ImageMagick/MagickWand/wandcli.h; sourceTree = "<group>"; };
 		7BAA85A31EF906F800D51A94 /* AutoPDFKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPDFKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAA85A71EF906F800D51A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BAA85A91EF906F800D51A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -416,6 +767,212 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B896C031EF91CB600887498 /* coders */ = {
+			isa = PBXGroup;
+			children = (
+				7B896C041EF91D1800887498 /* aai.c */,
+				7B896C051EF91D1800887498 /* art.c */,
+				7B896C061EF91D1800887498 /* avs.c */,
+				7B896C071EF91D1800887498 /* bgr.c */,
+				7B896C081EF91D1800887498 /* bmp.c */,
+				7B896C091EF91D1800887498 /* braille.c */,
+				7B896C0A1EF91D1800887498 /* cals.c */,
+				7B896C0B1EF91D1800887498 /* caption.c */,
+				7B896C0C1EF91D1800887498 /* cin.c */,
+				7B896C0D1EF91D1800887498 /* cip.c */,
+				7B896C0E1EF91D1800887498 /* clip.c */,
+				7B896C0F1EF91D1800887498 /* clipboard.c */,
+				7B896C101EF91D1800887498 /* cmyk.c */,
+				7B896C111EF91D1800887498 /* cut.c */,
+				7B896C121EF91D1800887498 /* dcm.c */,
+				7B896C131EF91D1800887498 /* dds.c */,
+				7B896C141EF91D1800887498 /* debug.c */,
+				7B896C151EF91D1800887498 /* dib.c */,
+				7B896C161EF91D1800887498 /* djvu.c */,
+				7B896C171EF91D1800887498 /* dng.c */,
+				7B896C181EF91D1800887498 /* dot.c */,
+				7B896C191EF91D1800887498 /* dps.c */,
+				7B896C1A1EF91D1800887498 /* dpx.c */,
+				7B896C1B1EF91D1800887498 /* emf.c */,
+				7B896C1C1EF91D1800887498 /* ept.c */,
+				7B896C1D1EF91D1800887498 /* exr.c */,
+				7B896C1E1EF91D1800887498 /* fax.c */,
+				7B896C1F1EF91D1800887498 /* fd.c */,
+				7B896C201EF91D1800887498 /* fits.c */,
+				7B896C211EF91D1800887498 /* flif.c */,
+				7B896C221EF91D1800887498 /* fpx.c */,
+				7B896C231EF91D1800887498 /* gif.c */,
+				7B896C241EF91D1800887498 /* gradient.c */,
+				7B896C251EF91D1800887498 /* gray.c */,
+				7B896C261EF91D1800887498 /* hald.c */,
+				7B896C271EF91D1800887498 /* hdr.c */,
+				7B896C281EF91D1800887498 /* histogram.c */,
+				7B896C291EF91D1800887498 /* hrz.c */,
+				7B896C2A1EF91D1800887498 /* html.c */,
+				7B896C2B1EF91D1800887498 /* icon.c */,
+				7B896C2C1EF91D1800887498 /* info.c */,
+				7B896C2D1EF91D1800887498 /* inline.c */,
+				7B896C2E1EF91D1800887498 /* ipl.c */,
+				7B896C2F1EF91D1800887498 /* jbig.c */,
+				7B896C301EF91D1800887498 /* jnx.c */,
+				7B896C311EF91D1800887498 /* jp2.c */,
+				7B896C321EF91D1800887498 /* jpeg.c */,
+				7B896C331EF91D1800887498 /* json.c */,
+				7B896C341EF91D1800887498 /* label.c */,
+				7B896C351EF91D1800887498 /* mac.c */,
+				7B896C361EF91D1800887498 /* magick.c */,
+				7B896C371EF91D1800887498 /* Make.com */,
+				7B896C381EF91D1800887498 /* Makefile.am */,
+				7B896C391EF91D1800887498 /* map.c */,
+				7B896C3A1EF91D1800887498 /* mask.c */,
+				7B896C3B1EF91D1800887498 /* mat.c */,
+				7B896C3C1EF91D1800887498 /* matte.c */,
+				7B896C3D1EF91D1800887498 /* meta.c */,
+				7B896C3E1EF91D1800887498 /* miff.c */,
+				7B896C3F1EF91D1800887498 /* mono.c */,
+				7B896C401EF91D1800887498 /* mpc.c */,
+				7B896C411EF91D1800887498 /* mpeg.c */,
+				7B896C421EF91D1800887498 /* mpr.c */,
+				7B896C431EF91D1800887498 /* msl.c */,
+				7B896C441EF91D1800887498 /* mtv.c */,
+				7B896C451EF91D1800887498 /* mvg.c */,
+				7B896C461EF91D1800887498 /* null.c */,
+				7B896C471EF91D1800887498 /* otb.c */,
+				7B896C481EF91D1800887498 /* palm.c */,
+				7B896C491EF91D1800887498 /* pango.c */,
+				7B896C4A1EF91D1800887498 /* pattern.c */,
+				7B896C4B1EF91D1800887498 /* pcd.c */,
+				7B896C4C1EF91D1800887498 /* pcl.c */,
+				7B896C4D1EF91D1800887498 /* pcx.c */,
+				7B896C4E1EF91D1800887498 /* pdb.c */,
+				7B896C4F1EF91D1800887498 /* pdf.c */,
+				7B896C501EF91D1800887498 /* pes.c */,
+				7B896C511EF91D1800887498 /* pgx.c */,
+				7B896C521EF91D1800887498 /* pict.c */,
+				7B896C531EF91D1800887498 /* pix.c */,
+				7B896C541EF91D1800887498 /* plasma.c */,
+				7B896C551EF91D1800887498 /* png.c */,
+				7B896C561EF91D1800887498 /* pnm.c */,
+				7B896C571EF91D1800887498 /* ps.c */,
+				7B896C581EF91D1800887498 /* ps2.c */,
+				7B896C591EF91D1800887498 /* ps3.c */,
+				7B896C5A1EF91D1800887498 /* psd-private.h */,
+				7B896C5B1EF91D1800887498 /* psd.c */,
+				7B896C5C1EF91D1800887498 /* pwp.c */,
+				7B896C5D1EF91D1800887498 /* raw.c */,
+				7B896C5E1EF91D1800887498 /* rgb.c */,
+				7B896C5F1EF91D1800887498 /* rgf.c */,
+				7B896C601EF91D1800887498 /* rla.c */,
+				7B896C611EF91D1800887498 /* rle.c */,
+				7B896C621EF91D1800887498 /* scr.c */,
+				7B896C631EF91D1800887498 /* screenshot.c */,
+				7B896C641EF91D1800887498 /* sct.c */,
+				7B896C651EF91D1800887498 /* sfw.c */,
+				7B896C661EF91D1800887498 /* sgi.c */,
+				7B896C671EF91D1800887498 /* sixel.c */,
+				7B896C681EF91D1800887498 /* stegano.c */,
+				7B896C691EF91D1800887498 /* sun.c */,
+				7B896C6A1EF91D1800887498 /* svg.c */,
+				7B896C6B1EF91D1800887498 /* tga.c */,
+				7B896C6C1EF91D1800887498 /* thumbnail.c */,
+				7B896C6D1EF91D1800887498 /* tiff.c */,
+				7B896C6E1EF91D1800887498 /* tile.c */,
+				7B896C6F1EF91D1900887498 /* tim.c */,
+				7B896C701EF91D1900887498 /* ttf.c */,
+				7B896C711EF91D1900887498 /* txt.c */,
+				7B896C721EF91D1900887498 /* uil.c */,
+				7B896C731EF91D1900887498 /* url.c */,
+				7B896C741EF91D1900887498 /* uyvy.c */,
+				7B896C751EF91D1900887498 /* vicar.c */,
+				7B896C761EF91D1900887498 /* vid.c */,
+				7B896C771EF91D1900887498 /* viff.c */,
+				7B896C781EF91D1900887498 /* vips.c */,
+				7B896C791EF91D1900887498 /* wbmp.c */,
+				7B896C7A1EF91D1900887498 /* webp.c */,
+				7B896C7B1EF91D1900887498 /* wmf.c */,
+				7B896C7C1EF91D1900887498 /* wpg.c */,
+				7B896C7D1EF91D1900887498 /* x.c */,
+				7B896C7E1EF91D1900887498 /* xbm.c */,
+				7B896C7F1EF91D1900887498 /* xc.c */,
+				7B896C801EF91D1900887498 /* xcf.c */,
+				7B896C811EF91D1900887498 /* xpm.c */,
+				7B896C821EF91D1900887498 /* xps.c */,
+				7B896C831EF91D1900887498 /* xtrn.c */,
+				7B896C841EF91D1900887498 /* xwd.c */,
+				7B896C851EF91D1900887498 /* ycbcr.c */,
+				7B896C861EF91D1900887498 /* yuv.c */,
+			);
+			name = coders;
+			sourceTree = "<group>";
+		};
+		7B896D091EF920B200887498 /* MagickWand */ = {
+			isa = PBXGroup;
+			children = (
+				7B896D0A1EF920D200887498 /* animate.c */,
+				7B896D0B1EF920D200887498 /* animate.h */,
+				7B896D0C1EF920D200887498 /* ChangeLog */,
+				7B896D0D1EF920D200887498 /* compare.c */,
+				7B896D0E1EF920D200887498 /* compare.h */,
+				7B896D0F1EF920D200887498 /* composite.c */,
+				7B896D101EF920D200887498 /* composite.h */,
+				7B896D111EF920D200887498 /* conjure.c */,
+				7B896D121EF920D200887498 /* conjure.h */,
+				7B896D131EF920D200887498 /* convert.c */,
+				7B896D141EF920D200887498 /* convert.h */,
+				7B896D151EF920D200887498 /* deprecate.c */,
+				7B896D161EF920D200887498 /* deprecate.h */,
+				7B896D171EF920D200887498 /* display.c */,
+				7B896D181EF920D200887498 /* display.h */,
+				7B896D191EF920D200887498 /* drawing-wand.c */,
+				7B896D1A1EF920D200887498 /* drawing-wand.h */,
+				7B896D1B1EF920D200887498 /* identify.c */,
+				7B896D1C1EF920D200887498 /* identify.h */,
+				7B896D1D1EF920D200887498 /* import.c */,
+				7B896D1E1EF920D200887498 /* import.h */,
+				7B896D1F1EF920D200887498 /* libMagickWand.map */,
+				7B896D201EF920D200887498 /* magick-cli.c */,
+				7B896D211EF920D200887498 /* magick-cli.h */,
+				7B896D221EF920D200887498 /* magick-image.c */,
+				7B896D231EF920D200887498 /* magick-image.h */,
+				7B896D241EF920D200887498 /* magick-property.c */,
+				7B896D251EF920D200887498 /* magick-property.h */,
+				7B896D261EF920D200887498 /* magick-wand-private.h */,
+				7B896D271EF920D200887498 /* magick-wand.c */,
+				7B896D281EF920D200887498 /* MagickWand-config.1 */,
+				7B896D291EF920D200887498 /* MagickWand-config.in */,
+				7B896D2A1EF920D200887498 /* MagickWand.h */,
+				7B896D2B1EF920D200887498 /* MagickWand.pc.in */,
+				7B896D2C1EF920D200887498 /* Makefile.am */,
+				7B896D2D1EF920D200887498 /* method-attribute.h */,
+				7B896D2E1EF920D200887498 /* mogrify-private.h */,
+				7B896D2F1EF920D200887498 /* mogrify.c */,
+				7B896D301EF920D200887498 /* mogrify.h */,
+				7B896D311EF920D200887498 /* montage.c */,
+				7B896D321EF920D200887498 /* montage.h */,
+				7B896D331EF920D200887498 /* operation-private.h */,
+				7B896D341EF920D200887498 /* operation.c */,
+				7B896D351EF920D200887498 /* operation.h */,
+				7B896D361EF920D200887498 /* pixel-iterator.c */,
+				7B896D371EF920D200887498 /* pixel-iterator.h */,
+				7B896D381EF920D200887498 /* pixel-wand-private.h */,
+				7B896D391EF920D200887498 /* pixel-wand.c */,
+				7B896D3A1EF920D200887498 /* pixel-wand.h */,
+				7B896D3B1EF920D200887498 /* script-token.c */,
+				7B896D3C1EF920D200887498 /* script-token.h */,
+				7B896D3D1EF920D200887498 /* stream.c */,
+				7B896D3E1EF920D200887498 /* stream.h */,
+				7B896D3F1EF920D200887498 /* studio.h */,
+				7B896D401EF920D200887498 /* wand-view.c */,
+				7B896D411EF920D200887498 /* wand-view.h */,
+				7B896D421EF920D200887498 /* wand.c */,
+				7B896D431EF920D200887498 /* wand.h */,
+				7B896D441EF920D200887498 /* wandcli-private.h */,
+				7B896D451EF920D200887498 /* wandcli.c */,
+				7B896D461EF920D200887498 /* wandcli.h */,
+			);
+			name = MagickWand;
+			sourceTree = "<group>";
+		};
 		7BAA859A1EF906F800D51A94 = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +1018,8 @@
 		7BAA85BD1EF9072200D51A94 /* ImageMagick */ = {
 			isa = PBXGroup;
 			children = (
+				7B896D091EF920B200887498 /* MagickWand */,
+				7B896C031EF91CB600887498 /* coders */,
 				7BAA85BE1EF9074100D51A94 /* MagickCore */,
 			);
 			name = ImageMagick;
@@ -794,13 +1353,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BAA86F51EF9087700D51A94 /* MagickCore-config.in in Resources */,
+				7B896CBB1EF91D1900887498 /* Makefile.am in Resources */,
 				7BAA86F41EF9087700D51A94 /* MagickCore-config.1 in Resources */,
 				7BAA87241EF9087700D51A94 /* version.h_vms in Resources */,
+				7B896D591EF920D300887498 /* Makefile.am in Resources */,
 				7BAA86EC1EF9087700D51A94 /* ImageMagick.pc.in in Resources */,
 				7BAA86F61EF9087700D51A94 /* MagickCore.pc.in in Resources */,
+				7B896D581EF920D300887498 /* MagickWand.pc.in in Resources */,
 				7BAA85B61EF906F800D51A94 /* LaunchScreen.storyboard in Resources */,
+				7B896D571EF920D300887498 /* MagickWand-config.in in Resources */,
 				7BAA86F71EF9087700D51A94 /* Make.com in Resources */,
+				7B896CBA1EF91D1900887498 /* Make.com in Resources */,
 				7BAA87291EF9087700D51A94 /* xwdfile.h_vms in Resources */,
+				7B896D481EF920D200887498 /* ChangeLog in Resources */,
+				7B896D561EF920D300887498 /* MagickWand-config.1 in Resources */,
 				7BAA86D61EF9087600D51A94 /* config.h_vms in Resources */,
 				7BAA86F81EF9087700D51A94 /* Makefile.am in Resources */,
 				7BAA85B31EF906F800D51A94 /* Assets.xcassets in Resources */,
@@ -815,46 +1381,118 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B896CE21EF91D1900887498 /* rla.c in Sources */,
+				7B896CB71EF91D1900887498 /* label.c in Sources */,
+				7B896D541EF920D300887498 /* magick-property.c in Sources */,
+				7B896CE81EF91D1900887498 /* sgi.c in Sources */,
+				7B896CAC1EF91D1900887498 /* hrz.c in Sources */,
+				7B896D041EF91D1900887498 /* xps.c in Sources */,
+				7B896C9E1EF91D1900887498 /* emf.c in Sources */,
 				7BAA87001EF9087700D51A94 /* nt-base.c in Sources */,
 				7BAA86ED1EF9087700D51A94 /* layer.c in Sources */,
+				7B896C921EF91D1900887498 /* clipboard.c in Sources */,
+				7B896C971EF91D1900887498 /* debug.c in Sources */,
 				7BAA86D21EF9087600D51A94 /* colorspace.c in Sources */,
 				7BAA86FD1EF9087700D51A94 /* monitor.c in Sources */,
 				7BAA86EE1EF9087700D51A94 /* linked-list.c in Sources */,
+				7B896CCA1EF91D1900887498 /* otb.c in Sources */,
 				7BAA86E71EF9087700D51A94 /* geometry.c in Sources */,
+				7B896D081EF91D1900887498 /* yuv.c in Sources */,
+				7B896D4E1EF920D200887498 /* display.c in Sources */,
 				7BAA87091EF9087700D51A94 /* property.c in Sources */,
+				7B896CF61EF91D1900887498 /* uyvy.c in Sources */,
+				7B896CCB1EF91D1900887498 /* palm.c in Sources */,
+				7B896D491EF920D200887498 /* compare.c in Sources */,
+				7B896CEB1EF91D1900887498 /* sun.c in Sources */,
 				7BAA87031EF9087700D51A94 /* option.c in Sources */,
 				7BAA87261EF9087700D51A94 /* vms.c in Sources */,
+				7B896CF91EF91D1900887498 /* viff.c in Sources */,
 				7BAA87281EF9087700D51A94 /* xml-tree.c in Sources */,
+				7B896CE41EF91D1900887498 /* scr.c in Sources */,
+				7B896C9A1EF91D1900887498 /* dng.c in Sources */,
+				7B896CE01EF91D1900887498 /* rgb.c in Sources */,
 				7BAA87181EF9087700D51A94 /* static.c in Sources */,
+				7B896C871EF91D1900887498 /* aai.c in Sources */,
+				7B896C9B1EF91D1900887498 /* dot.c in Sources */,
 				7BAA86E61EF9087700D51A94 /* gem.c in Sources */,
 				7BAA86C81EF9087600D51A94 /* attribute.c in Sources */,
+				7B896CF01EF91D1900887498 /* tile.c in Sources */,
+				7B896CB31EF91D1900887498 /* jnx.c in Sources */,
+				7B896CCC1EF91D1900887498 /* pango.c in Sources */,
 				7BAA87081EF9087700D51A94 /* profile.c in Sources */,
+				7B896CB41EF91D1900887498 /* jp2.c in Sources */,
+				7B896CDD1EF91D1900887498 /* psd.c in Sources */,
+				7B896D001EF91D1900887498 /* xbm.c in Sources */,
 				7BAA86D91EF9087700D51A94 /* decorate.c in Sources */,
+				7B896CBC1EF91D1900887498 /* map.c in Sources */,
+				7B896C8E1EF91D1900887498 /* caption.c in Sources */,
+				7B896CBE1EF91D1900887498 /* mat.c in Sources */,
+				7B896CB61EF91D1900887498 /* json.c in Sources */,
+				7B896D071EF91D1900887498 /* ycbcr.c in Sources */,
+				7B896CEE1EF91D1900887498 /* thumbnail.c in Sources */,
+				7B896D5F1EF920D300887498 /* script-token.c in Sources */,
+				7B896CC11EF91D1900887498 /* miff.c in Sources */,
+				7B896C891EF91D1900887498 /* avs.c in Sources */,
+				7B896CF11EF91D1900887498 /* tim.c in Sources */,
+				7B896D611EF920D300887498 /* wand-view.c in Sources */,
 				7BAA86DA1EF9087700D51A94 /* delegate.c in Sources */,
+				7B896D4A1EF920D200887498 /* composite.c in Sources */,
+				7B896D5E1EF920D300887498 /* pixel-wand.c in Sources */,
+				7B896CC01EF91D1900887498 /* meta.c in Sources */,
 				7BAA86E81EF9087700D51A94 /* histogram.c in Sources */,
 				7BAA87051EF9087700D51A94 /* pixel.c in Sources */,
+				7B896CDE1EF91D1900887498 /* pwp.c in Sources */,
+				7B896CC21EF91D1900887498 /* mono.c in Sources */,
+				7B896CD21EF91D1900887498 /* pdf.c in Sources */,
+				7B896CC91EF91D1900887498 /* null.c in Sources */,
+				7B896CB11EF91D1900887498 /* ipl.c in Sources */,
+				7B896C901EF91D1900887498 /* cip.c in Sources */,
 				7BAA87151EF9087700D51A94 /* shear.c in Sources */,
 				7BAA86F21EF9087700D51A94 /* magic.c in Sources */,
 				7BAA87021EF9087700D51A94 /* opencl.c in Sources */,
+				7B896C8C1EF91D1900887498 /* braille.c in Sources */,
 				7BAA87071EF9087700D51A94 /* prepress.c in Sources */,
+				7B896C911EF91D1900887498 /* clip.c in Sources */,
 				7BAA86C51EF9087600D51A94 /* animate.c in Sources */,
+				7B896D501EF920D200887498 /* identify.c in Sources */,
+				7B896CC71EF91D1900887498 /* mtv.c in Sources */,
+				7B896C8D1EF91D1900887498 /* cals.c in Sources */,
+				7B896CA31EF91D1900887498 /* fits.c in Sources */,
+				7B896CAA1EF91D1900887498 /* hdr.c in Sources */,
+				7B896CDF1EF91D1900887498 /* raw.c in Sources */,
 				7BAA870E1EF9087700D51A94 /* random.c in Sources */,
+				7B896D5B1EF920D300887498 /* montage.c in Sources */,
+				7B896CA01EF91D1900887498 /* exr.c in Sources */,
+				7B896CF21EF91D1900887498 /* ttf.c in Sources */,
+				7B896CB91EF91D1900887498 /* magick.c in Sources */,
 				7BAA87161EF9087700D51A94 /* signature.c in Sources */,
 				7BAA86D41EF9087600D51A94 /* composite.c in Sources */,
 				7BAA86EB1EF9087700D51A94 /* image.c in Sources */,
 				7BAA86C61EF9087600D51A94 /* annotate.c in Sources */,
+				7B896CA61EF91D1900887498 /* gif.c in Sources */,
 				7BAA86F31EF9087700D51A94 /* magick.c in Sources */,
+				7B896CFC1EF91D1900887498 /* webp.c in Sources */,
 				7BAA870B1EF9087700D51A94 /* quantum-export.c in Sources */,
+				7B896C981EF91D1900887498 /* dib.c in Sources */,
 				7BAA87131EF9087700D51A94 /* segment.c in Sources */,
+				7B896CEA1EF91D1900887498 /* stegano.c in Sources */,
 				7BAA86FC1EF9087700D51A94 /* module.c in Sources */,
 				7BAA87191EF9087700D51A94 /* statistic.c in Sources */,
+				7B896CDC1EF91D1900887498 /* ps3.c in Sources */,
 				7BAA86CC1EF9087600D51A94 /* channel.c in Sources */,
+				7B896CEF1EF91D1900887498 /* tiff.c in Sources */,
+				7B896CE61EF91D1900887498 /* sct.c in Sources */,
 				7BAA86E31EF9087700D51A94 /* feature.c in Sources */,
 				7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */,
+				7B896CF51EF91D1900887498 /* url.c in Sources */,
 				7BAA86C91EF9087600D51A94 /* blob.c in Sources */,
 				7BAA87061EF9087700D51A94 /* policy.c in Sources */,
+				7B896C991EF91D1900887498 /* djvu.c in Sources */,
+				7B896CFA1EF91D1900887498 /* vips.c in Sources */,
+				7B896CA71EF91D1900887498 /* gradient.c in Sources */,
 				7BAA871B1EF9087700D51A94 /* string.c in Sources */,
 				7BAA86C71EF9087600D51A94 /* artifact.c in Sources */,
+				7B896D031EF91D1900887498 /* xpm.c in Sources */,
 				7BAA87171EF9087700D51A94 /* splay-tree.c in Sources */,
 				7BAA871E1EF9087700D51A94 /* timer.c in Sources */,
 				7BAA86D01EF9087600D51A94 /* color.c in Sources */,
@@ -862,56 +1500,136 @@
 				7BAA86E11EF9087700D51A94 /* enhance.c in Sources */,
 				7BAA86D71EF9087700D51A94 /* configure.c in Sources */,
 				7BAA871A1EF9087700D51A94 /* stream.c in Sources */,
+				7B896CC31EF91D1900887498 /* mpc.c in Sources */,
+				7B896D471EF920D200887498 /* animate.c in Sources */,
+				7B896D4D1EF920D200887498 /* deprecate.c in Sources */,
 				7BAA86CB1EF9087600D51A94 /* cache.c in Sources */,
+				7B896D5A1EF920D300887498 /* mogrify.c in Sources */,
+				7B896D521EF920D300887498 /* magick-cli.c in Sources */,
+				7B896CF31EF91D1900887498 /* txt.c in Sources */,
 				7BAA86D31EF9087600D51A94 /* compare.c in Sources */,
+				7B896CB01EF91D1900887498 /* inline.c in Sources */,
+				7B896CE11EF91D1900887498 /* rgf.c in Sources */,
 				7BAA871D1EF9087700D51A94 /* threshold.c in Sources */,
 				7BAA87271EF9087700D51A94 /* widget.c in Sources */,
 				7BAA86CE1EF9087600D51A94 /* client.c in Sources */,
+				7B896D051EF91D1900887498 /* xtrn.c in Sources */,
+				7B896CFE1EF91D1900887498 /* wpg.c in Sources */,
+				7B896D631EF920D300887498 /* wandcli.c in Sources */,
 				7BAA87101EF9087700D51A94 /* resample.c in Sources */,
+				7B896CB51EF91D1900887498 /* jpeg.c in Sources */,
+				7B896CE71EF91D1900887498 /* sfw.c in Sources */,
+				7B896C9D1EF91D1900887498 /* dpx.c in Sources */,
 				7BAA86DC1EF9087700D51A94 /* display.c in Sources */,
+				7B896CEC1EF91D1900887498 /* svg.c in Sources */,
 				7BAA87011EF9087700D51A94 /* nt-feature.c in Sources */,
+				7B896D021EF91D1900887498 /* xcf.c in Sources */,
+				7B896CC81EF91D1900887498 /* mvg.c in Sources */,
 				7BAA872A1EF9087700D51A94 /* xwindow.c in Sources */,
+				7B896CAF1EF91D1900887498 /* info.c in Sources */,
+				7B896D531EF920D300887498 /* magick-image.c in Sources */,
+				7B896CD91EF91D1900887498 /* pnm.c in Sources */,
+				7B896CD61EF91D1900887498 /* pix.c in Sources */,
 				7BAA86E01EF9087700D51A94 /* effect.c in Sources */,
 				7BAA87041EF9087700D51A94 /* paint.c in Sources */,
+				7B896C9F1EF91D1900887498 /* ept.c in Sources */,
+				7B896CC41EF91D1900887498 /* mpeg.c in Sources */,
 				7BAA86F11EF9087700D51A94 /* log.c in Sources */,
+				7B896CD41EF91D1900887498 /* pgx.c in Sources */,
+				7B896CC51EF91D1900887498 /* mpr.c in Sources */,
 				7BAA87121EF9087700D51A94 /* resource.c in Sources */,
 				7BAA87231EF9087700D51A94 /* version.c in Sources */,
 				7BAA86E91EF9087700D51A94 /* identify.c in Sources */,
+				7B896D4C1EF920D200887498 /* convert.c in Sources */,
+				7B896CDA1EF91D1900887498 /* ps.c in Sources */,
+				7B896D551EF920D300887498 /* magick-wand.c in Sources */,
+				7B896D4B1EF920D200887498 /* conjure.c in Sources */,
 				7BAA86D51EF9087600D51A94 /* compress.c in Sources */,
+				7B896CD81EF91D1900887498 /* png.c in Sources */,
+				7B896D061EF91D1900887498 /* xwd.c in Sources */,
 				7BAA870C1EF9087700D51A94 /* quantum-import.c in Sources */,
+				7B896D5C1EF920D300887498 /* operation.c in Sources */,
+				7B896D011EF91D1900887498 /* xc.c in Sources */,
 				7BAA870D1EF9087700D51A94 /* quantum.c in Sources */,
+				7B896CA41EF91D1900887498 /* flif.c in Sources */,
+				7B896CCE1EF91D1900887498 /* pcd.c in Sources */,
+				7B896CED1EF91D1900887498 /* tga.c in Sources */,
+				7B896CD01EF91D1900887498 /* pcx.c in Sources */,
+				7B896C881EF91D1900887498 /* art.c in Sources */,
+				7B896CCD1EF91D1900887498 /* pattern.c in Sources */,
 				7BAA86DB1EF9087700D51A94 /* deprecate.c in Sources */,
+				7B896C8B1EF91D1900887498 /* bmp.c in Sources */,
 				7BAA86F01EF9087700D51A94 /* locale.c in Sources */,
 				7BAA86DD1EF9087700D51A94 /* distort.c in Sources */,
+				7B896CE51EF91D1900887498 /* screenshot.c in Sources */,
+				7B896CAE1EF91D1900887498 /* icon.c in Sources */,
+				7B896CE31EF91D1900887498 /* rle.c in Sources */,
+				7B896CB81EF91D1900887498 /* mac.c in Sources */,
+				7B896CF41EF91D1900887498 /* uil.c in Sources */,
 				7BAA86EF1EF9087700D51A94 /* list.c in Sources */,
 				7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */,
+				7B896CFD1EF91D1900887498 /* wmf.c in Sources */,
+				7B896D5D1EF920D300887498 /* pixel-iterator.c in Sources */,
+				7B896D511EF920D300887498 /* import.c in Sources */,
 				7BAA87221EF9087700D51A94 /* utility.c in Sources */,
 				7BAA86E41EF9087700D51A94 /* fourier.c in Sources */,
+				7B896CF71EF91D1900887498 /* vicar.c in Sources */,
+				7B896CD31EF91D1900887498 /* pes.c in Sources */,
 				7BAA86DE1EF9087700D51A94 /* distribute-cache.c in Sources */,
+				7B896CD51EF91D1900887498 /* pict.c in Sources */,
 				7BAA86EA1EF9087700D51A94 /* image-view.c in Sources */,
 				7BAA86FB1EF9087700D51A94 /* mime.c in Sources */,
 				7BAA87141EF9087700D51A94 /* semaphore.c in Sources */,
 				7BAA86D11EF9087600D51A94 /* colormap.c in Sources */,
 				7BAA86F91EF9087700D51A94 /* matrix.c in Sources */,
 				7BAA86C41EF9087600D51A94 /* accelerate.c in Sources */,
+				7B896CA51EF91D1900887498 /* fpx.c in Sources */,
 				7BAA86FF1EF9087700D51A94 /* morphology.c in Sources */,
+				7B896C951EF91D1900887498 /* dcm.c in Sources */,
 				7BAA87201EF9087700D51A94 /* transform.c in Sources */,
+				7B896CE91EF91D1900887498 /* sixel.c in Sources */,
+				7B896D4F1EF920D200887498 /* drawing-wand.c in Sources */,
 				7BAA86CD1EF9087600D51A94 /* cipher.c in Sources */,
 				7BAA87251EF9087700D51A94 /* vision.c in Sources */,
 				7BAA870A1EF9087700D51A94 /* quantize.c in Sources */,
+				7B896CFF1EF91D1900887498 /* x.c in Sources */,
 				7BAA86DF1EF9087700D51A94 /* draw.c in Sources */,
+				7B896CA11EF91D1900887498 /* fax.c in Sources */,
+				7B896C931EF91D1900887498 /* cmyk.c in Sources */,
+				7B896CCF1EF91D1900887498 /* pcl.c in Sources */,
+				7B896CFB1EF91D1900887498 /* wbmp.c in Sources */,
 				7BAA86CF1EF9087600D51A94 /* coder.c in Sources */,
+				7B896D621EF920D300887498 /* wand.c in Sources */,
+				7B896C9C1EF91D1900887498 /* dps.c in Sources */,
+				7B896CC61EF91D1900887498 /* msl.c in Sources */,
+				7B896CAD1EF91D1900887498 /* html.c in Sources */,
+				7B896CA21EF91D1900887498 /* fd.c in Sources */,
+				7B896CB21EF91D1900887498 /* jbig.c in Sources */,
 				7BAA86E51EF9087700D51A94 /* fx.c in Sources */,
+				7B896C8F1EF91D1900887498 /* cin.c in Sources */,
+				7B896CDB1EF91D1900887498 /* ps2.c in Sources */,
 				7BAA86FA1EF9087700D51A94 /* memory.c in Sources */,
 				7BAA87111EF9087700D51A94 /* resize.c in Sources */,
+				7B896CBD1EF91D1900887498 /* mask.c in Sources */,
 				7BAA85A81EF906F800D51A94 /* main.m in Sources */,
+				7B896C941EF91D1900887498 /* cut.c in Sources */,
+				7B896C961EF91D1900887498 /* dds.c in Sources */,
+				7B896C8A1EF91D1900887498 /* bgr.c in Sources */,
+				7B896CAB1EF91D1900887498 /* histogram.c in Sources */,
 				7BAA86D81EF9087700D51A94 /* constitute.c in Sources */,
+				7B896CD11EF91D1900887498 /* pdb.c in Sources */,
+				7B896CF81EF91D1900887498 /* vid.c in Sources */,
+				7B896CA91EF91D1900887498 /* hald.c in Sources */,
+				7B896CD71EF91D1900887498 /* plasma.c in Sources */,
 				7BAA870F1EF9087700D51A94 /* registry.c in Sources */,
 				7BAA87211EF9087700D51A94 /* type.c in Sources */,
 				7BAA86CA1EF9087600D51A94 /* cache-view.c in Sources */,
+				7B896CBF1EF91D1900887498 /* matte.c in Sources */,
 				7BAA871C1EF9087700D51A94 /* thread.c in Sources */,
+				7B896CA81EF91D1900887498 /* gray.c in Sources */,
 				7BAA86E21EF9087700D51A94 /* exception.c in Sources */,
 				7BAA86FE1EF9087700D51A94 /* montage.c in Sources */,
+				7B896D601EF920D300887498 /* stream.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

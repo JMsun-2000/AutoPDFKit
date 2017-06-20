@@ -19,7 +19,7 @@
 #define MAGICKCORE_ANIMATE_PRIVATE_H
 
 #if defined(MAGICKCORE_X11_DELEGATE)
-#include "MagickCore/xwindow-private.h"
+#include "xwindow-private.h"
 #endif
 
 #if defined(__cplusplus) || defined(c_plusplus)
