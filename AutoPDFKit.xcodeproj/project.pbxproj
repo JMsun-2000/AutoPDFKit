@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B896C021EF9121500887498 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B896BFE1EF9106100887498 /* libz.tbd */; };
+		7BAA85A81EF906F800D51A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85A71EF906F800D51A94 /* main.m */; };
+		7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */; };
+		7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AD1EF906F800D51A94 /* ViewController.mm */; };
+		7BAA85B11EF906F800D51A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85AF1EF906F800D51A94 /* Main.storyboard */; };
+		7BAA85B31EF906F800D51A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85B21EF906F800D51A94 /* Assets.xcassets */; };
+		7BAA85B61EF906F800D51A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85B41EF906F800D51A94 /* LaunchScreen.storyboard */; };
+		7BAA86C41EF9087600D51A94 /* accelerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85C11EF9087400D51A94 /* accelerate.c */; };
+		7BAA86C51EF9087600D51A94 /* animate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85C31EF9087400D51A94 /* animate.c */; };
+		7BAA86C61EF9087600D51A94 /* annotate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85C61EF9087400D51A94 /* annotate.c */; };
+		7BAA86C71EF9087600D51A94 /* artifact.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85C81EF9087400D51A94 /* artifact.c */; };
+		7BAA86C81EF9087600D51A94 /* attribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85CA1EF9087400D51A94 /* attribute.c */; };
+		7BAA86C91EF9087600D51A94 /* blob.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85CD1EF9087400D51A94 /* blob.c */; };
+		7BAA86CA1EF9087600D51A94 /* cache-view.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85D01EF9087400D51A94 /* cache-view.c */; };
+		7BAA86CB1EF9087600D51A94 /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85D21EF9087400D51A94 /* cache.c */; };
+		7BAA86CC1EF9087600D51A94 /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85D41EF9087400D51A94 /* channel.c */; };
+		7BAA86CD1EF9087600D51A94 /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85D61EF9087400D51A94 /* cipher.c */; };
+		7BAA86CE1EF9087600D51A94 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85D81EF9087400D51A94 /* client.c */; };
+		7BAA86CF1EF9087600D51A94 /* coder.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85DB1EF9087400D51A94 /* coder.c */; };
+		7BAA86D01EF9087600D51A94 /* color.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85DE1EF9087400D51A94 /* color.c */; };
+		7BAA86D11EF9087600D51A94 /* colormap.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85E11EF9087400D51A94 /* colormap.c */; };
+		7BAA86D21EF9087600D51A94 /* colorspace.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85E41EF9087400D51A94 /* colorspace.c */; };
+		7BAA86D31EF9087600D51A94 /* compare.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85E61EF9087400D51A94 /* compare.c */; };
+		7BAA86D41EF9087600D51A94 /* composite.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85E91EF9087400D51A94 /* composite.c */; };
+		7BAA86D51EF9087600D51A94 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85EB1EF9087400D51A94 /* compress.c */; };
+		7BAA86D61EF9087600D51A94 /* config.h_vms in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85ED1EF9087400D51A94 /* config.h_vms */; };
+		7BAA86D71EF9087700D51A94 /* configure.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85EF1EF9087400D51A94 /* configure.c */; };
+		7BAA86D81EF9087700D51A94 /* constitute.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85F21EF9087400D51A94 /* constitute.c */; };
+		7BAA86D91EF9087700D51A94 /* decorate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85F41EF9087400D51A94 /* decorate.c */; };
+		7BAA86DA1EF9087700D51A94 /* delegate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85F71EF9087400D51A94 /* delegate.c */; };
+		7BAA86DB1EF9087700D51A94 /* deprecate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85F91EF9087400D51A94 /* deprecate.c */; };
+		7BAA86DC1EF9087700D51A94 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85FC1EF9087400D51A94 /* display.c */; };
+		7BAA86DD1EF9087700D51A94 /* distort.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85FE1EF9087400D51A94 /* distort.c */; };
+		7BAA86DE1EF9087700D51A94 /* distribute-cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86011EF9087400D51A94 /* distribute-cache.c */; };
+		7BAA86DF1EF9087700D51A94 /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86041EF9087400D51A94 /* draw.c */; };
+		7BAA86E01EF9087700D51A94 /* effect.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86061EF9087400D51A94 /* effect.c */; };
+		7BAA86E11EF9087700D51A94 /* enhance.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86081EF9087400D51A94 /* enhance.c */; };
+		7BAA86E21EF9087700D51A94 /* exception.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA860B1EF9087400D51A94 /* exception.c */; };
+		7BAA86E31EF9087700D51A94 /* feature.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA860D1EF9087400D51A94 /* feature.c */; };
+		7BAA86E41EF9087700D51A94 /* fourier.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA860F1EF9087400D51A94 /* fourier.c */; };
+		7BAA86E51EF9087700D51A94 /* fx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86121EF9087400D51A94 /* fx.c */; };
+		7BAA86E61EF9087700D51A94 /* gem.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86151EF9087400D51A94 /* gem.c */; };
+		7BAA86E71EF9087700D51A94 /* geometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86171EF9087400D51A94 /* geometry.c */; };
+		7BAA86E81EF9087700D51A94 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86191EF9087400D51A94 /* histogram.c */; };
+		7BAA86E91EF9087700D51A94 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA861B1EF9087400D51A94 /* identify.c */; };
+		7BAA86EA1EF9087700D51A94 /* image-view.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA861E1EF9087400D51A94 /* image-view.c */; };
+		7BAA86EB1EF9087700D51A94 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86201EF9087400D51A94 /* image.c */; };
+		7BAA86EC1EF9087700D51A94 /* ImageMagick.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA86221EF9087400D51A94 /* ImageMagick.pc.in */; };
+		7BAA86ED1EF9087700D51A94 /* layer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86231EF9087400D51A94 /* layer.c */; };
+		7BAA86EE1EF9087700D51A94 /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86261EF9087400D51A94 /* linked-list.c */; };
+		7BAA86EF1EF9087700D51A94 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86281EF9087400D51A94 /* list.c */; };
+		7BAA86F01EF9087700D51A94 /* locale.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA862C1EF9087400D51A94 /* locale.c */; };
+		7BAA86F11EF9087700D51A94 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA862E1EF9087400D51A94 /* log.c */; };
+		7BAA86F21EF9087700D51A94 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86311EF9087500D51A94 /* magic.c */; };
+		7BAA86F31EF9087700D51A94 /* magick.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86371EF9087500D51A94 /* magick.c */; };
+		7BAA86F41EF9087700D51A94 /* MagickCore-config.1 in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA86391EF9087500D51A94 /* MagickCore-config.1 */; };
+		7BAA86F51EF9087700D51A94 /* MagickCore-config.in in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA863A1EF9087500D51A94 /* MagickCore-config.in */; };
+		7BAA86F61EF9087700D51A94 /* MagickCore.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA863C1EF9087500D51A94 /* MagickCore.pc.in */; };
+		7BAA86F71EF9087700D51A94 /* Make.com in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA863D1EF9087500D51A94 /* Make.com */; };
+		7BAA86F81EF9087700D51A94 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA863E1EF9087500D51A94 /* Makefile.am */; };
+		7BAA86F91EF9087700D51A94 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86401EF9087500D51A94 /* matrix.c */; };
+		7BAA86FA1EF9087700D51A94 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86441EF9087500D51A94 /* memory.c */; };
+		7BAA86FB1EF9087700D51A94 /* mime.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86491EF9087500D51A94 /* mime.c */; };
+		7BAA86FC1EF9087700D51A94 /* module.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA864C1EF9087500D51A94 /* module.c */; };
+		7BAA86FD1EF9087700D51A94 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA864F1EF9087500D51A94 /* monitor.c */; };
+		7BAA86FE1EF9087700D51A94 /* montage.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86511EF9087500D51A94 /* montage.c */; };
+		7BAA86FF1EF9087700D51A94 /* morphology.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86541EF9087500D51A94 /* morphology.c */; };
+		7BAA87001EF9087700D51A94 /* nt-base.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86571EF9087500D51A94 /* nt-base.c */; };
+		7BAA87011EF9087700D51A94 /* nt-feature.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86591EF9087500D51A94 /* nt-feature.c */; };
+		7BAA87021EF9087700D51A94 /* opencl.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA865C1EF9087500D51A94 /* opencl.c */; };
+		7BAA87031EF9087700D51A94 /* option.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA865F1EF9087500D51A94 /* option.c */; };
+		7BAA87041EF9087700D51A94 /* paint.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86611EF9087500D51A94 /* paint.c */; };
+		7BAA87051EF9087700D51A94 /* pixel.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86651EF9087500D51A94 /* pixel.c */; };
+		7BAA87061EF9087700D51A94 /* policy.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86681EF9087500D51A94 /* policy.c */; };
+		7BAA87071EF9087700D51A94 /* prepress.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA866A1EF9087500D51A94 /* prepress.c */; };
+		7BAA87081EF9087700D51A94 /* profile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA866D1EF9087500D51A94 /* profile.c */; };
+		7BAA87091EF9087700D51A94 /* property.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA866F1EF9087500D51A94 /* property.c */; };
+		7BAA870A1EF9087700D51A94 /* quantize.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86711EF9087500D51A94 /* quantize.c */; };
+		7BAA870B1EF9087700D51A94 /* quantum-export.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86731EF9087500D51A94 /* quantum-export.c */; };
+		7BAA870C1EF9087700D51A94 /* quantum-import.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86741EF9087500D51A94 /* quantum-import.c */; };
+		7BAA870D1EF9087700D51A94 /* quantum.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86761EF9087500D51A94 /* quantum.c */; };
+		7BAA870E1EF9087700D51A94 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA867B1EF9087500D51A94 /* random.c */; };
+		7BAA870F1EF9087700D51A94 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA867D1EF9087500D51A94 /* registry.c */; };
+		7BAA87101EF9087700D51A94 /* resample.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86801EF9087500D51A94 /* resample.c */; };
+		7BAA87111EF9087700D51A94 /* resize.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86831EF9087500D51A94 /* resize.c */; };
+		7BAA87121EF9087700D51A94 /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86871EF9087500D51A94 /* resource.c */; };
+		7BAA87131EF9087700D51A94 /* segment.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86881EF9087600D51A94 /* segment.c */; };
+		7BAA87141EF9087700D51A94 /* semaphore.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA868B1EF9087600D51A94 /* semaphore.c */; };
+		7BAA87151EF9087700D51A94 /* shear.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA868D1EF9087600D51A94 /* shear.c */; };
+		7BAA87161EF9087700D51A94 /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86901EF9087600D51A94 /* signature.c */; };
+		7BAA87171EF9087700D51A94 /* splay-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86921EF9087600D51A94 /* splay-tree.c */; };
+		7BAA87181EF9087700D51A94 /* static.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86941EF9087600D51A94 /* static.c */; };
+		7BAA87191EF9087700D51A94 /* statistic.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86961EF9087600D51A94 /* statistic.c */; };
+		7BAA871A1EF9087700D51A94 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86991EF9087600D51A94 /* stream.c */; };
+		7BAA871B1EF9087700D51A94 /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA869D1EF9087600D51A94 /* string.c */; };
+		7BAA871C1EF9087700D51A94 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86A11EF9087600D51A94 /* thread.c */; };
+		7BAA871D1EF9087700D51A94 /* threshold.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86A21EF9087600D51A94 /* threshold.c */; };
+		7BAA871E1EF9087700D51A94 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86A41EF9087600D51A94 /* timer.c */; };
+		7BAA871F1EF9087700D51A94 /* token.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86A71EF9087600D51A94 /* token.c */; };
+		7BAA87201EF9087700D51A94 /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86AA1EF9087600D51A94 /* transform.c */; };
+		7BAA87211EF9087700D51A94 /* type.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86AD1EF9087600D51A94 /* type.c */; };
+		7BAA87221EF9087700D51A94 /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86B01EF9087600D51A94 /* utility.c */; };
+		7BAA87231EF9087700D51A94 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86B31EF9087600D51A94 /* version.c */; };
+		7BAA87241EF9087700D51A94 /* version.h_vms in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA86B51EF9087600D51A94 /* version.h_vms */; };
+		7BAA87251EF9087700D51A94 /* vision.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86B61EF9087600D51A94 /* vision.c */; };
+		7BAA87261EF9087700D51A94 /* vms.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86B81EF9087600D51A94 /* vms.c */; };
+		7BAA87271EF9087700D51A94 /* widget.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86BB1EF9087600D51A94 /* widget.c */; };
+		7BAA87281EF9087700D51A94 /* xml-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86BE1EF9087600D51A94 /* xml-tree.c */; };
+		7BAA87291EF9087700D51A94 /* xwdfile.h_vms in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA86C01EF9087600D51A94 /* xwdfile.h_vms */; };
+		7BAA872A1EF9087700D51A94 /* xwindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86C21EF9087600D51A94 /* xwindow.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B896BFE1EF9106100887498 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7B896C001EF910F800887498 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		7BAA85A31EF906F800D51A94 /* AutoPDFKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPDFKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAA85A71EF906F800D51A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BAA85A91EF906F800D51A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		7BAA85AC1EF906F800D51A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BAA85AD1EF906F800D51A94 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		7BAA85B01EF906F800D51A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAA85B21EF906F800D51A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAA85B51EF906F800D51A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BAA85B71EF906F800D51A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAA85BF1EF9087400D51A94 /* accelerate-kernels-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "accelerate-kernels-private.h"; path = "ImageMagick/MagickCore/accelerate-kernels-private.h"; sourceTree = "<group>"; };
+		7BAA85C01EF9087400D51A94 /* accelerate-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "accelerate-private.h"; path = "ImageMagick/MagickCore/accelerate-private.h"; sourceTree = "<group>"; };
+		7BAA85C11EF9087400D51A94 /* accelerate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = accelerate.c; path = ImageMagick/MagickCore/accelerate.c; sourceTree = "<group>"; };
+		7BAA85C21EF9087400D51A94 /* animate-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "animate-private.h"; path = "ImageMagick/MagickCore/animate-private.h"; sourceTree = "<group>"; };
+		7BAA85C31EF9087400D51A94 /* animate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = animate.c; path = ImageMagick/MagickCore/animate.c; sourceTree = "<group>"; };
+		7BAA85C41EF9087400D51A94 /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animate.h; path = ImageMagick/MagickCore/animate.h; sourceTree = "<group>"; };
+		7BAA85C51EF9087400D51A94 /* annotate-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "annotate-private.h"; path = "ImageMagick/MagickCore/annotate-private.h"; sourceTree = "<group>"; };
+		7BAA85C61EF9087400D51A94 /* annotate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = annotate.c; path = ImageMagick/MagickCore/annotate.c; sourceTree = "<group>"; };
+		7BAA85C71EF9087400D51A94 /* annotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annotate.h; path = ImageMagick/MagickCore/annotate.h; sourceTree = "<group>"; };
+		7BAA85C81EF9087400D51A94 /* artifact.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = artifact.c; path = ImageMagick/MagickCore/artifact.c; sourceTree = "<group>"; };
+		7BAA85C91EF9087400D51A94 /* artifact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = artifact.h; path = ImageMagick/MagickCore/artifact.h; sourceTree = "<group>"; };
+		7BAA85CA1EF9087400D51A94 /* attribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = attribute.c; path = ImageMagick/MagickCore/attribute.c; sourceTree = "<group>"; };
+		7BAA85CB1EF9087400D51A94 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = attribute.h; path = ImageMagick/MagickCore/attribute.h; sourceTree = "<group>"; };
+		7BAA85CC1EF9087400D51A94 /* blob-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "blob-private.h"; path = "ImageMagick/MagickCore/blob-private.h"; sourceTree = "<group>"; };
+		7BAA85CD1EF9087400D51A94 /* blob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = blob.c; path = ImageMagick/MagickCore/blob.c; sourceTree = "<group>"; };
+		7BAA85CE1EF9087400D51A94 /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blob.h; path = ImageMagick/MagickCore/blob.h; sourceTree = "<group>"; };
+		7BAA85CF1EF9087400D51A94 /* cache-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "cache-private.h"; path = "ImageMagick/MagickCore/cache-private.h"; sourceTree = "<group>"; };
+		7BAA85D01EF9087400D51A94 /* cache-view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "cache-view.c"; path = "ImageMagick/MagickCore/cache-view.c"; sourceTree = "<group>"; };
+		7BAA85D11EF9087400D51A94 /* cache-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "cache-view.h"; path = "ImageMagick/MagickCore/cache-view.h"; sourceTree = "<group>"; };
+		7BAA85D21EF9087400D51A94 /* cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cache.c; path = ImageMagick/MagickCore/cache.c; sourceTree = "<group>"; };
+		7BAA85D31EF9087400D51A94 /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cache.h; path = ImageMagick/MagickCore/cache.h; sourceTree = "<group>"; };
+		7BAA85D41EF9087400D51A94 /* channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = channel.c; path = ImageMagick/MagickCore/channel.c; sourceTree = "<group>"; };
+		7BAA85D51EF9087400D51A94 /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = channel.h; path = ImageMagick/MagickCore/channel.h; sourceTree = "<group>"; };
+		7BAA85D61EF9087400D51A94 /* cipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cipher.c; path = ImageMagick/MagickCore/cipher.c; sourceTree = "<group>"; };
+		7BAA85D71EF9087400D51A94 /* cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cipher.h; path = ImageMagick/MagickCore/cipher.h; sourceTree = "<group>"; };
+		7BAA85D81EF9087400D51A94 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = client.c; path = ImageMagick/MagickCore/client.c; sourceTree = "<group>"; };
+		7BAA85D91EF9087400D51A94 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = client.h; path = ImageMagick/MagickCore/client.h; sourceTree = "<group>"; };
+		7BAA85DA1EF9087400D51A94 /* coder-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "coder-private.h"; path = "ImageMagick/MagickCore/coder-private.h"; sourceTree = "<group>"; };
+		7BAA85DB1EF9087400D51A94 /* coder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = coder.c; path = ImageMagick/MagickCore/coder.c; sourceTree = "<group>"; };
+		7BAA85DC1EF9087400D51A94 /* coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coder.h; path = ImageMagick/MagickCore/coder.h; sourceTree = "<group>"; };
+		7BAA85DD1EF9087400D51A94 /* color-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "color-private.h"; path = "ImageMagick/MagickCore/color-private.h"; sourceTree = "<group>"; };
+		7BAA85DE1EF9087400D51A94 /* color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = color.c; path = ImageMagick/MagickCore/color.c; sourceTree = "<group>"; };
+		7BAA85DF1EF9087400D51A94 /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = color.h; path = ImageMagick/MagickCore/color.h; sourceTree = "<group>"; };
+		7BAA85E01EF9087400D51A94 /* colormap-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "colormap-private.h"; path = "ImageMagick/MagickCore/colormap-private.h"; sourceTree = "<group>"; };
+		7BAA85E11EF9087400D51A94 /* colormap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = colormap.c; path = ImageMagick/MagickCore/colormap.c; sourceTree = "<group>"; };
+		7BAA85E21EF9087400D51A94 /* colormap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = colormap.h; path = ImageMagick/MagickCore/colormap.h; sourceTree = "<group>"; };
+		7BAA85E31EF9087400D51A94 /* colorspace-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "colorspace-private.h"; path = "ImageMagick/MagickCore/colorspace-private.h"; sourceTree = "<group>"; };
+		7BAA85E41EF9087400D51A94 /* colorspace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = colorspace.c; path = ImageMagick/MagickCore/colorspace.c; sourceTree = "<group>"; };
+		7BAA85E51EF9087400D51A94 /* colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = colorspace.h; path = ImageMagick/MagickCore/colorspace.h; sourceTree = "<group>"; };
+		7BAA85E61EF9087400D51A94 /* compare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compare.c; path = ImageMagick/MagickCore/compare.c; sourceTree = "<group>"; };
+		7BAA85E71EF9087400D51A94 /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compare.h; path = ImageMagick/MagickCore/compare.h; sourceTree = "<group>"; };
+		7BAA85E81EF9087400D51A94 /* composite-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "composite-private.h"; path = "ImageMagick/MagickCore/composite-private.h"; sourceTree = "<group>"; };
+		7BAA85E91EF9087400D51A94 /* composite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = composite.c; path = ImageMagick/MagickCore/composite.c; sourceTree = "<group>"; };
+		7BAA85EA1EF9087400D51A94 /* composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = composite.h; path = ImageMagick/MagickCore/composite.h; sourceTree = "<group>"; };
+		7BAA85EB1EF9087400D51A94 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = ImageMagick/MagickCore/compress.c; sourceTree = "<group>"; };
+		7BAA85EC1EF9087400D51A94 /* compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compress.h; path = ImageMagick/MagickCore/compress.h; sourceTree = "<group>"; };
+		7BAA85ED1EF9087400D51A94 /* config.h_vms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.h_vms; path = ImageMagick/MagickCore/config.h_vms; sourceTree = "<group>"; };
+		7BAA85EE1EF9087400D51A94 /* configure-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "configure-private.h"; path = "ImageMagick/MagickCore/configure-private.h"; sourceTree = "<group>"; };
+		7BAA85EF1EF9087400D51A94 /* configure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = configure.c; path = ImageMagick/MagickCore/configure.c; sourceTree = "<group>"; };
+		7BAA85F01EF9087400D51A94 /* configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = configure.h; path = ImageMagick/MagickCore/configure.h; sourceTree = "<group>"; };
+		7BAA85F11EF9087400D51A94 /* constitute-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "constitute-private.h"; path = "ImageMagick/MagickCore/constitute-private.h"; sourceTree = "<group>"; };
+		7BAA85F21EF9087400D51A94 /* constitute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constitute.c; path = ImageMagick/MagickCore/constitute.c; sourceTree = "<group>"; };
+		7BAA85F31EF9087400D51A94 /* constitute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constitute.h; path = ImageMagick/MagickCore/constitute.h; sourceTree = "<group>"; };
+		7BAA85F41EF9087400D51A94 /* decorate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decorate.c; path = ImageMagick/MagickCore/decorate.c; sourceTree = "<group>"; };
+		7BAA85F51EF9087400D51A94 /* decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decorate.h; path = ImageMagick/MagickCore/decorate.h; sourceTree = "<group>"; };
+		7BAA85F61EF9087400D51A94 /* delegate-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "delegate-private.h"; path = "ImageMagick/MagickCore/delegate-private.h"; sourceTree = "<group>"; };
+		7BAA85F71EF9087400D51A94 /* delegate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = delegate.c; path = ImageMagick/MagickCore/delegate.c; sourceTree = "<group>"; };
+		7BAA85F81EF9087400D51A94 /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = delegate.h; path = ImageMagick/MagickCore/delegate.h; sourceTree = "<group>"; };
+		7BAA85F91EF9087400D51A94 /* deprecate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deprecate.c; path = ImageMagick/MagickCore/deprecate.c; sourceTree = "<group>"; };
+		7BAA85FA1EF9087400D51A94 /* deprecate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deprecate.h; path = ImageMagick/MagickCore/deprecate.h; sourceTree = "<group>"; };
+		7BAA85FB1EF9087400D51A94 /* display-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "display-private.h"; path = "ImageMagick/MagickCore/display-private.h"; sourceTree = "<group>"; };
+		7BAA85FC1EF9087400D51A94 /* display.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = display.c; path = ImageMagick/MagickCore/display.c; sourceTree = "<group>"; };
+		7BAA85FD1EF9087400D51A94 /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = display.h; path = ImageMagick/MagickCore/display.h; sourceTree = "<group>"; };
+		7BAA85FE1EF9087400D51A94 /* distort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = distort.c; path = ImageMagick/MagickCore/distort.c; sourceTree = "<group>"; };
+		7BAA85FF1EF9087400D51A94 /* distort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = distort.h; path = ImageMagick/MagickCore/distort.h; sourceTree = "<group>"; };
+		7BAA86001EF9087400D51A94 /* distribute-cache-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "distribute-cache-private.h"; path = "ImageMagick/MagickCore/distribute-cache-private.h"; sourceTree = "<group>"; };
+		7BAA86011EF9087400D51A94 /* distribute-cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "distribute-cache.c"; path = "ImageMagick/MagickCore/distribute-cache.c"; sourceTree = "<group>"; };
+		7BAA86021EF9087400D51A94 /* distribute-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "distribute-cache.h"; path = "ImageMagick/MagickCore/distribute-cache.h"; sourceTree = "<group>"; };
+		7BAA86031EF9087400D51A94 /* draw-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "draw-private.h"; path = "ImageMagick/MagickCore/draw-private.h"; sourceTree = "<group>"; };
+		7BAA86041EF9087400D51A94 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = draw.c; path = ImageMagick/MagickCore/draw.c; sourceTree = "<group>"; };
+		7BAA86051EF9087400D51A94 /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = draw.h; path = ImageMagick/MagickCore/draw.h; sourceTree = "<group>"; };
+		7BAA86061EF9087400D51A94 /* effect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effect.c; path = ImageMagick/MagickCore/effect.c; sourceTree = "<group>"; };
+		7BAA86071EF9087400D51A94 /* effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effect.h; path = ImageMagick/MagickCore/effect.h; sourceTree = "<group>"; };
+		7BAA86081EF9087400D51A94 /* enhance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = enhance.c; path = ImageMagick/MagickCore/enhance.c; sourceTree = "<group>"; };
+		7BAA86091EF9087400D51A94 /* enhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = enhance.h; path = ImageMagick/MagickCore/enhance.h; sourceTree = "<group>"; };
+		7BAA860A1EF9087400D51A94 /* exception-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "exception-private.h"; path = "ImageMagick/MagickCore/exception-private.h"; sourceTree = "<group>"; };
+		7BAA860B1EF9087400D51A94 /* exception.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exception.c; path = ImageMagick/MagickCore/exception.c; sourceTree = "<group>"; };
+		7BAA860C1EF9087400D51A94 /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = exception.h; path = ImageMagick/MagickCore/exception.h; sourceTree = "<group>"; };
+		7BAA860D1EF9087400D51A94 /* feature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = feature.c; path = ImageMagick/MagickCore/feature.c; sourceTree = "<group>"; };
+		7BAA860E1EF9087400D51A94 /* feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = feature.h; path = ImageMagick/MagickCore/feature.h; sourceTree = "<group>"; };
+		7BAA860F1EF9087400D51A94 /* fourier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fourier.c; path = ImageMagick/MagickCore/fourier.c; sourceTree = "<group>"; };
+		7BAA86101EF9087400D51A94 /* fourier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fourier.h; path = ImageMagick/MagickCore/fourier.h; sourceTree = "<group>"; };
+		7BAA86111EF9087400D51A94 /* fx-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "fx-private.h"; path = "ImageMagick/MagickCore/fx-private.h"; sourceTree = "<group>"; };
+		7BAA86121EF9087400D51A94 /* fx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fx.c; path = ImageMagick/MagickCore/fx.c; sourceTree = "<group>"; };
+		7BAA86131EF9087400D51A94 /* fx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fx.h; path = ImageMagick/MagickCore/fx.h; sourceTree = "<group>"; };
+		7BAA86141EF9087400D51A94 /* gem-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "gem-private.h"; path = "ImageMagick/MagickCore/gem-private.h"; sourceTree = "<group>"; };
+		7BAA86151EF9087400D51A94 /* gem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gem.c; path = ImageMagick/MagickCore/gem.c; sourceTree = "<group>"; };
+		7BAA86161EF9087400D51A94 /* gem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gem.h; path = ImageMagick/MagickCore/gem.h; sourceTree = "<group>"; };
+		7BAA86171EF9087400D51A94 /* geometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = geometry.c; path = ImageMagick/MagickCore/geometry.c; sourceTree = "<group>"; };
+		7BAA86181EF9087400D51A94 /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geometry.h; path = ImageMagick/MagickCore/geometry.h; sourceTree = "<group>"; };
+		7BAA86191EF9087400D51A94 /* histogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = histogram.c; path = ImageMagick/MagickCore/histogram.c; sourceTree = "<group>"; };
+		7BAA861A1EF9087400D51A94 /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = histogram.h; path = ImageMagick/MagickCore/histogram.h; sourceTree = "<group>"; };
+		7BAA861B1EF9087400D51A94 /* identify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = identify.c; path = ImageMagick/MagickCore/identify.c; sourceTree = "<group>"; };
+		7BAA861C1EF9087400D51A94 /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = identify.h; path = ImageMagick/MagickCore/identify.h; sourceTree = "<group>"; };
+		7BAA861D1EF9087400D51A94 /* image-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "image-private.h"; path = "ImageMagick/MagickCore/image-private.h"; sourceTree = "<group>"; };
+		7BAA861E1EF9087400D51A94 /* image-view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "image-view.c"; path = "ImageMagick/MagickCore/image-view.c"; sourceTree = "<group>"; };
+		7BAA861F1EF9087400D51A94 /* image-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "image-view.h"; path = "ImageMagick/MagickCore/image-view.h"; sourceTree = "<group>"; };
+		7BAA86201EF9087400D51A94 /* image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = image.c; path = ImageMagick/MagickCore/image.c; sourceTree = "<group>"; };
+		7BAA86211EF9087400D51A94 /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = image.h; path = ImageMagick/MagickCore/image.h; sourceTree = "<group>"; };
+		7BAA86221EF9087400D51A94 /* ImageMagick.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ImageMagick.pc.in; path = ImageMagick/MagickCore/ImageMagick.pc.in; sourceTree = "<group>"; };
+		7BAA86231EF9087400D51A94 /* layer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = layer.c; path = ImageMagick/MagickCore/layer.c; sourceTree = "<group>"; };
+		7BAA86241EF9087400D51A94 /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = layer.h; path = ImageMagick/MagickCore/layer.h; sourceTree = "<group>"; };
+		7BAA86251EF9087400D51A94 /* libMagickCore.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = libMagickCore.map; path = ImageMagick/MagickCore/libMagickCore.map; sourceTree = "<group>"; };
+		7BAA86261EF9087400D51A94 /* linked-list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "linked-list.c"; path = "ImageMagick/MagickCore/linked-list.c"; sourceTree = "<group>"; };
+		7BAA86271EF9087400D51A94 /* linked-list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "linked-list.h"; path = "ImageMagick/MagickCore/linked-list.h"; sourceTree = "<group>"; };
+		7BAA86281EF9087400D51A94 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = list.c; path = ImageMagick/MagickCore/list.c; sourceTree = "<group>"; };
+		7BAA86291EF9087400D51A94 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = list.h; path = ImageMagick/MagickCore/list.h; sourceTree = "<group>"; };
+		7BAA862A1EF9087400D51A94 /* locale_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = locale_.h; path = ImageMagick/MagickCore/locale_.h; sourceTree = "<group>"; };
+		7BAA862B1EF9087400D51A94 /* locale-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "locale-private.h"; path = "ImageMagick/MagickCore/locale-private.h"; sourceTree = "<group>"; };
+		7BAA862C1EF9087400D51A94 /* locale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = locale.c; path = ImageMagick/MagickCore/locale.c; sourceTree = "<group>"; };
+		7BAA862D1EF9087400D51A94 /* log-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "log-private.h"; path = "ImageMagick/MagickCore/log-private.h"; sourceTree = "<group>"; };
+		7BAA862E1EF9087400D51A94 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log.c; path = ImageMagick/MagickCore/log.c; sourceTree = "<group>"; };
+		7BAA862F1EF9087500D51A94 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = log.h; path = ImageMagick/MagickCore/log.h; sourceTree = "<group>"; };
+		7BAA86301EF9087500D51A94 /* magic-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magic-private.h"; path = "ImageMagick/MagickCore/magic-private.h"; sourceTree = "<group>"; };
+		7BAA86311EF9087500D51A94 /* magic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = magic.c; path = ImageMagick/MagickCore/magic.c; sourceTree = "<group>"; };
+		7BAA86321EF9087500D51A94 /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = magic.h; path = ImageMagick/MagickCore/magic.h; sourceTree = "<group>"; };
+		7BAA86331EF9087500D51A94 /* magick-baseconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-baseconfig.h"; path = "ImageMagick/MagickCore/magick-baseconfig.h"; sourceTree = "<group>"; };
+		7BAA86341EF9087500D51A94 /* magick-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-config.h"; path = "ImageMagick/MagickCore/magick-config.h"; sourceTree = "<group>"; };
+		7BAA86351EF9087500D51A94 /* magick-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-private.h"; path = "ImageMagick/MagickCore/magick-private.h"; sourceTree = "<group>"; };
+		7BAA86361EF9087500D51A94 /* magick-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "magick-type.h"; path = "ImageMagick/MagickCore/magick-type.h"; sourceTree = "<group>"; };
+		7BAA86371EF9087500D51A94 /* magick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = magick.c; path = ImageMagick/MagickCore/magick.c; sourceTree = "<group>"; };
+		7BAA86381EF9087500D51A94 /* magick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = magick.h; path = ImageMagick/MagickCore/magick.h; sourceTree = "<group>"; };
+		7BAA86391EF9087500D51A94 /* MagickCore-config.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = "MagickCore-config.1"; path = "ImageMagick/MagickCore/MagickCore-config.1"; sourceTree = "<group>"; };
+		7BAA863A1EF9087500D51A94 /* MagickCore-config.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "MagickCore-config.in"; path = "ImageMagick/MagickCore/MagickCore-config.in"; sourceTree = "<group>"; };
+		7BAA863B1EF9087500D51A94 /* MagickCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagickCore.h; path = ImageMagick/MagickCore/MagickCore.h; sourceTree = "<group>"; };
+		7BAA863C1EF9087500D51A94 /* MagickCore.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MagickCore.pc.in; path = ImageMagick/MagickCore/MagickCore.pc.in; sourceTree = "<group>"; };
+		7BAA863D1EF9087500D51A94 /* Make.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Make.com; path = ImageMagick/MagickCore/Make.com; sourceTree = "<group>"; };
+		7BAA863E1EF9087500D51A94 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.am; path = ImageMagick/MagickCore/Makefile.am; sourceTree = "<group>"; };
+		7BAA863F1EF9087500D51A94 /* matrix-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "matrix-private.h"; path = "ImageMagick/MagickCore/matrix-private.h"; sourceTree = "<group>"; };
+		7BAA86401EF9087500D51A94 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = matrix.c; path = ImageMagick/MagickCore/matrix.c; sourceTree = "<group>"; };
+		7BAA86411EF9087500D51A94 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = ImageMagick/MagickCore/matrix.h; sourceTree = "<group>"; };
+		7BAA86421EF9087500D51A94 /* memory_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memory_.h; path = ImageMagick/MagickCore/memory_.h; sourceTree = "<group>"; };
+		7BAA86431EF9087500D51A94 /* memory-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "memory-private.h"; path = "ImageMagick/MagickCore/memory-private.h"; sourceTree = "<group>"; };
+		7BAA86441EF9087500D51A94 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memory.c; path = ImageMagick/MagickCore/memory.c; sourceTree = "<group>"; };
+		7BAA86451EF9087500D51A94 /* method-attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "method-attribute.h"; path = "ImageMagick/MagickCore/method-attribute.h"; sourceTree = "<group>"; };
+		7BAA86461EF9087500D51A94 /* methods-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "methods-private.h"; path = "ImageMagick/MagickCore/methods-private.h"; sourceTree = "<group>"; };
+		7BAA86471EF9087500D51A94 /* methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = methods.h; path = ImageMagick/MagickCore/methods.h; sourceTree = "<group>"; };
+		7BAA86481EF9087500D51A94 /* mime-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "mime-private.h"; path = "ImageMagick/MagickCore/mime-private.h"; sourceTree = "<group>"; };
+		7BAA86491EF9087500D51A94 /* mime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mime.c; path = ImageMagick/MagickCore/mime.c; sourceTree = "<group>"; };
+		7BAA864A1EF9087500D51A94 /* mime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mime.h; path = ImageMagick/MagickCore/mime.h; sourceTree = "<group>"; };
+		7BAA864B1EF9087500D51A94 /* module-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "module-private.h"; path = "ImageMagick/MagickCore/module-private.h"; sourceTree = "<group>"; };
+		7BAA864C1EF9087500D51A94 /* module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = module.c; path = ImageMagick/MagickCore/module.c; sourceTree = "<group>"; };
+		7BAA864D1EF9087500D51A94 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = module.h; path = ImageMagick/MagickCore/module.h; sourceTree = "<group>"; };
+		7BAA864E1EF9087500D51A94 /* monitor-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "monitor-private.h"; path = "ImageMagick/MagickCore/monitor-private.h"; sourceTree = "<group>"; };
+		7BAA864F1EF9087500D51A94 /* monitor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = monitor.c; path = ImageMagick/MagickCore/monitor.c; sourceTree = "<group>"; };
+		7BAA86501EF9087500D51A94 /* monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = monitor.h; path = ImageMagick/MagickCore/monitor.h; sourceTree = "<group>"; };
+		7BAA86511EF9087500D51A94 /* montage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = montage.c; path = ImageMagick/MagickCore/montage.c; sourceTree = "<group>"; };
+		7BAA86521EF9087500D51A94 /* montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = montage.h; path = ImageMagick/MagickCore/montage.h; sourceTree = "<group>"; };
+		7BAA86531EF9087500D51A94 /* morphology-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "morphology-private.h"; path = "ImageMagick/MagickCore/morphology-private.h"; sourceTree = "<group>"; };
+		7BAA86541EF9087500D51A94 /* morphology.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = morphology.c; path = ImageMagick/MagickCore/morphology.c; sourceTree = "<group>"; };
+		7BAA86551EF9087500D51A94 /* morphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = morphology.h; path = ImageMagick/MagickCore/morphology.h; sourceTree = "<group>"; };
+		7BAA86561EF9087500D51A94 /* nt-base-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "nt-base-private.h"; path = "ImageMagick/MagickCore/nt-base-private.h"; sourceTree = "<group>"; };
+		7BAA86571EF9087500D51A94 /* nt-base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "nt-base.c"; path = "ImageMagick/MagickCore/nt-base.c"; sourceTree = "<group>"; };
+		7BAA86581EF9087500D51A94 /* nt-base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "nt-base.h"; path = "ImageMagick/MagickCore/nt-base.h"; sourceTree = "<group>"; };
+		7BAA86591EF9087500D51A94 /* nt-feature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "nt-feature.c"; path = "ImageMagick/MagickCore/nt-feature.c"; sourceTree = "<group>"; };
+		7BAA865A1EF9087500D51A94 /* nt-feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "nt-feature.h"; path = "ImageMagick/MagickCore/nt-feature.h"; sourceTree = "<group>"; };
+		7BAA865B1EF9087500D51A94 /* opencl-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "opencl-private.h"; path = "ImageMagick/MagickCore/opencl-private.h"; sourceTree = "<group>"; };
+		7BAA865C1EF9087500D51A94 /* opencl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = opencl.c; path = ImageMagick/MagickCore/opencl.c; sourceTree = "<group>"; };
+		7BAA865D1EF9087500D51A94 /* opencl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opencl.h; path = ImageMagick/MagickCore/opencl.h; sourceTree = "<group>"; };
+		7BAA865E1EF9087500D51A94 /* option-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "option-private.h"; path = "ImageMagick/MagickCore/option-private.h"; sourceTree = "<group>"; };
+		7BAA865F1EF9087500D51A94 /* option.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = option.c; path = ImageMagick/MagickCore/option.c; sourceTree = "<group>"; };
+		7BAA86601EF9087500D51A94 /* option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = option.h; path = ImageMagick/MagickCore/option.h; sourceTree = "<group>"; };
+		7BAA86611EF9087500D51A94 /* paint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = paint.c; path = ImageMagick/MagickCore/paint.c; sourceTree = "<group>"; };
+		7BAA86621EF9087500D51A94 /* paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = paint.h; path = ImageMagick/MagickCore/paint.h; sourceTree = "<group>"; };
+		7BAA86631EF9087500D51A94 /* pixel-accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pixel-accessor.h"; path = "ImageMagick/MagickCore/pixel-accessor.h"; sourceTree = "<group>"; };
+		7BAA86641EF9087500D51A94 /* pixel-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "pixel-private.h"; path = "ImageMagick/MagickCore/pixel-private.h"; sourceTree = "<group>"; };
+		7BAA86651EF9087500D51A94 /* pixel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pixel.c; path = ImageMagick/MagickCore/pixel.c; sourceTree = "<group>"; };
+		7BAA86661EF9087500D51A94 /* pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pixel.h; path = ImageMagick/MagickCore/pixel.h; sourceTree = "<group>"; };
+		7BAA86671EF9087500D51A94 /* policy-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "policy-private.h"; path = "ImageMagick/MagickCore/policy-private.h"; sourceTree = "<group>"; };
+		7BAA86681EF9087500D51A94 /* policy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = policy.c; path = ImageMagick/MagickCore/policy.c; sourceTree = "<group>"; };
+		7BAA86691EF9087500D51A94 /* policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = policy.h; path = ImageMagick/MagickCore/policy.h; sourceTree = "<group>"; };
+		7BAA866A1EF9087500D51A94 /* prepress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prepress.c; path = ImageMagick/MagickCore/prepress.c; sourceTree = "<group>"; };
+		7BAA866B1EF9087500D51A94 /* prepress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prepress.h; path = ImageMagick/MagickCore/prepress.h; sourceTree = "<group>"; };
+		7BAA866C1EF9087500D51A94 /* profile-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "profile-private.h"; path = "ImageMagick/MagickCore/profile-private.h"; sourceTree = "<group>"; };
+		7BAA866D1EF9087500D51A94 /* profile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = profile.c; path = ImageMagick/MagickCore/profile.c; sourceTree = "<group>"; };
+		7BAA866E1EF9087500D51A94 /* profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = profile.h; path = ImageMagick/MagickCore/profile.h; sourceTree = "<group>"; };
+		7BAA866F1EF9087500D51A94 /* property.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = property.c; path = ImageMagick/MagickCore/property.c; sourceTree = "<group>"; };
+		7BAA86701EF9087500D51A94 /* property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = property.h; path = ImageMagick/MagickCore/property.h; sourceTree = "<group>"; };
+		7BAA86711EF9087500D51A94 /* quantize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quantize.c; path = ImageMagick/MagickCore/quantize.c; sourceTree = "<group>"; };
+		7BAA86721EF9087500D51A94 /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quantize.h; path = ImageMagick/MagickCore/quantize.h; sourceTree = "<group>"; };
+		7BAA86731EF9087500D51A94 /* quantum-export.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "quantum-export.c"; path = "ImageMagick/MagickCore/quantum-export.c"; sourceTree = "<group>"; };
+		7BAA86741EF9087500D51A94 /* quantum-import.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "quantum-import.c"; path = "ImageMagick/MagickCore/quantum-import.c"; sourceTree = "<group>"; };
+		7BAA86751EF9087500D51A94 /* quantum-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "quantum-private.h"; path = "ImageMagick/MagickCore/quantum-private.h"; sourceTree = "<group>"; };
+		7BAA86761EF9087500D51A94 /* quantum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quantum.c; path = ImageMagick/MagickCore/quantum.c; sourceTree = "<group>"; };
+		7BAA86771EF9087500D51A94 /* quantum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quantum.h; path = ImageMagick/MagickCore/quantum.h; sourceTree = "<group>"; };
+		7BAA86781EF9087500D51A94 /* random_-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "random_-private.h"; path = "ImageMagick/MagickCore/random_-private.h"; sourceTree = "<group>"; };
+		7BAA86791EF9087500D51A94 /* random_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = random_.h; path = ImageMagick/MagickCore/random_.h; sourceTree = "<group>"; };
+		7BAA867A1EF9087500D51A94 /* random-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "random-private.h"; path = "ImageMagick/MagickCore/random-private.h"; sourceTree = "<group>"; };
+		7BAA867B1EF9087500D51A94 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = random.c; path = ImageMagick/MagickCore/random.c; sourceTree = "<group>"; };
+		7BAA867C1EF9087500D51A94 /* registry-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "registry-private.h"; path = "ImageMagick/MagickCore/registry-private.h"; sourceTree = "<group>"; };
+		7BAA867D1EF9087500D51A94 /* registry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = registry.c; path = ImageMagick/MagickCore/registry.c; sourceTree = "<group>"; };
+		7BAA867E1EF9087500D51A94 /* registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registry.h; path = ImageMagick/MagickCore/registry.h; sourceTree = "<group>"; };
+		7BAA867F1EF9087500D51A94 /* resample-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "resample-private.h"; path = "ImageMagick/MagickCore/resample-private.h"; sourceTree = "<group>"; };
+		7BAA86801EF9087500D51A94 /* resample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resample.c; path = ImageMagick/MagickCore/resample.c; sourceTree = "<group>"; };
+		7BAA86811EF9087500D51A94 /* resample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resample.h; path = ImageMagick/MagickCore/resample.h; sourceTree = "<group>"; };
+		7BAA86821EF9087500D51A94 /* resize-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "resize-private.h"; path = "ImageMagick/MagickCore/resize-private.h"; sourceTree = "<group>"; };
+		7BAA86831EF9087500D51A94 /* resize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resize.c; path = ImageMagick/MagickCore/resize.c; sourceTree = "<group>"; };
+		7BAA86841EF9087500D51A94 /* resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resize.h; path = ImageMagick/MagickCore/resize.h; sourceTree = "<group>"; };
+		7BAA86851EF9087500D51A94 /* resource_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource_.h; path = ImageMagick/MagickCore/resource_.h; sourceTree = "<group>"; };
+		7BAA86861EF9087500D51A94 /* resource-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "resource-private.h"; path = "ImageMagick/MagickCore/resource-private.h"; sourceTree = "<group>"; };
+		7BAA86871EF9087500D51A94 /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resource.c; path = ImageMagick/MagickCore/resource.c; sourceTree = "<group>"; };
+		7BAA86881EF9087600D51A94 /* segment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = segment.c; path = ImageMagick/MagickCore/segment.c; sourceTree = "<group>"; };
+		7BAA86891EF9087600D51A94 /* segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = segment.h; path = ImageMagick/MagickCore/segment.h; sourceTree = "<group>"; };
+		7BAA868A1EF9087600D51A94 /* semaphore-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "semaphore-private.h"; path = "ImageMagick/MagickCore/semaphore-private.h"; sourceTree = "<group>"; };
+		7BAA868B1EF9087600D51A94 /* semaphore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = semaphore.c; path = ImageMagick/MagickCore/semaphore.c; sourceTree = "<group>"; };
+		7BAA868C1EF9087600D51A94 /* semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = semaphore.h; path = ImageMagick/MagickCore/semaphore.h; sourceTree = "<group>"; };
+		7BAA868D1EF9087600D51A94 /* shear.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shear.c; path = ImageMagick/MagickCore/shear.c; sourceTree = "<group>"; };
+		7BAA868E1EF9087600D51A94 /* shear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shear.h; path = ImageMagick/MagickCore/shear.h; sourceTree = "<group>"; };
+		7BAA868F1EF9087600D51A94 /* signature-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "signature-private.h"; path = "ImageMagick/MagickCore/signature-private.h"; sourceTree = "<group>"; };
+		7BAA86901EF9087600D51A94 /* signature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signature.c; path = ImageMagick/MagickCore/signature.c; sourceTree = "<group>"; };
+		7BAA86911EF9087600D51A94 /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = signature.h; path = ImageMagick/MagickCore/signature.h; sourceTree = "<group>"; };
+		7BAA86921EF9087600D51A94 /* splay-tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "splay-tree.c"; path = "ImageMagick/MagickCore/splay-tree.c"; sourceTree = "<group>"; };
+		7BAA86931EF9087600D51A94 /* splay-tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "splay-tree.h"; path = "ImageMagick/MagickCore/splay-tree.h"; sourceTree = "<group>"; };
+		7BAA86941EF9087600D51A94 /* static.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = static.c; path = ImageMagick/MagickCore/static.c; sourceTree = "<group>"; };
+		7BAA86951EF9087600D51A94 /* static.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = static.h; path = ImageMagick/MagickCore/static.h; sourceTree = "<group>"; };
+		7BAA86961EF9087600D51A94 /* statistic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = statistic.c; path = ImageMagick/MagickCore/statistic.c; sourceTree = "<group>"; };
+		7BAA86971EF9087600D51A94 /* statistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statistic.h; path = ImageMagick/MagickCore/statistic.h; sourceTree = "<group>"; };
+		7BAA86981EF9087600D51A94 /* stream-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "stream-private.h"; path = "ImageMagick/MagickCore/stream-private.h"; sourceTree = "<group>"; };
+		7BAA86991EF9087600D51A94 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stream.c; path = ImageMagick/MagickCore/stream.c; sourceTree = "<group>"; };
+		7BAA869A1EF9087600D51A94 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stream.h; path = ImageMagick/MagickCore/stream.h; sourceTree = "<group>"; };
+		7BAA869B1EF9087600D51A94 /* string_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = string_.h; path = ImageMagick/MagickCore/string_.h; sourceTree = "<group>"; };
+		7BAA869C1EF9087600D51A94 /* string-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "string-private.h"; path = "ImageMagick/MagickCore/string-private.h"; sourceTree = "<group>"; };
+		7BAA869D1EF9087600D51A94 /* string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = string.c; path = ImageMagick/MagickCore/string.c; sourceTree = "<group>"; };
+		7BAA869E1EF9087600D51A94 /* studio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = studio.h; path = ImageMagick/MagickCore/studio.h; sourceTree = "<group>"; };
+		7BAA869F1EF9087600D51A94 /* thread_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thread_.h; path = ImageMagick/MagickCore/thread_.h; sourceTree = "<group>"; };
+		7BAA86A01EF9087600D51A94 /* thread-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "thread-private.h"; path = "ImageMagick/MagickCore/thread-private.h"; sourceTree = "<group>"; };
+		7BAA86A11EF9087600D51A94 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thread.c; path = ImageMagick/MagickCore/thread.c; sourceTree = "<group>"; };
+		7BAA86A21EF9087600D51A94 /* threshold.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = threshold.c; path = ImageMagick/MagickCore/threshold.c; sourceTree = "<group>"; };
+		7BAA86A31EF9087600D51A94 /* threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = threshold.h; path = ImageMagick/MagickCore/threshold.h; sourceTree = "<group>"; };
+		7BAA86A41EF9087600D51A94 /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timer.c; path = ImageMagick/MagickCore/timer.c; sourceTree = "<group>"; };
+		7BAA86A51EF9087600D51A94 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timer.h; path = ImageMagick/MagickCore/timer.h; sourceTree = "<group>"; };
+		7BAA86A61EF9087600D51A94 /* token-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "token-private.h"; path = "ImageMagick/MagickCore/token-private.h"; sourceTree = "<group>"; };
+		7BAA86A71EF9087600D51A94 /* token.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = token.c; path = ImageMagick/MagickCore/token.c; sourceTree = "<group>"; };
+		7BAA86A81EF9087600D51A94 /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = token.h; path = ImageMagick/MagickCore/token.h; sourceTree = "<group>"; };
+		7BAA86A91EF9087600D51A94 /* transform-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "transform-private.h"; path = "ImageMagick/MagickCore/transform-private.h"; sourceTree = "<group>"; };
+		7BAA86AA1EF9087600D51A94 /* transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transform.c; path = ImageMagick/MagickCore/transform.c; sourceTree = "<group>"; };
+		7BAA86AB1EF9087600D51A94 /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transform.h; path = ImageMagick/MagickCore/transform.h; sourceTree = "<group>"; };
+		7BAA86AC1EF9087600D51A94 /* type-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "type-private.h"; path = "ImageMagick/MagickCore/type-private.h"; sourceTree = "<group>"; };
+		7BAA86AD1EF9087600D51A94 /* type.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = type.c; path = ImageMagick/MagickCore/type.c; sourceTree = "<group>"; };
+		7BAA86AE1EF9087600D51A94 /* type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = type.h; path = ImageMagick/MagickCore/type.h; sourceTree = "<group>"; };
+		7BAA86AF1EF9087600D51A94 /* utility-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "utility-private.h"; path = "ImageMagick/MagickCore/utility-private.h"; sourceTree = "<group>"; };
+		7BAA86B01EF9087600D51A94 /* utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utility.c; path = ImageMagick/MagickCore/utility.c; sourceTree = "<group>"; };
+		7BAA86B11EF9087600D51A94 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utility.h; path = ImageMagick/MagickCore/utility.h; sourceTree = "<group>"; };
+		7BAA86B21EF9087600D51A94 /* version-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "version-private.h"; path = "ImageMagick/MagickCore/version-private.h"; sourceTree = "<group>"; };
+		7BAA86B31EF9087600D51A94 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = ImageMagick/MagickCore/version.c; sourceTree = "<group>"; };
+		7BAA86B41EF9087600D51A94 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ImageMagick/MagickCore/version.h; sourceTree = "<group>"; };
+		7BAA86B51EF9087600D51A94 /* version.h_vms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version.h_vms; path = ImageMagick/MagickCore/version.h_vms; sourceTree = "<group>"; };
+		7BAA86B61EF9087600D51A94 /* vision.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vision.c; path = ImageMagick/MagickCore/vision.c; sourceTree = "<group>"; };
+		7BAA86B71EF9087600D51A94 /* vision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vision.h; path = ImageMagick/MagickCore/vision.h; sourceTree = "<group>"; };
+		7BAA86B81EF9087600D51A94 /* vms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vms.c; path = ImageMagick/MagickCore/vms.c; sourceTree = "<group>"; };
+		7BAA86B91EF9087600D51A94 /* vms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vms.h; path = ImageMagick/MagickCore/vms.h; sourceTree = "<group>"; };
+		7BAA86BA1EF9087600D51A94 /* widget-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "widget-private.h"; path = "ImageMagick/MagickCore/widget-private.h"; sourceTree = "<group>"; };
+		7BAA86BB1EF9087600D51A94 /* widget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = widget.c; path = ImageMagick/MagickCore/widget.c; sourceTree = "<group>"; };
+		7BAA86BC1EF9087600D51A94 /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = widget.h; path = ImageMagick/MagickCore/widget.h; sourceTree = "<group>"; };
+		7BAA86BD1EF9087600D51A94 /* xml-tree-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "xml-tree-private.h"; path = "ImageMagick/MagickCore/xml-tree-private.h"; sourceTree = "<group>"; };
+		7BAA86BE1EF9087600D51A94 /* xml-tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "xml-tree.c"; path = "ImageMagick/MagickCore/xml-tree.c"; sourceTree = "<group>"; };
+		7BAA86BF1EF9087600D51A94 /* xml-tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "xml-tree.h"; path = "ImageMagick/MagickCore/xml-tree.h"; sourceTree = "<group>"; };
+		7BAA86C01EF9087600D51A94 /* xwdfile.h_vms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = xwdfile.h_vms; path = ImageMagick/MagickCore/xwdfile.h_vms; sourceTree = "<group>"; };
+		7BAA86C11EF9087600D51A94 /* xwindow-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "xwindow-private.h"; path = "ImageMagick/MagickCore/xwindow-private.h"; sourceTree = "<group>"; };
+		7BAA86C21EF9087600D51A94 /* xwindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xwindow.c; path = ImageMagick/MagickCore/xwindow.c; sourceTree = "<group>"; };
+		7BAA86C31EF9087600D51A94 /* xwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xwindow.h; path = ImageMagick/MagickCore/xwindow.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAA85A01EF906F800D51A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B896C021EF9121500887498 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B896BFD1EF9106000887498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B896C001EF910F800887498 /* libz.1.2.8.tbd */,
+				7B896BFE1EF9106100887498 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BAA859A1EF906F800D51A94 = {
+			isa = PBXGroup;
+			children = (
+				7BAA85BD1EF9072200D51A94 /* ImageMagick */,
+				7BAA85A51EF906F800D51A94 /* AutoPDFKit */,
+				7BAA85A41EF906F800D51A94 /* Products */,
+				7B896BFD1EF9106000887498 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAA85A41EF906F800D51A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA85A31EF906F800D51A94 /* AutoPDFKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAA85A51EF906F800D51A94 /* AutoPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA85A91EF906F800D51A94 /* AppDelegate.h */,
+				7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */,
+				7BAA85AC1EF906F800D51A94 /* ViewController.h */,
+				7BAA85AD1EF906F800D51A94 /* ViewController.mm */,
+				7BAA85AF1EF906F800D51A94 /* Main.storyboard */,
+				7BAA85B21EF906F800D51A94 /* Assets.xcassets */,
+				7BAA85B41EF906F800D51A94 /* LaunchScreen.storyboard */,
+				7BAA85B71EF906F800D51A94 /* Info.plist */,
+				7BAA85A61EF906F800D51A94 /* Supporting Files */,
+			);
+			path = AutoPDFKit;
+			sourceTree = "<group>";
+		};
+		7BAA85A61EF906F800D51A94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA85A71EF906F800D51A94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BAA85BD1EF9072200D51A94 /* ImageMagick */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA85BE1EF9074100D51A94 /* MagickCore */,
+			);
+			name = ImageMagick;
+			sourceTree = "<group>";
+		};
+		7BAA85BE1EF9074100D51A94 /* MagickCore */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA85BF1EF9087400D51A94 /* accelerate-kernels-private.h */,
+				7BAA85C01EF9087400D51A94 /* accelerate-private.h */,
+				7BAA85C11EF9087400D51A94 /* accelerate.c */,
+				7BAA85C21EF9087400D51A94 /* animate-private.h */,
+				7BAA85C31EF9087400D51A94 /* animate.c */,
+				7BAA85C41EF9087400D51A94 /* animate.h */,
+				7BAA85C51EF9087400D51A94 /* annotate-private.h */,
+				7BAA85C61EF9087400D51A94 /* annotate.c */,
+				7BAA85C71EF9087400D51A94 /* annotate.h */,
+				7BAA85C81EF9087400D51A94 /* artifact.c */,
+				7BAA85C91EF9087400D51A94 /* artifact.h */,
+				7BAA85CA1EF9087400D51A94 /* attribute.c */,
+				7BAA85CB1EF9087400D51A94 /* attribute.h */,
+				7BAA85CC1EF9087400D51A94 /* blob-private.h */,
+				7BAA85CD1EF9087400D51A94 /* blob.c */,
+				7BAA85CE1EF9087400D51A94 /* blob.h */,
+				7BAA85CF1EF9087400D51A94 /* cache-private.h */,
+				7BAA85D01EF9087400D51A94 /* cache-view.c */,
+				7BAA85D11EF9087400D51A94 /* cache-view.h */,
+				7BAA85D21EF9087400D51A94 /* cache.c */,
+				7BAA85D31EF9087400D51A94 /* cache.h */,
+				7BAA85D41EF9087400D51A94 /* channel.c */,
+				7BAA85D51EF9087400D51A94 /* channel.h */,
+				7BAA85D61EF9087400D51A94 /* cipher.c */,
+				7BAA85D71EF9087400D51A94 /* cipher.h */,
+				7BAA85D81EF9087400D51A94 /* client.c */,
+				7BAA85D91EF9087400D51A94 /* client.h */,
+				7BAA85DA1EF9087400D51A94 /* coder-private.h */,
+				7BAA85DB1EF9087400D51A94 /* coder.c */,
+				7BAA85DC1EF9087400D51A94 /* coder.h */,
+				7BAA85DD1EF9087400D51A94 /* color-private.h */,
+				7BAA85DE1EF9087400D51A94 /* color.c */,
+				7BAA85DF1EF9087400D51A94 /* color.h */,
+				7BAA85E01EF9087400D51A94 /* colormap-private.h */,
+				7BAA85E11EF9087400D51A94 /* colormap.c */,
+				7BAA85E21EF9087400D51A94 /* colormap.h */,
+				7BAA85E31EF9087400D51A94 /* colorspace-private.h */,
+				7BAA85E41EF9087400D51A94 /* colorspace.c */,
+				7BAA85E51EF9087400D51A94 /* colorspace.h */,
+				7BAA85E61EF9087400D51A94 /* compare.c */,
+				7BAA85E71EF9087400D51A94 /* compare.h */,
+				7BAA85E81EF9087400D51A94 /* composite-private.h */,
+				7BAA85E91EF9087400D51A94 /* composite.c */,
+				7BAA85EA1EF9087400D51A94 /* composite.h */,
+				7BAA85EB1EF9087400D51A94 /* compress.c */,
+				7BAA85EC1EF9087400D51A94 /* compress.h */,
+				7BAA85ED1EF9087400D51A94 /* config.h_vms */,
+				7BAA85EE1EF9087400D51A94 /* configure-private.h */,
+				7BAA85EF1EF9087400D51A94 /* configure.c */,
+				7BAA85F01EF9087400D51A94 /* configure.h */,
+				7BAA85F11EF9087400D51A94 /* constitute-private.h */,
+				7BAA85F21EF9087400D51A94 /* constitute.c */,
+				7BAA85F31EF9087400D51A94 /* constitute.h */,
+				7BAA85F41EF9087400D51A94 /* decorate.c */,
+				7BAA85F51EF9087400D51A94 /* decorate.h */,
+				7BAA85F61EF9087400D51A94 /* delegate-private.h */,
+				7BAA85F71EF9087400D51A94 /* delegate.c */,
+				7BAA85F81EF9087400D51A94 /* delegate.h */,
+				7BAA85F91EF9087400D51A94 /* deprecate.c */,
+				7BAA85FA1EF9087400D51A94 /* deprecate.h */,
+				7BAA85FB1EF9087400D51A94 /* display-private.h */,
+				7BAA85FC1EF9087400D51A94 /* display.c */,
+				7BAA85FD1EF9087400D51A94 /* display.h */,
+				7BAA85FE1EF9087400D51A94 /* distort.c */,
+				7BAA85FF1EF9087400D51A94 /* distort.h */,
+				7BAA86001EF9087400D51A94 /* distribute-cache-private.h */,
+				7BAA86011EF9087400D51A94 /* distribute-cache.c */,
+				7BAA86021EF9087400D51A94 /* distribute-cache.h */,
+				7BAA86031EF9087400D51A94 /* draw-private.h */,
+				7BAA86041EF9087400D51A94 /* draw.c */,
+				7BAA86051EF9087400D51A94 /* draw.h */,
+				7BAA86061EF9087400D51A94 /* effect.c */,
+				7BAA86071EF9087400D51A94 /* effect.h */,
+				7BAA86081EF9087400D51A94 /* enhance.c */,
+				7BAA86091EF9087400D51A94 /* enhance.h */,
+				7BAA860A1EF9087400D51A94 /* exception-private.h */,
+				7BAA860B1EF9087400D51A94 /* exception.c */,
+				7BAA860C1EF9087400D51A94 /* exception.h */,
+				7BAA860D1EF9087400D51A94 /* feature.c */,
+				7BAA860E1EF9087400D51A94 /* feature.h */,
+				7BAA860F1EF9087400D51A94 /* fourier.c */,
+				7BAA86101EF9087400D51A94 /* fourier.h */,
+				7BAA86111EF9087400D51A94 /* fx-private.h */,
+				7BAA86121EF9087400D51A94 /* fx.c */,
+				7BAA86131EF9087400D51A94 /* fx.h */,
+				7BAA86141EF9087400D51A94 /* gem-private.h */,
+				7BAA86151EF9087400D51A94 /* gem.c */,
+				7BAA86161EF9087400D51A94 /* gem.h */,
+				7BAA86171EF9087400D51A94 /* geometry.c */,
+				7BAA86181EF9087400D51A94 /* geometry.h */,
+				7BAA86191EF9087400D51A94 /* histogram.c */,
+				7BAA861A1EF9087400D51A94 /* histogram.h */,
+				7BAA861B1EF9087400D51A94 /* identify.c */,
+				7BAA861C1EF9087400D51A94 /* identify.h */,
+				7BAA861D1EF9087400D51A94 /* image-private.h */,
+				7BAA861E1EF9087400D51A94 /* image-view.c */,
+				7BAA861F1EF9087400D51A94 /* image-view.h */,
+				7BAA86201EF9087400D51A94 /* image.c */,
+				7BAA86211EF9087400D51A94 /* image.h */,
+				7BAA86221EF9087400D51A94 /* ImageMagick.pc.in */,
+				7BAA86231EF9087400D51A94 /* layer.c */,
+				7BAA86241EF9087400D51A94 /* layer.h */,
+				7BAA86251EF9087400D51A94 /* libMagickCore.map */,
+				7BAA86261EF9087400D51A94 /* linked-list.c */,
+				7BAA86271EF9087400D51A94 /* linked-list.h */,
+				7BAA86281EF9087400D51A94 /* list.c */,
+				7BAA86291EF9087400D51A94 /* list.h */,
+				7BAA862A1EF9087400D51A94 /* locale_.h */,
+				7BAA862B1EF9087400D51A94 /* locale-private.h */,
+				7BAA862C1EF9087400D51A94 /* locale.c */,
+				7BAA862D1EF9087400D51A94 /* log-private.h */,
+				7BAA862E1EF9087400D51A94 /* log.c */,
+				7BAA862F1EF9087500D51A94 /* log.h */,
+				7BAA86301EF9087500D51A94 /* magic-private.h */,
+				7BAA86311EF9087500D51A94 /* magic.c */,
+				7BAA86321EF9087500D51A94 /* magic.h */,
+				7BAA86331EF9087500D51A94 /* magick-baseconfig.h */,
+				7BAA86341EF9087500D51A94 /* magick-config.h */,
+				7BAA86351EF9087500D51A94 /* magick-private.h */,
+				7BAA86361EF9087500D51A94 /* magick-type.h */,
+				7BAA86371EF9087500D51A94 /* magick.c */,
+				7BAA86381EF9087500D51A94 /* magick.h */,
+				7BAA86391EF9087500D51A94 /* MagickCore-config.1 */,
+				7BAA863A1EF9087500D51A94 /* MagickCore-config.in */,
+				7BAA863B1EF9087500D51A94 /* MagickCore.h */,
+				7BAA863C1EF9087500D51A94 /* MagickCore.pc.in */,
+				7BAA863D1EF9087500D51A94 /* Make.com */,
+				7BAA863E1EF9087500D51A94 /* Makefile.am */,
+				7BAA863F1EF9087500D51A94 /* matrix-private.h */,
+				7BAA86401EF9087500D51A94 /* matrix.c */,
+				7BAA86411EF9087500D51A94 /* matrix.h */,
+				7BAA86421EF9087500D51A94 /* memory_.h */,
+				7BAA86431EF9087500D51A94 /* memory-private.h */,
+				7BAA86441EF9087500D51A94 /* memory.c */,
+				7BAA86451EF9087500D51A94 /* method-attribute.h */,
+				7BAA86461EF9087500D51A94 /* methods-private.h */,
+				7BAA86471EF9087500D51A94 /* methods.h */,
+				7BAA86481EF9087500D51A94 /* mime-private.h */,
+				7BAA86491EF9087500D51A94 /* mime.c */,
+				7BAA864A1EF9087500D51A94 /* mime.h */,
+				7BAA864B1EF9087500D51A94 /* module-private.h */,
+				7BAA864C1EF9087500D51A94 /* module.c */,
+				7BAA864D1EF9087500D51A94 /* module.h */,
+				7BAA864E1EF9087500D51A94 /* monitor-private.h */,
+				7BAA864F1EF9087500D51A94 /* monitor.c */,
+				7BAA86501EF9087500D51A94 /* monitor.h */,
+				7BAA86511EF9087500D51A94 /* montage.c */,
+				7BAA86521EF9087500D51A94 /* montage.h */,
+				7BAA86531EF9087500D51A94 /* morphology-private.h */,
+				7BAA86541EF9087500D51A94 /* morphology.c */,
+				7BAA86551EF9087500D51A94 /* morphology.h */,
+				7BAA86561EF9087500D51A94 /* nt-base-private.h */,
+				7BAA86571EF9087500D51A94 /* nt-base.c */,
+				7BAA86581EF9087500D51A94 /* nt-base.h */,
+				7BAA86591EF9087500D51A94 /* nt-feature.c */,
+				7BAA865A1EF9087500D51A94 /* nt-feature.h */,
+				7BAA865B1EF9087500D51A94 /* opencl-private.h */,
+				7BAA865C1EF9087500D51A94 /* opencl.c */,
+				7BAA865D1EF9087500D51A94 /* opencl.h */,
+				7BAA865E1EF9087500D51A94 /* option-private.h */,
+				7BAA865F1EF9087500D51A94 /* option.c */,
+				7BAA86601EF9087500D51A94 /* option.h */,
+				7BAA86611EF9087500D51A94 /* paint.c */,
+				7BAA86621EF9087500D51A94 /* paint.h */,
+				7BAA86631EF9087500D51A94 /* pixel-accessor.h */,
+				7BAA86641EF9087500D51A94 /* pixel-private.h */,
+				7BAA86651EF9087500D51A94 /* pixel.c */,
+				7BAA86661EF9087500D51A94 /* pixel.h */,
+				7BAA86671EF9087500D51A94 /* policy-private.h */,
+				7BAA86681EF9087500D51A94 /* policy.c */,
+				7BAA86691EF9087500D51A94 /* policy.h */,
+				7BAA866A1EF9087500D51A94 /* prepress.c */,
+				7BAA866B1EF9087500D51A94 /* prepress.h */,
+				7BAA866C1EF9087500D51A94 /* profile-private.h */,
+				7BAA866D1EF9087500D51A94 /* profile.c */,
+				7BAA866E1EF9087500D51A94 /* profile.h */,
+				7BAA866F1EF9087500D51A94 /* property.c */,
+				7BAA86701EF9087500D51A94 /* property.h */,
+				7BAA86711EF9087500D51A94 /* quantize.c */,
+				7BAA86721EF9087500D51A94 /* quantize.h */,
+				7BAA86731EF9087500D51A94 /* quantum-export.c */,
+				7BAA86741EF9087500D51A94 /* quantum-import.c */,
+				7BAA86751EF9087500D51A94 /* quantum-private.h */,
+				7BAA86761EF9087500D51A94 /* quantum.c */,
+				7BAA86771EF9087500D51A94 /* quantum.h */,
+				7BAA86781EF9087500D51A94 /* random_-private.h */,
+				7BAA86791EF9087500D51A94 /* random_.h */,
+				7BAA867A1EF9087500D51A94 /* random-private.h */,
+				7BAA867B1EF9087500D51A94 /* random.c */,
+				7BAA867C1EF9087500D51A94 /* registry-private.h */,
+				7BAA867D1EF9087500D51A94 /* registry.c */,
+				7BAA867E1EF9087500D51A94 /* registry.h */,
+				7BAA867F1EF9087500D51A94 /* resample-private.h */,
+				7BAA86801EF9087500D51A94 /* resample.c */,
+				7BAA86811EF9087500D51A94 /* resample.h */,
+				7BAA86821EF9087500D51A94 /* resize-private.h */,
+				7BAA86831EF9087500D51A94 /* resize.c */,
+				7BAA86841EF9087500D51A94 /* resize.h */,
+				7BAA86851EF9087500D51A94 /* resource_.h */,
+				7BAA86861EF9087500D51A94 /* resource-private.h */,
+				7BAA86871EF9087500D51A94 /* resource.c */,
+				7BAA86881EF9087600D51A94 /* segment.c */,
+				7BAA86891EF9087600D51A94 /* segment.h */,
+				7BAA868A1EF9087600D51A94 /* semaphore-private.h */,
+				7BAA868B1EF9087600D51A94 /* semaphore.c */,
+				7BAA868C1EF9087600D51A94 /* semaphore.h */,
+				7BAA868D1EF9087600D51A94 /* shear.c */,
+				7BAA868E1EF9087600D51A94 /* shear.h */,
+				7BAA868F1EF9087600D51A94 /* signature-private.h */,
+				7BAA86901EF9087600D51A94 /* signature.c */,
+				7BAA86911EF9087600D51A94 /* signature.h */,
+				7BAA86921EF9087600D51A94 /* splay-tree.c */,
+				7BAA86931EF9087600D51A94 /* splay-tree.h */,
+				7BAA86941EF9087600D51A94 /* static.c */,
+				7BAA86951EF9087600D51A94 /* static.h */,
+				7BAA86961EF9087600D51A94 /* statistic.c */,
+				7BAA86971EF9087600D51A94 /* statistic.h */,
+				7BAA86981EF9087600D51A94 /* stream-private.h */,
+				7BAA86991EF9087600D51A94 /* stream.c */,
+				7BAA869A1EF9087600D51A94 /* stream.h */,
+				7BAA869B1EF9087600D51A94 /* string_.h */,
+				7BAA869C1EF9087600D51A94 /* string-private.h */,
+				7BAA869D1EF9087600D51A94 /* string.c */,
+				7BAA869E1EF9087600D51A94 /* studio.h */,
+				7BAA869F1EF9087600D51A94 /* thread_.h */,
+				7BAA86A01EF9087600D51A94 /* thread-private.h */,
+				7BAA86A11EF9087600D51A94 /* thread.c */,
+				7BAA86A21EF9087600D51A94 /* threshold.c */,
+				7BAA86A31EF9087600D51A94 /* threshold.h */,
+				7BAA86A41EF9087600D51A94 /* timer.c */,
+				7BAA86A51EF9087600D51A94 /* timer.h */,
+				7BAA86A61EF9087600D51A94 /* token-private.h */,
+				7BAA86A71EF9087600D51A94 /* token.c */,
+				7BAA86A81EF9087600D51A94 /* token.h */,
+				7BAA86A91EF9087600D51A94 /* transform-private.h */,
+				7BAA86AA1EF9087600D51A94 /* transform.c */,
+				7BAA86AB1EF9087600D51A94 /* transform.h */,
+				7BAA86AC1EF9087600D51A94 /* type-private.h */,
+				7BAA86AD1EF9087600D51A94 /* type.c */,
+				7BAA86AE1EF9087600D51A94 /* type.h */,
+				7BAA86AF1EF9087600D51A94 /* utility-private.h */,
+				7BAA86B01EF9087600D51A94 /* utility.c */,
+				7BAA86B11EF9087600D51A94 /* utility.h */,
+				7BAA86B21EF9087600D51A94 /* version-private.h */,
+				7BAA86B31EF9087600D51A94 /* version.c */,
+				7BAA86B41EF9087600D51A94 /* version.h */,
+				7BAA86B51EF9087600D51A94 /* version.h_vms */,
+				7BAA86B61EF9087600D51A94 /* vision.c */,
+				7BAA86B71EF9087600D51A94 /* vision.h */,
+				7BAA86B81EF9087600D51A94 /* vms.c */,
+				7BAA86B91EF9087600D51A94 /* vms.h */,
+				7BAA86BA1EF9087600D51A94 /* widget-private.h */,
+				7BAA86BB1EF9087600D51A94 /* widget.c */,
+				7BAA86BC1EF9087600D51A94 /* widget.h */,
+				7BAA86BD1EF9087600D51A94 /* xml-tree-private.h */,
+				7BAA86BE1EF9087600D51A94 /* xml-tree.c */,
+				7BAA86BF1EF9087600D51A94 /* xml-tree.h */,
+				7BAA86C01EF9087600D51A94 /* xwdfile.h_vms */,
+				7BAA86C11EF9087600D51A94 /* xwindow-private.h */,
+				7BAA86C21EF9087600D51A94 /* xwindow.c */,
+				7BAA86C31EF9087600D51A94 /* xwindow.h */,
+			);
+			name = MagickCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAA85A21EF906F800D51A94 /* AutoPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAA85BA1EF906F800D51A94 /* Build configuration list for PBXNativeTarget "AutoPDFKit" */;
+			buildPhases = (
+				7BAA859F1EF906F800D51A94 /* Sources */,
+				7BAA85A01EF906F800D51A94 /* Frameworks */,
+				7BAA85A11EF906F800D51A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoPDFKit;
+			productName = AutoPDFKit;
+			productReference = 7BAA85A31EF906F800D51A94 /* AutoPDFKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAA859B1EF906F800D51A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sun Jimmy";
+				TargetAttributes = {
+					7BAA85A21EF906F800D51A94 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F2DFJFGVGV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BAA859E1EF906F800D51A94 /* Build configuration list for PBXProject "AutoPDFKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAA859A1EF906F800D51A94;
+			productRefGroup = 7BAA85A41EF906F800D51A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAA85A21EF906F800D51A94 /* AutoPDFKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAA85A11EF906F800D51A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA86F51EF9087700D51A94 /* MagickCore-config.in in Resources */,
+				7BAA86F41EF9087700D51A94 /* MagickCore-config.1 in Resources */,
+				7BAA87241EF9087700D51A94 /* version.h_vms in Resources */,
+				7BAA86EC1EF9087700D51A94 /* ImageMagick.pc.in in Resources */,
+				7BAA86F61EF9087700D51A94 /* MagickCore.pc.in in Resources */,
+				7BAA85B61EF906F800D51A94 /* LaunchScreen.storyboard in Resources */,
+				7BAA86F71EF9087700D51A94 /* Make.com in Resources */,
+				7BAA87291EF9087700D51A94 /* xwdfile.h_vms in Resources */,
+				7BAA86D61EF9087600D51A94 /* config.h_vms in Resources */,
+				7BAA86F81EF9087700D51A94 /* Makefile.am in Resources */,
+				7BAA85B31EF906F800D51A94 /* Assets.xcassets in Resources */,
+				7BAA85B11EF906F800D51A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAA859F1EF906F800D51A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA87001EF9087700D51A94 /* nt-base.c in Sources */,
+				7BAA86ED1EF9087700D51A94 /* layer.c in Sources */,
+				7BAA86D21EF9087600D51A94 /* colorspace.c in Sources */,
+				7BAA86FD1EF9087700D51A94 /* monitor.c in Sources */,
+				7BAA86EE1EF9087700D51A94 /* linked-list.c in Sources */,
+				7BAA86E71EF9087700D51A94 /* geometry.c in Sources */,
+				7BAA87091EF9087700D51A94 /* property.c in Sources */,
+				7BAA87031EF9087700D51A94 /* option.c in Sources */,
+				7BAA87261EF9087700D51A94 /* vms.c in Sources */,
+				7BAA87281EF9087700D51A94 /* xml-tree.c in Sources */,
+				7BAA87181EF9087700D51A94 /* static.c in Sources */,
+				7BAA86E61EF9087700D51A94 /* gem.c in Sources */,
+				7BAA86C81EF9087600D51A94 /* attribute.c in Sources */,
+				7BAA87081EF9087700D51A94 /* profile.c in Sources */,
+				7BAA86D91EF9087700D51A94 /* decorate.c in Sources */,
+				7BAA86DA1EF9087700D51A94 /* delegate.c in Sources */,
+				7BAA86E81EF9087700D51A94 /* histogram.c in Sources */,
+				7BAA87051EF9087700D51A94 /* pixel.c in Sources */,
+				7BAA87151EF9087700D51A94 /* shear.c in Sources */,
+				7BAA86F21EF9087700D51A94 /* magic.c in Sources */,
+				7BAA87021EF9087700D51A94 /* opencl.c in Sources */,
+				7BAA87071EF9087700D51A94 /* prepress.c in Sources */,
+				7BAA86C51EF9087600D51A94 /* animate.c in Sources */,
+				7BAA870E1EF9087700D51A94 /* random.c in Sources */,
+				7BAA87161EF9087700D51A94 /* signature.c in Sources */,
+				7BAA86D41EF9087600D51A94 /* composite.c in Sources */,
+				7BAA86EB1EF9087700D51A94 /* image.c in Sources */,
+				7BAA86C61EF9087600D51A94 /* annotate.c in Sources */,
+				7BAA86F31EF9087700D51A94 /* magick.c in Sources */,
+				7BAA870B1EF9087700D51A94 /* quantum-export.c in Sources */,
+				7BAA87131EF9087700D51A94 /* segment.c in Sources */,
+				7BAA86FC1EF9087700D51A94 /* module.c in Sources */,
+				7BAA87191EF9087700D51A94 /* statistic.c in Sources */,
+				7BAA86CC1EF9087600D51A94 /* channel.c in Sources */,
+				7BAA86E31EF9087700D51A94 /* feature.c in Sources */,
+				7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */,
+				7BAA86C91EF9087600D51A94 /* blob.c in Sources */,
+				7BAA87061EF9087700D51A94 /* policy.c in Sources */,
+				7BAA871B1EF9087700D51A94 /* string.c in Sources */,
+				7BAA86C71EF9087600D51A94 /* artifact.c in Sources */,
+				7BAA87171EF9087700D51A94 /* splay-tree.c in Sources */,
+				7BAA871E1EF9087700D51A94 /* timer.c in Sources */,
+				7BAA86D01EF9087600D51A94 /* color.c in Sources */,
+				7BAA871F1EF9087700D51A94 /* token.c in Sources */,
+				7BAA86E11EF9087700D51A94 /* enhance.c in Sources */,
+				7BAA86D71EF9087700D51A94 /* configure.c in Sources */,
+				7BAA871A1EF9087700D51A94 /* stream.c in Sources */,
+				7BAA86CB1EF9087600D51A94 /* cache.c in Sources */,
+				7BAA86D31EF9087600D51A94 /* compare.c in Sources */,
+				7BAA871D1EF9087700D51A94 /* threshold.c in Sources */,
+				7BAA87271EF9087700D51A94 /* widget.c in Sources */,
+				7BAA86CE1EF9087600D51A94 /* client.c in Sources */,
+				7BAA87101EF9087700D51A94 /* resample.c in Sources */,
+				7BAA86DC1EF9087700D51A94 /* display.c in Sources */,
+				7BAA87011EF9087700D51A94 /* nt-feature.c in Sources */,
+				7BAA872A1EF9087700D51A94 /* xwindow.c in Sources */,
+				7BAA86E01EF9087700D51A94 /* effect.c in Sources */,
+				7BAA87041EF9087700D51A94 /* paint.c in Sources */,
+				7BAA86F11EF9087700D51A94 /* log.c in Sources */,
+				7BAA87121EF9087700D51A94 /* resource.c in Sources */,
+				7BAA87231EF9087700D51A94 /* version.c in Sources */,
+				7BAA86E91EF9087700D51A94 /* identify.c in Sources */,
+				7BAA86D51EF9087600D51A94 /* compress.c in Sources */,
+				7BAA870C1EF9087700D51A94 /* quantum-import.c in Sources */,
+				7BAA870D1EF9087700D51A94 /* quantum.c in Sources */,
+				7BAA86DB1EF9087700D51A94 /* deprecate.c in Sources */,
+				7BAA86F01EF9087700D51A94 /* locale.c in Sources */,
+				7BAA86DD1EF9087700D51A94 /* distort.c in Sources */,
+				7BAA86EF1EF9087700D51A94 /* list.c in Sources */,
+				7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */,
+				7BAA87221EF9087700D51A94 /* utility.c in Sources */,
+				7BAA86E41EF9087700D51A94 /* fourier.c in Sources */,
+				7BAA86DE1EF9087700D51A94 /* distribute-cache.c in Sources */,
+				7BAA86EA1EF9087700D51A94 /* image-view.c in Sources */,
+				7BAA86FB1EF9087700D51A94 /* mime.c in Sources */,
+				7BAA87141EF9087700D51A94 /* semaphore.c in Sources */,
+				7BAA86D11EF9087600D51A94 /* colormap.c in Sources */,
+				7BAA86F91EF9087700D51A94 /* matrix.c in Sources */,
+				7BAA86C41EF9087600D51A94 /* accelerate.c in Sources */,
+				7BAA86FF1EF9087700D51A94 /* morphology.c in Sources */,
+				7BAA87201EF9087700D51A94 /* transform.c in Sources */,
+				7BAA86CD1EF9087600D51A94 /* cipher.c in Sources */,
+				7BAA87251EF9087700D51A94 /* vision.c in Sources */,
+				7BAA870A1EF9087700D51A94 /* quantize.c in Sources */,
+				7BAA86DF1EF9087700D51A94 /* draw.c in Sources */,
+				7BAA86CF1EF9087600D51A94 /* coder.c in Sources */,
+				7BAA86E51EF9087700D51A94 /* fx.c in Sources */,
+				7BAA86FA1EF9087700D51A94 /* memory.c in Sources */,
+				7BAA87111EF9087700D51A94 /* resize.c in Sources */,
+				7BAA85A81EF906F800D51A94 /* main.m in Sources */,
+				7BAA86D81EF9087700D51A94 /* constitute.c in Sources */,
+				7BAA870F1EF9087700D51A94 /* registry.c in Sources */,
+				7BAA87211EF9087700D51A94 /* type.c in Sources */,
+				7BAA86CA1EF9087600D51A94 /* cache-view.c in Sources */,
+				7BAA871C1EF9087700D51A94 /* thread.c in Sources */,
+				7BAA86E21EF9087700D51A94 /* exception.c in Sources */,
+				7BAA86FE1EF9087700D51A94 /* montage.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BAA85AF1EF906F800D51A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAA85B01EF906F800D51A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAA85B41EF906F800D51A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAA85B51EF906F800D51A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAA85B81EF906F800D51A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7BAA85B91EF906F800D51A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAA85BB1EF906F800D51A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2DFJFGVGV;
+				INFOPLIST_FILE = AutoPDFKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy.AutoPDFKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BAA85BC1EF906F800D51A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2DFJFGVGV;
+				INFOPLIST_FILE = AutoPDFKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy.AutoPDFKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAA859E1EF906F800D51A94 /* Build configuration list for PBXProject "AutoPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA85B81EF906F800D51A94 /* Debug */,
+				7BAA85B91EF906F800D51A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAA85BA1EF906F800D51A94 /* Build configuration list for PBXNativeTarget "AutoPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA85BB1EF906F800D51A94 /* Debug */,
+				7BAA85BC1EF906F800D51A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BAA859B1EF906F800D51A94 /* Project object */;
+}
