@@ -75,7 +75,7 @@ extern "C" {
 typedef struct _MagickWand
   MagickWand;
 
-#include "method-attribute.h"
+#include "./method-attribute.h"
 #include "MagickCore.h"
 #include "animate.h"
 #include "compare.h"

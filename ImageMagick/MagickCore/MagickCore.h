@@ -72,7 +72,7 @@ extern "C" {
 #  define MAGICKCORE_POSIX_SUPPORT
 #endif 
 
-#include "method-attribute.h"
+#include "./method-attribute.h"
 
 #if defined(MAGICKCORE_NAMESPACE_PREFIX)
 # include "methods.h"

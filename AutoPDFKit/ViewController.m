@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "../ImageMagick/MagickCore/method-attribute.h"
+#import "../ImageMagick/MagickCore/magick-type.h"
+#import "../ImageMagick/MagickCore/magick.h"
+#import "../ImageMagick/utilities/magick.h"
+#import "static.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +23,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    char* command[3];
+    command[0]= "./convert";
+    command[1]= "lincoln.pdf[0]";
+    command[2]= "target.bmp";
+    
+    MagickMain(3, command);
+    
+    MagickCoreGenesis("./convert ", MagickTrue);
+    
+    RegisterPDFImage();
 }
 
 

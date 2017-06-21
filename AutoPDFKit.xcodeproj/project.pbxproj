@@ -159,8 +159,8 @@
 		7B896D621EF920D300887498 /* wand.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D421EF920D200887498 /* wand.c */; };
 		7B896D631EF920D300887498 /* wandcli.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896D451EF920D200887498 /* wandcli.c */; };
 		7BAA85A81EF906F800D51A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85A71EF906F800D51A94 /* main.m */; };
-		7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */; };
-		7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AD1EF906F800D51A94 /* ViewController.mm */; };
+		7BAA85AB1EF906F800D51A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AA1EF906F800D51A94 /* AppDelegate.m */; };
+		7BAA85AE1EF906F800D51A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA85AD1EF906F800D51A94 /* ViewController.m */; };
 		7BAA85B11EF906F800D51A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85AF1EF906F800D51A94 /* Main.storyboard */; };
 		7BAA85B31EF906F800D51A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85B21EF906F800D51A94 /* Assets.xcassets */; };
 		7BAA85B61EF906F800D51A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA85B41EF906F800D51A94 /* LaunchScreen.storyboard */; };
@@ -268,6 +268,7 @@
 		7BAA87291EF9087700D51A94 /* xwdfile.h_vms in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA86C01EF9087600D51A94 /* xwdfile.h_vms */; };
 		7BAA872A1EF9087700D51A94 /* xwindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86C21EF9087600D51A94 /* xwindow.c */; };
 		7BE6C5441EFA11AF001D13B6 /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6C5431EFA11AF001D13B6 /* analyze.c */; };
+		7BE6C5471EFA5E46001D13B6 /* magick.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6C5461EFA5E46001D13B6 /* magick.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -459,9 +460,9 @@
 		7BAA85A31EF906F800D51A94 /* AutoPDFKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPDFKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAA85A71EF906F800D51A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BAA85A91EF906F800D51A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		7BAA85AA1EF906F800D51A94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7BAA85AC1EF906F800D51A94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7BAA85AD1EF906F800D51A94 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		7BAA85AD1EF906F800D51A94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7BAA85B01EF906F800D51A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BAA85B21EF906F800D51A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAA85B51EF906F800D51A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -728,6 +729,8 @@
 		7BAA86C21EF9087600D51A94 /* xwindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xwindow.c; path = ImageMagick/MagickCore/xwindow.c; sourceTree = "<group>"; };
 		7BAA86C31EF9087600D51A94 /* xwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xwindow.h; path = ImageMagick/MagickCore/xwindow.h; sourceTree = "<group>"; };
 		7BE6C5431EFA11AF001D13B6 /* analyze.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = analyze.c; path = ImageMagick/filters/analyze.c; sourceTree = "<group>"; };
+		7BE6C5461EFA5E46001D13B6 /* magick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = magick.c; path = ImageMagick/utilities/magick.c; sourceTree = "<group>"; };
+		7BE6C5481EFA6986001D13B6 /* magick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = magick.h; path = ImageMagick/utilities/magick.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -970,9 +973,9 @@
 			isa = PBXGroup;
 			children = (
 				7BAA85A91EF906F800D51A94 /* AppDelegate.h */,
-				7BAA85AA1EF906F800D51A94 /* AppDelegate.mm */,
+				7BAA85AA1EF906F800D51A94 /* AppDelegate.m */,
 				7BAA85AC1EF906F800D51A94 /* ViewController.h */,
-				7BAA85AD1EF906F800D51A94 /* ViewController.mm */,
+				7BAA85AD1EF906F800D51A94 /* ViewController.m */,
 				7BAA85AF1EF906F800D51A94 /* Main.storyboard */,
 				7BAA85B21EF906F800D51A94 /* Assets.xcassets */,
 				7BAA85B41EF906F800D51A94 /* LaunchScreen.storyboard */,
@@ -993,6 +996,7 @@
 		7BAA85BD1EF9072200D51A94 /* ImageMagick */ = {
 			isa = PBXGroup;
 			children = (
+				7BE6C5451EFA5DE5001D13B6 /* utilities */,
 				7BE6C5421EFA1191001D13B6 /* filters */,
 				7B896D091EF920B200887498 /* MagickWand */,
 				7B896C031EF91CB600887498 /* coders */,
@@ -1277,6 +1281,15 @@
 			name = filters;
 			sourceTree = "<group>";
 		};
+		7BE6C5451EFA5DE5001D13B6 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7BE6C5461EFA5E46001D13B6 /* magick.c */,
+				7BE6C5481EFA6986001D13B6 /* magick.h */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1424,6 +1437,7 @@
 				7B896CC01EF91D1900887498 /* meta.c in Sources */,
 				7BAA86E81EF9087700D51A94 /* histogram.c in Sources */,
 				7BAA87051EF9087700D51A94 /* pixel.c in Sources */,
+				7BE6C5471EFA5E46001D13B6 /* magick.c in Sources */,
 				7B896CDE1EF91D1900887498 /* pwp.c in Sources */,
 				7B896CC21EF91D1900887498 /* mono.c in Sources */,
 				7B896CD21EF91D1900887498 /* pdf.c in Sources */,
@@ -1465,7 +1479,7 @@
 				7BAA86CC1EF9087600D51A94 /* channel.c in Sources */,
 				7B896CE61EF91D1900887498 /* sct.c in Sources */,
 				7BAA86E31EF9087700D51A94 /* feature.c in Sources */,
-				7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */,
+				7BAA85AE1EF906F800D51A94 /* ViewController.m in Sources */,
 				7B896CF51EF91D1900887498 /* url.c in Sources */,
 				7BAA86C91EF9087600D51A94 /* blob.c in Sources */,
 				7BAA87061EF9087700D51A94 /* policy.c in Sources */,
@@ -1546,7 +1560,7 @@
 				7B896CB81EF91D1900887498 /* mac.c in Sources */,
 				7B896CF41EF91D1900887498 /* uil.c in Sources */,
 				7BAA86EF1EF9087700D51A94 /* list.c in Sources */,
-				7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */,
+				7BAA85AB1EF906F800D51A94 /* AppDelegate.m in Sources */,
 				7B896D5D1EF920D300887498 /* pixel-iterator.c in Sources */,
 				7B896D511EF920D300887498 /* import.c in Sources */,
 				7BAA87221EF9087700D51A94 /* utility.c in Sources */,
