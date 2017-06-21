@@ -23,10 +23,8 @@
 		7B896C931EF91D1900887498 /* cmyk.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C101EF91D1800887498 /* cmyk.c */; };
 		7B896C941EF91D1900887498 /* cut.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C111EF91D1800887498 /* cut.c */; };
 		7B896C951EF91D1900887498 /* dcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C121EF91D1800887498 /* dcm.c */; };
-		7B896C961EF91D1900887498 /* dds.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C131EF91D1800887498 /* dds.c */; };
 		7B896C971EF91D1900887498 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C141EF91D1800887498 /* debug.c */; };
 		7B896C981EF91D1900887498 /* dib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C151EF91D1800887498 /* dib.c */; };
-		7B896C991EF91D1900887498 /* djvu.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C161EF91D1800887498 /* djvu.c */; };
 		7B896C9A1EF91D1900887498 /* dng.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C171EF91D1800887498 /* dng.c */; };
 		7B896C9B1EF91D1900887498 /* dot.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C181EF91D1800887498 /* dot.c */; };
 		7B896C9C1EF91D1900887498 /* dps.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C191EF91D1800887498 /* dps.c */; };
@@ -51,10 +49,8 @@
 		7B896CAF1EF91D1900887498 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2C1EF91D1800887498 /* info.c */; };
 		7B896CB01EF91D1900887498 /* inline.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2D1EF91D1800887498 /* inline.c */; };
 		7B896CB11EF91D1900887498 /* ipl.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2E1EF91D1800887498 /* ipl.c */; };
-		7B896CB21EF91D1900887498 /* jbig.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C2F1EF91D1800887498 /* jbig.c */; };
 		7B896CB31EF91D1900887498 /* jnx.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C301EF91D1800887498 /* jnx.c */; };
 		7B896CB41EF91D1900887498 /* jp2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C311EF91D1800887498 /* jp2.c */; };
-		7B896CB51EF91D1900887498 /* jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C321EF91D1800887498 /* jpeg.c */; };
 		7B896CB61EF91D1900887498 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C331EF91D1800887498 /* json.c */; };
 		7B896CB71EF91D1900887498 /* label.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C341EF91D1800887498 /* label.c */; };
 		7B896CB81EF91D1900887498 /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C351EF91D1800887498 /* mac.c */; };
@@ -63,7 +59,6 @@
 		7B896CBB1EF91D1900887498 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B896C381EF91D1800887498 /* Makefile.am */; };
 		7B896CBC1EF91D1900887498 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C391EF91D1800887498 /* map.c */; };
 		7B896CBD1EF91D1900887498 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3A1EF91D1800887498 /* mask.c */; };
-		7B896CBE1EF91D1900887498 /* mat.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3B1EF91D1800887498 /* mat.c */; };
 		7B896CBF1EF91D1900887498 /* matte.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3C1EF91D1800887498 /* matte.c */; };
 		7B896CC01EF91D1900887498 /* meta.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3D1EF91D1800887498 /* meta.c */; };
 		7B896CC11EF91D1900887498 /* miff.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C3E1EF91D1800887498 /* miff.c */; };
@@ -89,7 +84,6 @@
 		7B896CD51EF91D1900887498 /* pict.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C521EF91D1800887498 /* pict.c */; };
 		7B896CD61EF91D1900887498 /* pix.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C531EF91D1800887498 /* pix.c */; };
 		7B896CD71EF91D1900887498 /* plasma.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C541EF91D1800887498 /* plasma.c */; };
-		7B896CD81EF91D1900887498 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C551EF91D1800887498 /* png.c */; };
 		7B896CD91EF91D1900887498 /* pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C561EF91D1800887498 /* pnm.c */; };
 		7B896CDA1EF91D1900887498 /* ps.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C571EF91D1800887498 /* ps.c */; };
 		7B896CDB1EF91D1900887498 /* ps2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C581EF91D1800887498 /* ps2.c */; };
@@ -112,7 +106,6 @@
 		7B896CEC1EF91D1900887498 /* svg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6A1EF91D1800887498 /* svg.c */; };
 		7B896CED1EF91D1900887498 /* tga.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6B1EF91D1800887498 /* tga.c */; };
 		7B896CEE1EF91D1900887498 /* thumbnail.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6C1EF91D1800887498 /* thumbnail.c */; };
-		7B896CEF1EF91D1900887498 /* tiff.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6D1EF91D1800887498 /* tiff.c */; };
 		7B896CF01EF91D1900887498 /* tile.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6E1EF91D1800887498 /* tile.c */; };
 		7B896CF11EF91D1900887498 /* tim.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C6F1EF91D1900887498 /* tim.c */; };
 		7B896CF21EF91D1900887498 /* ttf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C701EF91D1900887498 /* ttf.c */; };
@@ -125,8 +118,6 @@
 		7B896CF91EF91D1900887498 /* viff.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C771EF91D1900887498 /* viff.c */; };
 		7B896CFA1EF91D1900887498 /* vips.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C781EF91D1900887498 /* vips.c */; };
 		7B896CFB1EF91D1900887498 /* wbmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C791EF91D1900887498 /* wbmp.c */; };
-		7B896CFC1EF91D1900887498 /* webp.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7A1EF91D1900887498 /* webp.c */; };
-		7B896CFD1EF91D1900887498 /* wmf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7B1EF91D1900887498 /* wmf.c */; };
 		7B896CFE1EF91D1900887498 /* wpg.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7C1EF91D1900887498 /* wpg.c */; };
 		7B896CFF1EF91D1900887498 /* x.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7D1EF91D1900887498 /* x.c */; };
 		7B896D001EF91D1900887498 /* xbm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C7E1EF91D1900887498 /* xbm.c */; };
@@ -296,10 +287,8 @@
 		7B896C101EF91D1800887498 /* cmyk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmyk.c; path = ImageMagick/coders/cmyk.c; sourceTree = "<group>"; };
 		7B896C111EF91D1800887498 /* cut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cut.c; path = ImageMagick/coders/cut.c; sourceTree = "<group>"; };
 		7B896C121EF91D1800887498 /* dcm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dcm.c; path = ImageMagick/coders/dcm.c; sourceTree = "<group>"; };
-		7B896C131EF91D1800887498 /* dds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dds.c; path = ImageMagick/coders/dds.c; sourceTree = "<group>"; };
 		7B896C141EF91D1800887498 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debug.c; path = ImageMagick/coders/debug.c; sourceTree = "<group>"; };
 		7B896C151EF91D1800887498 /* dib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dib.c; path = ImageMagick/coders/dib.c; sourceTree = "<group>"; };
-		7B896C161EF91D1800887498 /* djvu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = djvu.c; path = ImageMagick/coders/djvu.c; sourceTree = "<group>"; };
 		7B896C171EF91D1800887498 /* dng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dng.c; path = ImageMagick/coders/dng.c; sourceTree = "<group>"; };
 		7B896C181EF91D1800887498 /* dot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dot.c; path = ImageMagick/coders/dot.c; sourceTree = "<group>"; };
 		7B896C191EF91D1800887498 /* dps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dps.c; path = ImageMagick/coders/dps.c; sourceTree = "<group>"; };
@@ -324,10 +313,8 @@
 		7B896C2C1EF91D1800887498 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = info.c; path = ImageMagick/coders/info.c; sourceTree = "<group>"; };
 		7B896C2D1EF91D1800887498 /* inline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inline.c; path = ImageMagick/coders/inline.c; sourceTree = "<group>"; };
 		7B896C2E1EF91D1800887498 /* ipl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ipl.c; path = ImageMagick/coders/ipl.c; sourceTree = "<group>"; };
-		7B896C2F1EF91D1800887498 /* jbig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbig.c; path = ImageMagick/coders/jbig.c; sourceTree = "<group>"; };
 		7B896C301EF91D1800887498 /* jnx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jnx.c; path = ImageMagick/coders/jnx.c; sourceTree = "<group>"; };
 		7B896C311EF91D1800887498 /* jp2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jp2.c; path = ImageMagick/coders/jp2.c; sourceTree = "<group>"; };
-		7B896C321EF91D1800887498 /* jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jpeg.c; path = ImageMagick/coders/jpeg.c; sourceTree = "<group>"; };
 		7B896C331EF91D1800887498 /* json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json.c; path = ImageMagick/coders/json.c; sourceTree = "<group>"; };
 		7B896C341EF91D1800887498 /* label.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = label.c; path = ImageMagick/coders/label.c; sourceTree = "<group>"; };
 		7B896C351EF91D1800887498 /* mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mac.c; path = ImageMagick/coders/mac.c; sourceTree = "<group>"; };
@@ -336,7 +323,6 @@
 		7B896C381EF91D1800887498 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.am; path = ImageMagick/coders/Makefile.am; sourceTree = "<group>"; };
 		7B896C391EF91D1800887498 /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = map.c; path = ImageMagick/coders/map.c; sourceTree = "<group>"; };
 		7B896C3A1EF91D1800887498 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mask.c; path = ImageMagick/coders/mask.c; sourceTree = "<group>"; };
-		7B896C3B1EF91D1800887498 /* mat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mat.c; path = ImageMagick/coders/mat.c; sourceTree = "<group>"; };
 		7B896C3C1EF91D1800887498 /* matte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = matte.c; path = ImageMagick/coders/matte.c; sourceTree = "<group>"; };
 		7B896C3D1EF91D1800887498 /* meta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = meta.c; path = ImageMagick/coders/meta.c; sourceTree = "<group>"; };
 		7B896C3E1EF91D1800887498 /* miff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = miff.c; path = ImageMagick/coders/miff.c; sourceTree = "<group>"; };
@@ -362,7 +348,6 @@
 		7B896C521EF91D1800887498 /* pict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pict.c; path = ImageMagick/coders/pict.c; sourceTree = "<group>"; };
 		7B896C531EF91D1800887498 /* pix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pix.c; path = ImageMagick/coders/pix.c; sourceTree = "<group>"; };
 		7B896C541EF91D1800887498 /* plasma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = plasma.c; path = ImageMagick/coders/plasma.c; sourceTree = "<group>"; };
-		7B896C551EF91D1800887498 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = ImageMagick/coders/png.c; sourceTree = "<group>"; };
 		7B896C561EF91D1800887498 /* pnm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pnm.c; path = ImageMagick/coders/pnm.c; sourceTree = "<group>"; };
 		7B896C571EF91D1800887498 /* ps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ps.c; path = ImageMagick/coders/ps.c; sourceTree = "<group>"; };
 		7B896C581EF91D1800887498 /* ps2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ps2.c; path = ImageMagick/coders/ps2.c; sourceTree = "<group>"; };
@@ -386,7 +371,6 @@
 		7B896C6A1EF91D1800887498 /* svg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = svg.c; path = ImageMagick/coders/svg.c; sourceTree = "<group>"; };
 		7B896C6B1EF91D1800887498 /* tga.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tga.c; path = ImageMagick/coders/tga.c; sourceTree = "<group>"; };
 		7B896C6C1EF91D1800887498 /* thumbnail.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thumbnail.c; path = ImageMagick/coders/thumbnail.c; sourceTree = "<group>"; };
-		7B896C6D1EF91D1800887498 /* tiff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tiff.c; path = ImageMagick/coders/tiff.c; sourceTree = "<group>"; };
 		7B896C6E1EF91D1800887498 /* tile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tile.c; path = ImageMagick/coders/tile.c; sourceTree = "<group>"; };
 		7B896C6F1EF91D1900887498 /* tim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tim.c; path = ImageMagick/coders/tim.c; sourceTree = "<group>"; };
 		7B896C701EF91D1900887498 /* ttf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ttf.c; path = ImageMagick/coders/ttf.c; sourceTree = "<group>"; };
@@ -399,8 +383,6 @@
 		7B896C771EF91D1900887498 /* viff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = viff.c; path = ImageMagick/coders/viff.c; sourceTree = "<group>"; };
 		7B896C781EF91D1900887498 /* vips.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vips.c; path = ImageMagick/coders/vips.c; sourceTree = "<group>"; };
 		7B896C791EF91D1900887498 /* wbmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wbmp.c; path = ImageMagick/coders/wbmp.c; sourceTree = "<group>"; };
-		7B896C7A1EF91D1900887498 /* webp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = webp.c; path = ImageMagick/coders/webp.c; sourceTree = "<group>"; };
-		7B896C7B1EF91D1900887498 /* wmf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wmf.c; path = ImageMagick/coders/wmf.c; sourceTree = "<group>"; };
 		7B896C7C1EF91D1900887498 /* wpg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wpg.c; path = ImageMagick/coders/wpg.c; sourceTree = "<group>"; };
 		7B896C7D1EF91D1900887498 /* x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = x.c; path = ImageMagick/coders/x.c; sourceTree = "<group>"; };
 		7B896C7E1EF91D1900887498 /* xbm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xbm.c; path = ImageMagick/coders/xbm.c; sourceTree = "<group>"; };
@@ -785,10 +767,8 @@
 				7B896C101EF91D1800887498 /* cmyk.c */,
 				7B896C111EF91D1800887498 /* cut.c */,
 				7B896C121EF91D1800887498 /* dcm.c */,
-				7B896C131EF91D1800887498 /* dds.c */,
 				7B896C141EF91D1800887498 /* debug.c */,
 				7B896C151EF91D1800887498 /* dib.c */,
-				7B896C161EF91D1800887498 /* djvu.c */,
 				7B896C171EF91D1800887498 /* dng.c */,
 				7B896C181EF91D1800887498 /* dot.c */,
 				7B896C191EF91D1800887498 /* dps.c */,
@@ -813,10 +793,8 @@
 				7B896C2C1EF91D1800887498 /* info.c */,
 				7B896C2D1EF91D1800887498 /* inline.c */,
 				7B896C2E1EF91D1800887498 /* ipl.c */,
-				7B896C2F1EF91D1800887498 /* jbig.c */,
 				7B896C301EF91D1800887498 /* jnx.c */,
 				7B896C311EF91D1800887498 /* jp2.c */,
-				7B896C321EF91D1800887498 /* jpeg.c */,
 				7B896C331EF91D1800887498 /* json.c */,
 				7B896C341EF91D1800887498 /* label.c */,
 				7B896C351EF91D1800887498 /* mac.c */,
@@ -825,7 +803,6 @@
 				7B896C381EF91D1800887498 /* Makefile.am */,
 				7B896C391EF91D1800887498 /* map.c */,
 				7B896C3A1EF91D1800887498 /* mask.c */,
-				7B896C3B1EF91D1800887498 /* mat.c */,
 				7B896C3C1EF91D1800887498 /* matte.c */,
 				7B896C3D1EF91D1800887498 /* meta.c */,
 				7B896C3E1EF91D1800887498 /* miff.c */,
@@ -851,7 +828,6 @@
 				7B896C521EF91D1800887498 /* pict.c */,
 				7B896C531EF91D1800887498 /* pix.c */,
 				7B896C541EF91D1800887498 /* plasma.c */,
-				7B896C551EF91D1800887498 /* png.c */,
 				7B896C561EF91D1800887498 /* pnm.c */,
 				7B896C571EF91D1800887498 /* ps.c */,
 				7B896C581EF91D1800887498 /* ps2.c */,
@@ -875,7 +851,6 @@
 				7B896C6A1EF91D1800887498 /* svg.c */,
 				7B896C6B1EF91D1800887498 /* tga.c */,
 				7B896C6C1EF91D1800887498 /* thumbnail.c */,
-				7B896C6D1EF91D1800887498 /* tiff.c */,
 				7B896C6E1EF91D1800887498 /* tile.c */,
 				7B896C6F1EF91D1900887498 /* tim.c */,
 				7B896C701EF91D1900887498 /* ttf.c */,
@@ -888,8 +863,6 @@
 				7B896C771EF91D1900887498 /* viff.c */,
 				7B896C781EF91D1900887498 /* vips.c */,
 				7B896C791EF91D1900887498 /* wbmp.c */,
-				7B896C7A1EF91D1900887498 /* webp.c */,
-				7B896C7B1EF91D1900887498 /* wmf.c */,
 				7B896C7C1EF91D1900887498 /* wpg.c */,
 				7B896C7D1EF91D1900887498 /* x.c */,
 				7B896C7E1EF91D1900887498 /* xbm.c */,
@@ -1426,7 +1399,6 @@
 				7BAA86D91EF9087700D51A94 /* decorate.c in Sources */,
 				7B896CBC1EF91D1900887498 /* map.c in Sources */,
 				7B896C8E1EF91D1900887498 /* caption.c in Sources */,
-				7B896CBE1EF91D1900887498 /* mat.c in Sources */,
 				7B896CB61EF91D1900887498 /* json.c in Sources */,
 				7B896D071EF91D1900887498 /* ycbcr.c in Sources */,
 				7B896CEE1EF91D1900887498 /* thumbnail.c in Sources */,
@@ -1471,7 +1443,6 @@
 				7BAA86C61EF9087600D51A94 /* annotate.c in Sources */,
 				7B896CA61EF91D1900887498 /* gif.c in Sources */,
 				7BAA86F31EF9087700D51A94 /* magick.c in Sources */,
-				7B896CFC1EF91D1900887498 /* webp.c in Sources */,
 				7BAA870B1EF9087700D51A94 /* quantum-export.c in Sources */,
 				7B896C981EF91D1900887498 /* dib.c in Sources */,
 				7BAA87131EF9087700D51A94 /* segment.c in Sources */,
@@ -1480,14 +1451,12 @@
 				7BAA87191EF9087700D51A94 /* statistic.c in Sources */,
 				7B896CDC1EF91D1900887498 /* ps3.c in Sources */,
 				7BAA86CC1EF9087600D51A94 /* channel.c in Sources */,
-				7B896CEF1EF91D1900887498 /* tiff.c in Sources */,
 				7B896CE61EF91D1900887498 /* sct.c in Sources */,
 				7BAA86E31EF9087700D51A94 /* feature.c in Sources */,
 				7BAA85AE1EF906F800D51A94 /* ViewController.mm in Sources */,
 				7B896CF51EF91D1900887498 /* url.c in Sources */,
 				7BAA86C91EF9087600D51A94 /* blob.c in Sources */,
 				7BAA87061EF9087700D51A94 /* policy.c in Sources */,
-				7B896C991EF91D1900887498 /* djvu.c in Sources */,
 				7B896CFA1EF91D1900887498 /* vips.c in Sources */,
 				7B896CA71EF91D1900887498 /* gradient.c in Sources */,
 				7BAA871B1EF9087700D51A94 /* string.c in Sources */,
@@ -1517,7 +1486,6 @@
 				7B896CFE1EF91D1900887498 /* wpg.c in Sources */,
 				7B896D631EF920D300887498 /* wandcli.c in Sources */,
 				7BAA87101EF9087700D51A94 /* resample.c in Sources */,
-				7B896CB51EF91D1900887498 /* jpeg.c in Sources */,
 				7B896CE71EF91D1900887498 /* sfw.c in Sources */,
 				7B896C9D1EF91D1900887498 /* dpx.c in Sources */,
 				7BAA86DC1EF9087700D51A94 /* display.c in Sources */,
@@ -1545,7 +1513,6 @@
 				7B896D551EF920D300887498 /* magick-wand.c in Sources */,
 				7B896D4B1EF920D200887498 /* conjure.c in Sources */,
 				7BAA86D51EF9087600D51A94 /* compress.c in Sources */,
-				7B896CD81EF91D1900887498 /* png.c in Sources */,
 				7B896D061EF91D1900887498 /* xwd.c in Sources */,
 				7BAA870C1EF9087700D51A94 /* quantum-import.c in Sources */,
 				7B896D5C1EF920D300887498 /* operation.c in Sources */,
@@ -1568,7 +1535,6 @@
 				7B896CF41EF91D1900887498 /* uil.c in Sources */,
 				7BAA86EF1EF9087700D51A94 /* list.c in Sources */,
 				7BAA85AB1EF906F800D51A94 /* AppDelegate.mm in Sources */,
-				7B896CFD1EF91D1900887498 /* wmf.c in Sources */,
 				7B896D5D1EF920D300887498 /* pixel-iterator.c in Sources */,
 				7B896D511EF920D300887498 /* import.c in Sources */,
 				7BAA87221EF9087700D51A94 /* utility.c in Sources */,
@@ -1604,7 +1570,6 @@
 				7B896CC61EF91D1900887498 /* msl.c in Sources */,
 				7B896CAD1EF91D1900887498 /* html.c in Sources */,
 				7B896CA21EF91D1900887498 /* fd.c in Sources */,
-				7B896CB21EF91D1900887498 /* jbig.c in Sources */,
 				7BAA86E51EF9087700D51A94 /* fx.c in Sources */,
 				7B896C8F1EF91D1900887498 /* cin.c in Sources */,
 				7B896CDB1EF91D1900887498 /* ps2.c in Sources */,
@@ -1613,7 +1578,6 @@
 				7B896CBD1EF91D1900887498 /* mask.c in Sources */,
 				7BAA85A81EF906F800D51A94 /* main.m in Sources */,
 				7B896C941EF91D1900887498 /* cut.c in Sources */,
-				7B896C961EF91D1900887498 /* dds.c in Sources */,
 				7B896C8A1EF91D1900887498 /* bgr.c in Sources */,
 				7B896CAB1EF91D1900887498 /* histogram.c in Sources */,
 				7BAA86D81EF9087700D51A94 /* constitute.c in Sources */,

@@ -185,7 +185,7 @@ MagickExport void RegisterStaticModules(void)
   (void) RegisterCMYKImage();
   (void) RegisterCUTImage();
   (void) RegisterDCMImage();
-  (void) RegisterDDSImage();
+//  (void) RegisterDDSImage();
   (void) RegisterDEBUGImage();
   (void) RegisterDIBImage();
 #if defined(MAGICKCORE_DJVU_DELEGATE)
@@ -241,7 +241,7 @@ MagickExport void RegisterStaticModules(void)
   (void) RegisterMACImage();
   (void) RegisterMAGICKImage();
   (void) RegisterMAPImage();
-  (void) RegisterMATImage();
+//  (void) RegisterMATImage();
   (void) RegisterMATTEImage();
   (void) RegisterMASKImage();
   (void) RegisterMETAImage();
@@ -294,7 +294,7 @@ MagickExport void RegisterStaticModules(void)
   (void) RegisterTGAImage();
   (void) RegisterTHUMBNAILImage();
 #if defined(MAGICKCORE_TIFF_DELEGATE)
-  (void) RegisterTIFFImage();
+//  (void) RegisterTIFFImage();
 #endif
   (void) RegisterTILEImage();
   (void) RegisterTIMImage();
@@ -312,7 +312,7 @@ MagickExport void RegisterStaticModules(void)
   (void) RegisterWEBPImage();
 #endif
 #if defined(MAGICKCORE_WMF_DELEGATE) || defined(MAGICKCORE_WMFLITE_DELEGATE)
-  (void) RegisterWMFImage();
+//  (void) RegisterWMFImage();
 #endif
   (void) RegisterWPGImage();
 #if defined(MAGICKCORE_X11_DELEGATE)
@@ -373,7 +373,7 @@ MagickExport void UnregisterStaticModules(void)
   UnregisterCMYKImage();
   UnregisterCUTImage();
   UnregisterDCMImage();
-  UnregisterDDSImage();
+//  UnregisterDDSImage();
   UnregisterDEBUGImage();
   UnregisterDIBImage();
 #if defined(MAGICKCORE_DJVU_DELEGATE)
@@ -419,7 +419,7 @@ MagickExport void UnregisterStaticModules(void)
 #endif
   UnregisterJNXImage();
 #if defined(MAGICKCORE_JPEG_DELEGATE)
-  UnregisterJPEGImage();
+//  UnregisterJPEGImage();
 #endif
 #if defined(MAGICKCORE_LIBOPENJP2_DELEGATE)
   UnregisterJP2Image();
@@ -430,7 +430,7 @@ MagickExport void UnregisterStaticModules(void)
   UnregisterMAGICKImage();
   UnregisterMAPImage();
   UnregisterMASKImage();
-  UnregisterMATImage();
+//  UnregisterMATImage();
   UnregisterMATTEImage();
   UnregisterMETAImage();
   UnregisterMIFFImage();
@@ -482,7 +482,7 @@ MagickExport void UnregisterStaticModules(void)
   UnregisterTGAImage();
   UnregisterTHUMBNAILImage();
 #if defined(MAGICKCORE_TIFF_DELEGATE)
-  UnregisterTIFFImage();
+//  UnregisterTIFFImage();
 #endif
   UnregisterTILEImage();
   UnregisterTIMImage();
@@ -500,7 +500,7 @@ MagickExport void UnregisterStaticModules(void)
   UnregisterWEBPImage();
 #endif
 #if defined(MAGICKCORE_WMF_DELEGATE) || defined(MAGICKCORE_WMFLITE_DELEGATE)
-  UnregisterWMFImage();
+//  UnregisterWMFImage();
 #endif
   UnregisterWPGImage();
 #if defined(MAGICKCORE_X11_DELEGATE)

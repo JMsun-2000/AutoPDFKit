@@ -23,9 +23,9 @@
 /* #undef BUILD_MODULES */
 
 /* Define if you have the bzip2 library */
-#ifndef MAGICKCORE_BZLIB_DELEGATE
-#define MAGICKCORE_BZLIB_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_BZLIB_DELEGATE
+//#define MAGICKCORE_BZLIB_DELEGATE 1
+//#endif
 
 /* Define if you have CAIRO library */
 /* #undef CAIRO_DELEGATE */
@@ -55,9 +55,9 @@
 #endif
 
 /* Define if you have DJVU library */
-#ifndef MAGICKCORE_DJVU_DELEGATE
-#define MAGICKCORE_DJVU_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_DJVU_DELEGATE
+//#define MAGICKCORE_DJVU_DELEGATE 1
+//#endif
 
 /* Directory where ImageMagick documents live. */
 #ifndef MAGICKCORE_DOCUMENTATION_PATH
@@ -1131,14 +1131,14 @@
 #endif
 
 /* Define if you have JBIG library */
-#ifndef MAGICKCORE_JBIG_DELEGATE
-#define MAGICKCORE_JBIG_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_JBIG_DELEGATE
+//#define MAGICKCORE_JBIG_DELEGATE 1
+//#endif
 
 /* Define if you have JPEG library */
-#ifndef MAGICKCORE_JPEG_DELEGATE
-#define MAGICKCORE_JPEG_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_JPEG_DELEGATE
+//#define MAGICKCORE_JPEG_DELEGATE 1
+//#endif
 
 ///* Define if you have LCMS library */
 //#ifndef MAGICKCORE_LCMS_DELEGATE
@@ -1267,9 +1267,9 @@
 /* #undef PIPES_SUPPORT */
 
 /* Define if you have PNG library */
-#ifndef MAGICKCORE_PNG_DELEGATE
-#define MAGICKCORE_PNG_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_PNG_DELEGATE
+//#define MAGICKCORE_PNG_DELEGATE 1
+//#endif
 
 /* Define to necessary symbol if this constant uses a non-standard name on
  1267    your system. */
@@ -1472,9 +1472,9 @@
 #endif
 
 /* Define if you have WEBP library */
-#ifndef MAGICKCORE_WEBP_DELEGATE
-#define MAGICKCORE_WEBP_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_WEBP_DELEGATE
+//#define MAGICKCORE_WEBP_DELEGATE 1
+//#endif
 
 /* Define to use the Windows GDI32 library */
 /* #undef WINGDI32_DELEGATE */
@@ -1483,9 +1483,9 @@
 /* #undef WITH_DMALLOC */
 
 /* Define if you have WMF library */
-#ifndef MAGICKCORE_WMF_DELEGATE
-#define MAGICKCORE_WMF_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_WMF_DELEGATE
+//#define MAGICKCORE_WMF_DELEGATE 1
+//#endif
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
  1483    significant byte first (like Motorola and SPARC, unlike Intel). */
@@ -1510,9 +1510,9 @@
 //#endif
 
 /* Define if you have XML library */
-#ifndef MAGICKCORE_XML_DELEGATE
-#define MAGICKCORE_XML_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_XML_DELEGATE
+//#define MAGICKCORE_XML_DELEGATE 1
+//#endif
 
 /* Define to 1 if the X Window System is missing or not being used. */
 /* #undef X_DISPLAY_MISSING */
