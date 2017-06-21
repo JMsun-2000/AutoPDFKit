@@ -267,6 +267,7 @@
 		7BAA87281EF9087700D51A94 /* xml-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86BE1EF9087600D51A94 /* xml-tree.c */; };
 		7BAA87291EF9087700D51A94 /* xwdfile.h_vms in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA86C01EF9087600D51A94 /* xwdfile.h_vms */; };
 		7BAA872A1EF9087700D51A94 /* xwindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA86C21EF9087600D51A94 /* xwindow.c */; };
+		7BE6C5441EFA11AF001D13B6 /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6C5431EFA11AF001D13B6 /* analyze.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -726,6 +727,7 @@
 		7BAA86C11EF9087600D51A94 /* xwindow-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "xwindow-private.h"; path = "ImageMagick/MagickCore/xwindow-private.h"; sourceTree = "<group>"; };
 		7BAA86C21EF9087600D51A94 /* xwindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xwindow.c; path = ImageMagick/MagickCore/xwindow.c; sourceTree = "<group>"; };
 		7BAA86C31EF9087600D51A94 /* xwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xwindow.h; path = ImageMagick/MagickCore/xwindow.h; sourceTree = "<group>"; };
+		7BE6C5431EFA11AF001D13B6 /* analyze.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = analyze.c; path = ImageMagick/filters/analyze.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -991,6 +993,7 @@
 		7BAA85BD1EF9072200D51A94 /* ImageMagick */ = {
 			isa = PBXGroup;
 			children = (
+				7BE6C5421EFA1191001D13B6 /* filters */,
 				7B896D091EF920B200887498 /* MagickWand */,
 				7B896C031EF91CB600887498 /* coders */,
 				7BAA85BE1EF9074100D51A94 /* MagickCore */,
@@ -1266,6 +1269,14 @@
 			name = MagickCore;
 			sourceTree = "<group>";
 		};
+		7BE6C5421EFA1191001D13B6 /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				7BE6C5431EFA11AF001D13B6 /* analyze.c */,
+			);
+			name = filters;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1424,6 +1435,7 @@
 				7BAA87021EF9087700D51A94 /* opencl.c in Sources */,
 				7B896C8C1EF91D1900887498 /* braille.c in Sources */,
 				7BAA87071EF9087700D51A94 /* prepress.c in Sources */,
+				7BE6C5441EFA11AF001D13B6 /* analyze.c in Sources */,
 				7B896C911EF91D1900887498 /* clip.c in Sources */,
 				7BAA86C51EF9087600D51A94 /* animate.c in Sources */,
 				7B896D501EF920D200887498 /* identify.c in Sources */,
