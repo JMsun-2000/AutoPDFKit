@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B80BF561EFB914F00768755 /* Lincoln.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B80BF551EFB914F00768755 /* Lincoln.pdf */; };
 		7B896C021EF9121500887498 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B896BFE1EF9106100887498 /* libz.tbd */; };
 		7B896C871EF91D1900887498 /* aai.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C041EF91D1800887498 /* aai.c */; };
 		7B896C881EF91D1900887498 /* art.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B896C051EF91D1800887498 /* art.c */; };
@@ -272,6 +273,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B80BF551EFB914F00768755 /* Lincoln.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lincoln.pdf; sourceTree = "<group>"; };
+		7B80BF571EFBB18500768755 /* libgs_arm7_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgs_arm7_release.a; path = ImageMagick/lib/libgs_arm7_release.a; sourceTree = "<group>"; };
 		7B896BFE1EF9106100887498 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		7B896C001EF910F800887498 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
 		7B896C041EF91D1800887498 /* aai.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aai.c; path = ImageMagick/coders/aai.c; sourceTree = "<group>"; };
@@ -748,6 +751,7 @@
 		7B896BFD1EF9106000887498 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B80BF571EFBB18500768755 /* libgs_arm7_release.a */,
 				7B896C001EF910F800887498 /* libz.1.2.8.tbd */,
 				7B896BFE1EF9106100887498 /* libz.tbd */,
 			);
@@ -954,6 +958,7 @@
 		7BAA859A1EF906F800D51A94 = {
 			isa = PBXGroup;
 			children = (
+				7B80BF551EFB914F00768755 /* Lincoln.pdf */,
 				7BAA85BD1EF9072200D51A94 /* ImageMagick */,
 				7BAA85A51EF906F800D51A94 /* AutoPDFKit */,
 				7BAA85A41EF906F800D51A94 /* Products */,
@@ -1367,6 +1372,7 @@
 				7BAA86D61EF9087600D51A94 /* config.h_vms in Resources */,
 				7BAA86F81EF9087700D51A94 /* Makefile.am in Resources */,
 				7BAA85B31EF906F800D51A94 /* Assets.xcassets in Resources */,
+				7B80BF561EFB914F00768755 /* Lincoln.pdf in Resources */,
 				7BAA85B11EF906F800D51A94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1744,6 +1750,10 @@
 				DEVELOPMENT_TEAM = F2DFJFGVGV;
 				INFOPLIST_FILE = AutoPDFKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageMagick/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy.AutoPDFKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1756,6 +1766,10 @@
 				DEVELOPMENT_TEAM = F2DFJFGVGV;
 				INFOPLIST_FILE = AutoPDFKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageMagick/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy.AutoPDFKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -24,9 +24,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     char* command[3];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Lincoln" ofType:@"pdf"];
+    path = [NSString stringWithFormat:@"%@%@", path, @"[0]"];
     command[0]= "./convert";
-    command[1]= "lincoln.pdf[0]";
-    command[2]= "target.bmp";
+   // command[1]= "./lincoln.pdf[0]";
+    command[1]= [path UTF8String];
+    command[2]= "./target.bmp";
     
     MagickMain(3, command);
     
